@@ -1,14 +1,14 @@
 {
-  "version": "prices-v1",
+  "version": "prices-v2",
   "checked_at": "2026-11-24",
   "unit": "USD per 1M tokens",
-  "note": "공식 가격 페이지 기준. 실행 시점에 다시 확인하고 바뀌면 버전을 올림",
+  "note": "공식 가격 페이지 기준. 실행 시점에 다시 확인하고 바뀌면 버전을 올림. v2: 판정자 모델 claude-haiku-5-5 추가 (기존 단가 변화 없음 확인)",
   "models": {
     "claude-sonnet-5-5": {
       "provider": "anthropic",
       "input": 2.0,
       "output": 10.0,
-      "cache_read": 0.10,
+      "cache_read": 0.1,
       "cache_write": 2.5,
       "source": "https://platform.claude.com/docs/en/about-claude/pricing",
       "source_note": "cache_write는 입력 단가의 1.25배(5분 캐시) 기준. 이 실행 장치는 cache_control을 쓰지 않음"
@@ -17,7 +17,7 @@
       "provider": "openai",
       "input": 2.0,
       "output": 10.0,
-      "cache_read": 0.10,
+      "cache_read": 0.1,
       "source": "https://developers.openai.com/api/docs/models/gpt-6.2-sol",
       "source_note": "입력 272K 토큰 초과 요청은 단가가 오르지만 이 시험에서는 해당 없음 (요청 크기를 기록해 확인)"
     },
@@ -27,9 +27,21 @@
       "output": 0.0,
       "cache_read": 0.0,
       "tier": "free",
-      "paid_reference": {"input": 1.5, "output": 7.5},
+      "paid_reference": {
+        "input": 1.5,
+        "output": 7.5
+      },
       "source": "https://aistudio.google.com/docs/pricing",
       "source_note": "무료 등급이라 청구 0. 유료였다면 얼마였을지 paid_reference로 함께 계산함"
+    },
+    "claude-haiku-5-5": {
+      "provider": "anthropic",
+      "input": 0.1,
+      "output": 0.5,
+      "cache_read": 0.01,
+      "cache_write": 0.125,
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "source_note": "프롬프트 10만 토큰 이하 단가. 10만 초과면 입력 0.50, 출력 2.50 (판정 요청은 해당 없음)"
     }
   }
 }
