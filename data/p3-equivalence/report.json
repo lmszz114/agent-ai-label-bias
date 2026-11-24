@@ -1,0 +1,5015 @@
+{
+  "summary": {
+    "checked_at": "2026-11-24T15:46:30+09:00",
+    "finished_at": "2026-11-24T15:51:21+09:00",
+    "git_commit": "a6120f3417513d39fa2a5d273fcdbe427965d3f3",
+    "git_dirty": false,
+    "git_dirty_files": [],
+    "conditions_version": "conditions-v1",
+    "content_version": "content-v1",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "browser_args": [
+      "--disable-gpu",
+      "--force-color-profile=srgb",
+      "--disable-lcd-text",
+      "--font-render-hinting=none",
+      "--disable-partial-raster",
+      "--disable-skia-runtime-opts",
+      "--disable-threaded-animation",
+      "--disable-threaded-scrolling",
+      "--num-raster-threads=1"
+    ],
+    "combinations": 60,
+    "episodes": 120,
+    "passed": 60,
+    "failed": 0,
+    "external_requests_total": 0,
+    "requests_total": 3540,
+    "states_compared": 360
+  },
+  "results": [
+    {
+      "content_id": "p1-t1",
+      "button_order": "close_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "55541e0c58c45effc6e4765d3254de34565d524b4322376050efc02064408cdb",
+            "auto": "55541e0c58c45effc6e4765d3254de34565d524b4322376050efc02064408cdb"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "18a00c506486c5d1bd5c77fff4898bdaaaa69afe0da16c1e722854a414eedb5f",
+            "auto": "18a00c506486c5d1bd5c77fff4898bdaaaa69afe0da16c1e722854a414eedb5f"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "18a00c506486c5d1bd5c77fff4898bdaaaa69afe0da16c1e722854a414eedb5f",
+            "auto": "18a00c506486c5d1bd5c77fff4898bdaaaa69afe0da16c1e722854a414eedb5f"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "be5c05b621bb05cc28cfa30913cf9cd59fe40951800c91450a0292930fbba20a",
+            "auto": "be5c05b621bb05cc28cfa30913cf9cd59fe40951800c91450a0292930fbba20a"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p1-t1",
+      "button_order": "close_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "55541e0c58c45effc6e4765d3254de34565d524b4322376050efc02064408cdb",
+            "auto": "55541e0c58c45effc6e4765d3254de34565d524b4322376050efc02064408cdb"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "18a00c506486c5d1bd5c77fff4898bdaaaa69afe0da16c1e722854a414eedb5f",
+            "auto": "18a00c506486c5d1bd5c77fff4898bdaaaa69afe0da16c1e722854a414eedb5f"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "18a00c506486c5d1bd5c77fff4898bdaaaa69afe0da16c1e722854a414eedb5f",
+            "auto": "18a00c506486c5d1bd5c77fff4898bdaaaa69afe0da16c1e722854a414eedb5f"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "85336dd5f22c754fc94ff05526199d63f756978d383645efc8bf888bb183aa46",
+            "auto": "85336dd5f22c754fc94ff05526199d63f756978d383645efc8bf888bb183aa46"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p1-t1",
+      "button_order": "apply_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "55541e0c58c45effc6e4765d3254de34565d524b4322376050efc02064408cdb",
+            "auto": "55541e0c58c45effc6e4765d3254de34565d524b4322376050efc02064408cdb"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "723f48fa9e0637b365e7fc23cf1c8bf9893541be145e90706352d62d5e9f2942",
+            "auto": "723f48fa9e0637b365e7fc23cf1c8bf9893541be145e90706352d62d5e9f2942"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "723f48fa9e0637b365e7fc23cf1c8bf9893541be145e90706352d62d5e9f2942",
+            "auto": "723f48fa9e0637b365e7fc23cf1c8bf9893541be145e90706352d62d5e9f2942"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "be5c05b621bb05cc28cfa30913cf9cd59fe40951800c91450a0292930fbba20a",
+            "auto": "be5c05b621bb05cc28cfa30913cf9cd59fe40951800c91450a0292930fbba20a"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p1-t1",
+      "button_order": "apply_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "55541e0c58c45effc6e4765d3254de34565d524b4322376050efc02064408cdb",
+            "auto": "55541e0c58c45effc6e4765d3254de34565d524b4322376050efc02064408cdb"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "723f48fa9e0637b365e7fc23cf1c8bf9893541be145e90706352d62d5e9f2942",
+            "auto": "723f48fa9e0637b365e7fc23cf1c8bf9893541be145e90706352d62d5e9f2942"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "723f48fa9e0637b365e7fc23cf1c8bf9893541be145e90706352d62d5e9f2942",
+            "auto": "723f48fa9e0637b365e7fc23cf1c8bf9893541be145e90706352d62d5e9f2942"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "85336dd5f22c754fc94ff05526199d63f756978d383645efc8bf888bb183aa46",
+            "auto": "85336dd5f22c754fc94ff05526199d63f756978d383645efc8bf888bb183aa46"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p1-t2",
+      "button_order": "close_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "55541e0c58c45effc6e4765d3254de34565d524b4322376050efc02064408cdb",
+            "auto": "55541e0c58c45effc6e4765d3254de34565d524b4322376050efc02064408cdb"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "a40e27c6d298b7683030ec2c5eff3ca19098809f9e515da823a709123958d185",
+            "auto": "a40e27c6d298b7683030ec2c5eff3ca19098809f9e515da823a709123958d185"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "a40e27c6d298b7683030ec2c5eff3ca19098809f9e515da823a709123958d185",
+            "auto": "a40e27c6d298b7683030ec2c5eff3ca19098809f9e515da823a709123958d185"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "be5c05b621bb05cc28cfa30913cf9cd59fe40951800c91450a0292930fbba20a",
+            "auto": "be5c05b621bb05cc28cfa30913cf9cd59fe40951800c91450a0292930fbba20a"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p1-t2",
+      "button_order": "close_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "55541e0c58c45effc6e4765d3254de34565d524b4322376050efc02064408cdb",
+            "auto": "55541e0c58c45effc6e4765d3254de34565d524b4322376050efc02064408cdb"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "a40e27c6d298b7683030ec2c5eff3ca19098809f9e515da823a709123958d185",
+            "auto": "a40e27c6d298b7683030ec2c5eff3ca19098809f9e515da823a709123958d185"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "a40e27c6d298b7683030ec2c5eff3ca19098809f9e515da823a709123958d185",
+            "auto": "a40e27c6d298b7683030ec2c5eff3ca19098809f9e515da823a709123958d185"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "ab305a991c9734741e58b81c28ccb4854484fca0bb407a075d177acad3f7728a",
+            "auto": "ab305a991c9734741e58b81c28ccb4854484fca0bb407a075d177acad3f7728a"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p1-t2",
+      "button_order": "apply_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "55541e0c58c45effc6e4765d3254de34565d524b4322376050efc02064408cdb",
+            "auto": "55541e0c58c45effc6e4765d3254de34565d524b4322376050efc02064408cdb"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "d0a820462dbacd9d6e38e5aa9f609bdcf2c5d30854c1fceab2ba16a1762631c2",
+            "auto": "d0a820462dbacd9d6e38e5aa9f609bdcf2c5d30854c1fceab2ba16a1762631c2"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "d0a820462dbacd9d6e38e5aa9f609bdcf2c5d30854c1fceab2ba16a1762631c2",
+            "auto": "d0a820462dbacd9d6e38e5aa9f609bdcf2c5d30854c1fceab2ba16a1762631c2"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "be5c05b621bb05cc28cfa30913cf9cd59fe40951800c91450a0292930fbba20a",
+            "auto": "be5c05b621bb05cc28cfa30913cf9cd59fe40951800c91450a0292930fbba20a"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p1-t2",
+      "button_order": "apply_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "55541e0c58c45effc6e4765d3254de34565d524b4322376050efc02064408cdb",
+            "auto": "55541e0c58c45effc6e4765d3254de34565d524b4322376050efc02064408cdb"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "d0a820462dbacd9d6e38e5aa9f609bdcf2c5d30854c1fceab2ba16a1762631c2",
+            "auto": "d0a820462dbacd9d6e38e5aa9f609bdcf2c5d30854c1fceab2ba16a1762631c2"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "d0a820462dbacd9d6e38e5aa9f609bdcf2c5d30854c1fceab2ba16a1762631c2",
+            "auto": "d0a820462dbacd9d6e38e5aa9f609bdcf2c5d30854c1fceab2ba16a1762631c2"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "ab305a991c9734741e58b81c28ccb4854484fca0bb407a075d177acad3f7728a",
+            "auto": "ab305a991c9734741e58b81c28ccb4854484fca0bb407a075d177acad3f7728a"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p1-t3",
+      "button_order": "close_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "55541e0c58c45effc6e4765d3254de34565d524b4322376050efc02064408cdb",
+            "auto": "55541e0c58c45effc6e4765d3254de34565d524b4322376050efc02064408cdb"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "d6836fb19d4c32df9062801a912b867216da1a4d03d9da22a4d2e550f36ed296",
+            "auto": "d6836fb19d4c32df9062801a912b867216da1a4d03d9da22a4d2e550f36ed296"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "d6836fb19d4c32df9062801a912b867216da1a4d03d9da22a4d2e550f36ed296",
+            "auto": "d6836fb19d4c32df9062801a912b867216da1a4d03d9da22a4d2e550f36ed296"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "be5c05b621bb05cc28cfa30913cf9cd59fe40951800c91450a0292930fbba20a",
+            "auto": "be5c05b621bb05cc28cfa30913cf9cd59fe40951800c91450a0292930fbba20a"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p1-t3",
+      "button_order": "close_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "55541e0c58c45effc6e4765d3254de34565d524b4322376050efc02064408cdb",
+            "auto": "55541e0c58c45effc6e4765d3254de34565d524b4322376050efc02064408cdb"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "d6836fb19d4c32df9062801a912b867216da1a4d03d9da22a4d2e550f36ed296",
+            "auto": "d6836fb19d4c32df9062801a912b867216da1a4d03d9da22a4d2e550f36ed296"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "d6836fb19d4c32df9062801a912b867216da1a4d03d9da22a4d2e550f36ed296",
+            "auto": "d6836fb19d4c32df9062801a912b867216da1a4d03d9da22a4d2e550f36ed296"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "1d3a4b53e877c8332c4781330a0fe3918908732d643bbe6759993cef28bc0141",
+            "auto": "1d3a4b53e877c8332c4781330a0fe3918908732d643bbe6759993cef28bc0141"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p1-t3",
+      "button_order": "apply_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "55541e0c58c45effc6e4765d3254de34565d524b4322376050efc02064408cdb",
+            "auto": "55541e0c58c45effc6e4765d3254de34565d524b4322376050efc02064408cdb"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "eb112f6d5bbd9467790bdb3571a34a30564507c5aba9c09b54c0072b09ef201d",
+            "auto": "eb112f6d5bbd9467790bdb3571a34a30564507c5aba9c09b54c0072b09ef201d"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "eb112f6d5bbd9467790bdb3571a34a30564507c5aba9c09b54c0072b09ef201d",
+            "auto": "eb112f6d5bbd9467790bdb3571a34a30564507c5aba9c09b54c0072b09ef201d"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "be5c05b621bb05cc28cfa30913cf9cd59fe40951800c91450a0292930fbba20a",
+            "auto": "be5c05b621bb05cc28cfa30913cf9cd59fe40951800c91450a0292930fbba20a"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p1-t3",
+      "button_order": "apply_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "55541e0c58c45effc6e4765d3254de34565d524b4322376050efc02064408cdb",
+            "auto": "55541e0c58c45effc6e4765d3254de34565d524b4322376050efc02064408cdb"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "eb112f6d5bbd9467790bdb3571a34a30564507c5aba9c09b54c0072b09ef201d",
+            "auto": "eb112f6d5bbd9467790bdb3571a34a30564507c5aba9c09b54c0072b09ef201d"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "eb112f6d5bbd9467790bdb3571a34a30564507c5aba9c09b54c0072b09ef201d",
+            "auto": "eb112f6d5bbd9467790bdb3571a34a30564507c5aba9c09b54c0072b09ef201d"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "1d3a4b53e877c8332c4781330a0fe3918908732d643bbe6759993cef28bc0141",
+            "auto": "1d3a4b53e877c8332c4781330a0fe3918908732d643bbe6759993cef28bc0141"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p2-t1",
+      "button_order": "close_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "cf8a0985809fe355b998f25de1ec7bb07d5dbc1310d13b7fd1193c9f665b64d8",
+            "auto": "cf8a0985809fe355b998f25de1ec7bb07d5dbc1310d13b7fd1193c9f665b64d8"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "97ee7739d78fa924a31610352c0369befc3618579597d04d354bb09964fc0b9b",
+            "auto": "97ee7739d78fa924a31610352c0369befc3618579597d04d354bb09964fc0b9b"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "97ee7739d78fa924a31610352c0369befc3618579597d04d354bb09964fc0b9b",
+            "auto": "97ee7739d78fa924a31610352c0369befc3618579597d04d354bb09964fc0b9b"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "ac92f7f823cf0fae768e16c16afc7c9e798fc07c5b929852d03bdf83306ab5b7",
+            "auto": "ac92f7f823cf0fae768e16c16afc7c9e798fc07c5b929852d03bdf83306ab5b7"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p2-t1",
+      "button_order": "close_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "cf8a0985809fe355b998f25de1ec7bb07d5dbc1310d13b7fd1193c9f665b64d8",
+            "auto": "cf8a0985809fe355b998f25de1ec7bb07d5dbc1310d13b7fd1193c9f665b64d8"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "97ee7739d78fa924a31610352c0369befc3618579597d04d354bb09964fc0b9b",
+            "auto": "97ee7739d78fa924a31610352c0369befc3618579597d04d354bb09964fc0b9b"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "97ee7739d78fa924a31610352c0369befc3618579597d04d354bb09964fc0b9b",
+            "auto": "97ee7739d78fa924a31610352c0369befc3618579597d04d354bb09964fc0b9b"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "8121b1b7fef830710970a8c953ef482762a630270926d0a248c2ef6a8502a442",
+            "auto": "8121b1b7fef830710970a8c953ef482762a630270926d0a248c2ef6a8502a442"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p2-t1",
+      "button_order": "apply_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "cf8a0985809fe355b998f25de1ec7bb07d5dbc1310d13b7fd1193c9f665b64d8",
+            "auto": "cf8a0985809fe355b998f25de1ec7bb07d5dbc1310d13b7fd1193c9f665b64d8"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "9a299e1cd6a50dd6505a83bfb7f031aa83a0a057e786ac414ec2ef944ecb338b",
+            "auto": "9a299e1cd6a50dd6505a83bfb7f031aa83a0a057e786ac414ec2ef944ecb338b"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "9a299e1cd6a50dd6505a83bfb7f031aa83a0a057e786ac414ec2ef944ecb338b",
+            "auto": "9a299e1cd6a50dd6505a83bfb7f031aa83a0a057e786ac414ec2ef944ecb338b"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "ac92f7f823cf0fae768e16c16afc7c9e798fc07c5b929852d03bdf83306ab5b7",
+            "auto": "ac92f7f823cf0fae768e16c16afc7c9e798fc07c5b929852d03bdf83306ab5b7"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p2-t1",
+      "button_order": "apply_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "cf8a0985809fe355b998f25de1ec7bb07d5dbc1310d13b7fd1193c9f665b64d8",
+            "auto": "cf8a0985809fe355b998f25de1ec7bb07d5dbc1310d13b7fd1193c9f665b64d8"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "9a299e1cd6a50dd6505a83bfb7f031aa83a0a057e786ac414ec2ef944ecb338b",
+            "auto": "9a299e1cd6a50dd6505a83bfb7f031aa83a0a057e786ac414ec2ef944ecb338b"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "9a299e1cd6a50dd6505a83bfb7f031aa83a0a057e786ac414ec2ef944ecb338b",
+            "auto": "9a299e1cd6a50dd6505a83bfb7f031aa83a0a057e786ac414ec2ef944ecb338b"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "8121b1b7fef830710970a8c953ef482762a630270926d0a248c2ef6a8502a442",
+            "auto": "8121b1b7fef830710970a8c953ef482762a630270926d0a248c2ef6a8502a442"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p2-t2",
+      "button_order": "close_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "cf8a0985809fe355b998f25de1ec7bb07d5dbc1310d13b7fd1193c9f665b64d8",
+            "auto": "cf8a0985809fe355b998f25de1ec7bb07d5dbc1310d13b7fd1193c9f665b64d8"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "d0adfe0f25d176691c16e1f8bc4f1e2a52b0dfc2006dbe56f1f0a9825b09e1b9",
+            "auto": "d0adfe0f25d176691c16e1f8bc4f1e2a52b0dfc2006dbe56f1f0a9825b09e1b9"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "d0adfe0f25d176691c16e1f8bc4f1e2a52b0dfc2006dbe56f1f0a9825b09e1b9",
+            "auto": "d0adfe0f25d176691c16e1f8bc4f1e2a52b0dfc2006dbe56f1f0a9825b09e1b9"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "ac92f7f823cf0fae768e16c16afc7c9e798fc07c5b929852d03bdf83306ab5b7",
+            "auto": "ac92f7f823cf0fae768e16c16afc7c9e798fc07c5b929852d03bdf83306ab5b7"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p2-t2",
+      "button_order": "close_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "cf8a0985809fe355b998f25de1ec7bb07d5dbc1310d13b7fd1193c9f665b64d8",
+            "auto": "cf8a0985809fe355b998f25de1ec7bb07d5dbc1310d13b7fd1193c9f665b64d8"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "d0adfe0f25d176691c16e1f8bc4f1e2a52b0dfc2006dbe56f1f0a9825b09e1b9",
+            "auto": "d0adfe0f25d176691c16e1f8bc4f1e2a52b0dfc2006dbe56f1f0a9825b09e1b9"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "d0adfe0f25d176691c16e1f8bc4f1e2a52b0dfc2006dbe56f1f0a9825b09e1b9",
+            "auto": "d0adfe0f25d176691c16e1f8bc4f1e2a52b0dfc2006dbe56f1f0a9825b09e1b9"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "206706c313812822b22eb3ee512dc9fbd828b1629234fb21d37a743cc893593f",
+            "auto": "206706c313812822b22eb3ee512dc9fbd828b1629234fb21d37a743cc893593f"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p2-t2",
+      "button_order": "apply_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "cf8a0985809fe355b998f25de1ec7bb07d5dbc1310d13b7fd1193c9f665b64d8",
+            "auto": "cf8a0985809fe355b998f25de1ec7bb07d5dbc1310d13b7fd1193c9f665b64d8"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "e1cca6f58212fb4366ee909b55ef88821fb4da359e3da1058c49117044595400",
+            "auto": "e1cca6f58212fb4366ee909b55ef88821fb4da359e3da1058c49117044595400"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "e1cca6f58212fb4366ee909b55ef88821fb4da359e3da1058c49117044595400",
+            "auto": "e1cca6f58212fb4366ee909b55ef88821fb4da359e3da1058c49117044595400"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "ac92f7f823cf0fae768e16c16afc7c9e798fc07c5b929852d03bdf83306ab5b7",
+            "auto": "ac92f7f823cf0fae768e16c16afc7c9e798fc07c5b929852d03bdf83306ab5b7"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p2-t2",
+      "button_order": "apply_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "cf8a0985809fe355b998f25de1ec7bb07d5dbc1310d13b7fd1193c9f665b64d8",
+            "auto": "cf8a0985809fe355b998f25de1ec7bb07d5dbc1310d13b7fd1193c9f665b64d8"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "e1cca6f58212fb4366ee909b55ef88821fb4da359e3da1058c49117044595400",
+            "auto": "e1cca6f58212fb4366ee909b55ef88821fb4da359e3da1058c49117044595400"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "e1cca6f58212fb4366ee909b55ef88821fb4da359e3da1058c49117044595400",
+            "auto": "e1cca6f58212fb4366ee909b55ef88821fb4da359e3da1058c49117044595400"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "206706c313812822b22eb3ee512dc9fbd828b1629234fb21d37a743cc893593f",
+            "auto": "206706c313812822b22eb3ee512dc9fbd828b1629234fb21d37a743cc893593f"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p2-t3",
+      "button_order": "close_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "cf8a0985809fe355b998f25de1ec7bb07d5dbc1310d13b7fd1193c9f665b64d8",
+            "auto": "cf8a0985809fe355b998f25de1ec7bb07d5dbc1310d13b7fd1193c9f665b64d8"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "eb09e3f28726eb9039efae59ba3ba01bc3d13bb68068311bb97acdbc75914ec5",
+            "auto": "eb09e3f28726eb9039efae59ba3ba01bc3d13bb68068311bb97acdbc75914ec5"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "eb09e3f28726eb9039efae59ba3ba01bc3d13bb68068311bb97acdbc75914ec5",
+            "auto": "eb09e3f28726eb9039efae59ba3ba01bc3d13bb68068311bb97acdbc75914ec5"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "ac92f7f823cf0fae768e16c16afc7c9e798fc07c5b929852d03bdf83306ab5b7",
+            "auto": "ac92f7f823cf0fae768e16c16afc7c9e798fc07c5b929852d03bdf83306ab5b7"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p2-t3",
+      "button_order": "close_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "cf8a0985809fe355b998f25de1ec7bb07d5dbc1310d13b7fd1193c9f665b64d8",
+            "auto": "cf8a0985809fe355b998f25de1ec7bb07d5dbc1310d13b7fd1193c9f665b64d8"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "eb09e3f28726eb9039efae59ba3ba01bc3d13bb68068311bb97acdbc75914ec5",
+            "auto": "eb09e3f28726eb9039efae59ba3ba01bc3d13bb68068311bb97acdbc75914ec5"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "eb09e3f28726eb9039efae59ba3ba01bc3d13bb68068311bb97acdbc75914ec5",
+            "auto": "eb09e3f28726eb9039efae59ba3ba01bc3d13bb68068311bb97acdbc75914ec5"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "03e6b0e3a366a577275e6e48994c9810fa9a3219602ca3c914e88d5910861e87",
+            "auto": "03e6b0e3a366a577275e6e48994c9810fa9a3219602ca3c914e88d5910861e87"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p2-t3",
+      "button_order": "apply_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "cf8a0985809fe355b998f25de1ec7bb07d5dbc1310d13b7fd1193c9f665b64d8",
+            "auto": "cf8a0985809fe355b998f25de1ec7bb07d5dbc1310d13b7fd1193c9f665b64d8"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "64143c1e3ee86c67fa34ebfb817a34e789534a6309a8c12c562a290c376f764d",
+            "auto": "64143c1e3ee86c67fa34ebfb817a34e789534a6309a8c12c562a290c376f764d"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "64143c1e3ee86c67fa34ebfb817a34e789534a6309a8c12c562a290c376f764d",
+            "auto": "64143c1e3ee86c67fa34ebfb817a34e789534a6309a8c12c562a290c376f764d"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "ac92f7f823cf0fae768e16c16afc7c9e798fc07c5b929852d03bdf83306ab5b7",
+            "auto": "ac92f7f823cf0fae768e16c16afc7c9e798fc07c5b929852d03bdf83306ab5b7"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p2-t3",
+      "button_order": "apply_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "cf8a0985809fe355b998f25de1ec7bb07d5dbc1310d13b7fd1193c9f665b64d8",
+            "auto": "cf8a0985809fe355b998f25de1ec7bb07d5dbc1310d13b7fd1193c9f665b64d8"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "64143c1e3ee86c67fa34ebfb817a34e789534a6309a8c12c562a290c376f764d",
+            "auto": "64143c1e3ee86c67fa34ebfb817a34e789534a6309a8c12c562a290c376f764d"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "64143c1e3ee86c67fa34ebfb817a34e789534a6309a8c12c562a290c376f764d",
+            "auto": "64143c1e3ee86c67fa34ebfb817a34e789534a6309a8c12c562a290c376f764d"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "03e6b0e3a366a577275e6e48994c9810fa9a3219602ca3c914e88d5910861e87",
+            "auto": "03e6b0e3a366a577275e6e48994c9810fa9a3219602ca3c914e88d5910861e87"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p3-t1",
+      "button_order": "close_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "78996807fb4f1036c8b47cd3330e8c629d92fe41a96bb5da0c6211a19eb954f9",
+            "auto": "78996807fb4f1036c8b47cd3330e8c629d92fe41a96bb5da0c6211a19eb954f9"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "ff9b27408cb9b86799a9868789af73a4426d2c08a3be03d56567f2eee832c619",
+            "auto": "ff9b27408cb9b86799a9868789af73a4426d2c08a3be03d56567f2eee832c619"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "ff9b27408cb9b86799a9868789af73a4426d2c08a3be03d56567f2eee832c619",
+            "auto": "ff9b27408cb9b86799a9868789af73a4426d2c08a3be03d56567f2eee832c619"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "6700e6213bc073aa2373de6f26502d82fdd0d57949e54d0f68a6ed866664c85a",
+            "auto": "6700e6213bc073aa2373de6f26502d82fdd0d57949e54d0f68a6ed866664c85a"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p3-t1",
+      "button_order": "close_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "78996807fb4f1036c8b47cd3330e8c629d92fe41a96bb5da0c6211a19eb954f9",
+            "auto": "78996807fb4f1036c8b47cd3330e8c629d92fe41a96bb5da0c6211a19eb954f9"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "ff9b27408cb9b86799a9868789af73a4426d2c08a3be03d56567f2eee832c619",
+            "auto": "ff9b27408cb9b86799a9868789af73a4426d2c08a3be03d56567f2eee832c619"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "ff9b27408cb9b86799a9868789af73a4426d2c08a3be03d56567f2eee832c619",
+            "auto": "ff9b27408cb9b86799a9868789af73a4426d2c08a3be03d56567f2eee832c619"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "01ec58cbbb1c2e485f25e4a3b9b4baba8db7bd12b9e5b7c4c2c6e598e6ff24d8",
+            "auto": "01ec58cbbb1c2e485f25e4a3b9b4baba8db7bd12b9e5b7c4c2c6e598e6ff24d8"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p3-t1",
+      "button_order": "apply_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "78996807fb4f1036c8b47cd3330e8c629d92fe41a96bb5da0c6211a19eb954f9",
+            "auto": "78996807fb4f1036c8b47cd3330e8c629d92fe41a96bb5da0c6211a19eb954f9"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "9cdb784ac10616383edcb0085feeaf0e23fc42a3deb717920fc54604581cd550",
+            "auto": "9cdb784ac10616383edcb0085feeaf0e23fc42a3deb717920fc54604581cd550"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "9cdb784ac10616383edcb0085feeaf0e23fc42a3deb717920fc54604581cd550",
+            "auto": "9cdb784ac10616383edcb0085feeaf0e23fc42a3deb717920fc54604581cd550"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "6700e6213bc073aa2373de6f26502d82fdd0d57949e54d0f68a6ed866664c85a",
+            "auto": "6700e6213bc073aa2373de6f26502d82fdd0d57949e54d0f68a6ed866664c85a"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p3-t1",
+      "button_order": "apply_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "78996807fb4f1036c8b47cd3330e8c629d92fe41a96bb5da0c6211a19eb954f9",
+            "auto": "78996807fb4f1036c8b47cd3330e8c629d92fe41a96bb5da0c6211a19eb954f9"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "9cdb784ac10616383edcb0085feeaf0e23fc42a3deb717920fc54604581cd550",
+            "auto": "9cdb784ac10616383edcb0085feeaf0e23fc42a3deb717920fc54604581cd550"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "9cdb784ac10616383edcb0085feeaf0e23fc42a3deb717920fc54604581cd550",
+            "auto": "9cdb784ac10616383edcb0085feeaf0e23fc42a3deb717920fc54604581cd550"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "01ec58cbbb1c2e485f25e4a3b9b4baba8db7bd12b9e5b7c4c2c6e598e6ff24d8",
+            "auto": "01ec58cbbb1c2e485f25e4a3b9b4baba8db7bd12b9e5b7c4c2c6e598e6ff24d8"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p3-t2",
+      "button_order": "close_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "78996807fb4f1036c8b47cd3330e8c629d92fe41a96bb5da0c6211a19eb954f9",
+            "auto": "78996807fb4f1036c8b47cd3330e8c629d92fe41a96bb5da0c6211a19eb954f9"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "09d643b90bea6fe18098a1f920334b94c7c510d035f06df3db77d6ced6f1c195",
+            "auto": "09d643b90bea6fe18098a1f920334b94c7c510d035f06df3db77d6ced6f1c195"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "09d643b90bea6fe18098a1f920334b94c7c510d035f06df3db77d6ced6f1c195",
+            "auto": "09d643b90bea6fe18098a1f920334b94c7c510d035f06df3db77d6ced6f1c195"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "6700e6213bc073aa2373de6f26502d82fdd0d57949e54d0f68a6ed866664c85a",
+            "auto": "6700e6213bc073aa2373de6f26502d82fdd0d57949e54d0f68a6ed866664c85a"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p3-t2",
+      "button_order": "close_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "78996807fb4f1036c8b47cd3330e8c629d92fe41a96bb5da0c6211a19eb954f9",
+            "auto": "78996807fb4f1036c8b47cd3330e8c629d92fe41a96bb5da0c6211a19eb954f9"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "09d643b90bea6fe18098a1f920334b94c7c510d035f06df3db77d6ced6f1c195",
+            "auto": "09d643b90bea6fe18098a1f920334b94c7c510d035f06df3db77d6ced6f1c195"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "09d643b90bea6fe18098a1f920334b94c7c510d035f06df3db77d6ced6f1c195",
+            "auto": "09d643b90bea6fe18098a1f920334b94c7c510d035f06df3db77d6ced6f1c195"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "c9f5d37032d0ec3f4048ab53dc1f25d0326fad5ae27d582bb4fa3da13e204814",
+            "auto": "c9f5d37032d0ec3f4048ab53dc1f25d0326fad5ae27d582bb4fa3da13e204814"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p3-t2",
+      "button_order": "apply_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "78996807fb4f1036c8b47cd3330e8c629d92fe41a96bb5da0c6211a19eb954f9",
+            "auto": "78996807fb4f1036c8b47cd3330e8c629d92fe41a96bb5da0c6211a19eb954f9"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "1479b705724e7a3595e7e61efbb5ad4845f02c1548ac04b72480ef35464b7f7c",
+            "auto": "1479b705724e7a3595e7e61efbb5ad4845f02c1548ac04b72480ef35464b7f7c"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "1479b705724e7a3595e7e61efbb5ad4845f02c1548ac04b72480ef35464b7f7c",
+            "auto": "1479b705724e7a3595e7e61efbb5ad4845f02c1548ac04b72480ef35464b7f7c"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "6700e6213bc073aa2373de6f26502d82fdd0d57949e54d0f68a6ed866664c85a",
+            "auto": "6700e6213bc073aa2373de6f26502d82fdd0d57949e54d0f68a6ed866664c85a"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p3-t2",
+      "button_order": "apply_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "78996807fb4f1036c8b47cd3330e8c629d92fe41a96bb5da0c6211a19eb954f9",
+            "auto": "78996807fb4f1036c8b47cd3330e8c629d92fe41a96bb5da0c6211a19eb954f9"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "1479b705724e7a3595e7e61efbb5ad4845f02c1548ac04b72480ef35464b7f7c",
+            "auto": "1479b705724e7a3595e7e61efbb5ad4845f02c1548ac04b72480ef35464b7f7c"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "1479b705724e7a3595e7e61efbb5ad4845f02c1548ac04b72480ef35464b7f7c",
+            "auto": "1479b705724e7a3595e7e61efbb5ad4845f02c1548ac04b72480ef35464b7f7c"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "c9f5d37032d0ec3f4048ab53dc1f25d0326fad5ae27d582bb4fa3da13e204814",
+            "auto": "c9f5d37032d0ec3f4048ab53dc1f25d0326fad5ae27d582bb4fa3da13e204814"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p3-t3",
+      "button_order": "close_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "78996807fb4f1036c8b47cd3330e8c629d92fe41a96bb5da0c6211a19eb954f9",
+            "auto": "78996807fb4f1036c8b47cd3330e8c629d92fe41a96bb5da0c6211a19eb954f9"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "b2ffcaeceab2b62d8a56dd1102d795ba895d5f5cae04781ce67f60c59546ffd7",
+            "auto": "b2ffcaeceab2b62d8a56dd1102d795ba895d5f5cae04781ce67f60c59546ffd7"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "b2ffcaeceab2b62d8a56dd1102d795ba895d5f5cae04781ce67f60c59546ffd7",
+            "auto": "b2ffcaeceab2b62d8a56dd1102d795ba895d5f5cae04781ce67f60c59546ffd7"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "6700e6213bc073aa2373de6f26502d82fdd0d57949e54d0f68a6ed866664c85a",
+            "auto": "6700e6213bc073aa2373de6f26502d82fdd0d57949e54d0f68a6ed866664c85a"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p3-t3",
+      "button_order": "close_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "78996807fb4f1036c8b47cd3330e8c629d92fe41a96bb5da0c6211a19eb954f9",
+            "auto": "78996807fb4f1036c8b47cd3330e8c629d92fe41a96bb5da0c6211a19eb954f9"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "b2ffcaeceab2b62d8a56dd1102d795ba895d5f5cae04781ce67f60c59546ffd7",
+            "auto": "b2ffcaeceab2b62d8a56dd1102d795ba895d5f5cae04781ce67f60c59546ffd7"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "b2ffcaeceab2b62d8a56dd1102d795ba895d5f5cae04781ce67f60c59546ffd7",
+            "auto": "b2ffcaeceab2b62d8a56dd1102d795ba895d5f5cae04781ce67f60c59546ffd7"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "16d55eb5467d1d64cf263ea8dede8d8f4ee6fcf0af98391c70c0f59d18d6ed0a",
+            "auto": "16d55eb5467d1d64cf263ea8dede8d8f4ee6fcf0af98391c70c0f59d18d6ed0a"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p3-t3",
+      "button_order": "apply_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "78996807fb4f1036c8b47cd3330e8c629d92fe41a96bb5da0c6211a19eb954f9",
+            "auto": "78996807fb4f1036c8b47cd3330e8c629d92fe41a96bb5da0c6211a19eb954f9"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "9daa40d7813037affec13e9e15de27a54f48064c073a54f7281a0dfdc6c401c5",
+            "auto": "9daa40d7813037affec13e9e15de27a54f48064c073a54f7281a0dfdc6c401c5"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "9daa40d7813037affec13e9e15de27a54f48064c073a54f7281a0dfdc6c401c5",
+            "auto": "9daa40d7813037affec13e9e15de27a54f48064c073a54f7281a0dfdc6c401c5"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "6700e6213bc073aa2373de6f26502d82fdd0d57949e54d0f68a6ed866664c85a",
+            "auto": "6700e6213bc073aa2373de6f26502d82fdd0d57949e54d0f68a6ed866664c85a"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p3-t3",
+      "button_order": "apply_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "78996807fb4f1036c8b47cd3330e8c629d92fe41a96bb5da0c6211a19eb954f9",
+            "auto": "78996807fb4f1036c8b47cd3330e8c629d92fe41a96bb5da0c6211a19eb954f9"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "9daa40d7813037affec13e9e15de27a54f48064c073a54f7281a0dfdc6c401c5",
+            "auto": "9daa40d7813037affec13e9e15de27a54f48064c073a54f7281a0dfdc6c401c5"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "9daa40d7813037affec13e9e15de27a54f48064c073a54f7281a0dfdc6c401c5",
+            "auto": "9daa40d7813037affec13e9e15de27a54f48064c073a54f7281a0dfdc6c401c5"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "16d55eb5467d1d64cf263ea8dede8d8f4ee6fcf0af98391c70c0f59d18d6ed0a",
+            "auto": "16d55eb5467d1d64cf263ea8dede8d8f4ee6fcf0af98391c70c0f59d18d6ed0a"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p4-t1",
+      "button_order": "close_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "8deb3754b0d679f50000aeee1b89d3c3e57e0730b4e08dac7c1cdf5f7ad4152e",
+            "auto": "8deb3754b0d679f50000aeee1b89d3c3e57e0730b4e08dac7c1cdf5f7ad4152e"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "dd60290a221fcec9dd01ccf8c57b208ac123ebc01c4cc8ca629be2da861a1ec2",
+            "auto": "dd60290a221fcec9dd01ccf8c57b208ac123ebc01c4cc8ca629be2da861a1ec2"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "dd60290a221fcec9dd01ccf8c57b208ac123ebc01c4cc8ca629be2da861a1ec2",
+            "auto": "dd60290a221fcec9dd01ccf8c57b208ac123ebc01c4cc8ca629be2da861a1ec2"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "9c855586121eb43db2f634a809c6402bb225aeebd2e83a9bb4540b3d03b7bd44",
+            "auto": "9c855586121eb43db2f634a809c6402bb225aeebd2e83a9bb4540b3d03b7bd44"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p4-t1",
+      "button_order": "close_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "8deb3754b0d679f50000aeee1b89d3c3e57e0730b4e08dac7c1cdf5f7ad4152e",
+            "auto": "8deb3754b0d679f50000aeee1b89d3c3e57e0730b4e08dac7c1cdf5f7ad4152e"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "dd60290a221fcec9dd01ccf8c57b208ac123ebc01c4cc8ca629be2da861a1ec2",
+            "auto": "dd60290a221fcec9dd01ccf8c57b208ac123ebc01c4cc8ca629be2da861a1ec2"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "dd60290a221fcec9dd01ccf8c57b208ac123ebc01c4cc8ca629be2da861a1ec2",
+            "auto": "dd60290a221fcec9dd01ccf8c57b208ac123ebc01c4cc8ca629be2da861a1ec2"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "1592a607b2230373905648e46041306c19c182af520a678af77d09d347f41a8f",
+            "auto": "1592a607b2230373905648e46041306c19c182af520a678af77d09d347f41a8f"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p4-t1",
+      "button_order": "apply_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "8deb3754b0d679f50000aeee1b89d3c3e57e0730b4e08dac7c1cdf5f7ad4152e",
+            "auto": "8deb3754b0d679f50000aeee1b89d3c3e57e0730b4e08dac7c1cdf5f7ad4152e"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "832735f2e4f3899706dafe406baa23db0bf6c225d98d19439162b5bff551f31c",
+            "auto": "832735f2e4f3899706dafe406baa23db0bf6c225d98d19439162b5bff551f31c"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "832735f2e4f3899706dafe406baa23db0bf6c225d98d19439162b5bff551f31c",
+            "auto": "832735f2e4f3899706dafe406baa23db0bf6c225d98d19439162b5bff551f31c"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "9c855586121eb43db2f634a809c6402bb225aeebd2e83a9bb4540b3d03b7bd44",
+            "auto": "9c855586121eb43db2f634a809c6402bb225aeebd2e83a9bb4540b3d03b7bd44"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p4-t1",
+      "button_order": "apply_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "8deb3754b0d679f50000aeee1b89d3c3e57e0730b4e08dac7c1cdf5f7ad4152e",
+            "auto": "8deb3754b0d679f50000aeee1b89d3c3e57e0730b4e08dac7c1cdf5f7ad4152e"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "832735f2e4f3899706dafe406baa23db0bf6c225d98d19439162b5bff551f31c",
+            "auto": "832735f2e4f3899706dafe406baa23db0bf6c225d98d19439162b5bff551f31c"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "832735f2e4f3899706dafe406baa23db0bf6c225d98d19439162b5bff551f31c",
+            "auto": "832735f2e4f3899706dafe406baa23db0bf6c225d98d19439162b5bff551f31c"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "1592a607b2230373905648e46041306c19c182af520a678af77d09d347f41a8f",
+            "auto": "1592a607b2230373905648e46041306c19c182af520a678af77d09d347f41a8f"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p4-t2",
+      "button_order": "close_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "8deb3754b0d679f50000aeee1b89d3c3e57e0730b4e08dac7c1cdf5f7ad4152e",
+            "auto": "8deb3754b0d679f50000aeee1b89d3c3e57e0730b4e08dac7c1cdf5f7ad4152e"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "f57a6dd21334cd662dcbbcdd75c0ea3622a1c3caa50d3ae4ef8273b1059558e8",
+            "auto": "f57a6dd21334cd662dcbbcdd75c0ea3622a1c3caa50d3ae4ef8273b1059558e8"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "f57a6dd21334cd662dcbbcdd75c0ea3622a1c3caa50d3ae4ef8273b1059558e8",
+            "auto": "f57a6dd21334cd662dcbbcdd75c0ea3622a1c3caa50d3ae4ef8273b1059558e8"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "9c855586121eb43db2f634a809c6402bb225aeebd2e83a9bb4540b3d03b7bd44",
+            "auto": "9c855586121eb43db2f634a809c6402bb225aeebd2e83a9bb4540b3d03b7bd44"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p4-t2",
+      "button_order": "close_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "8deb3754b0d679f50000aeee1b89d3c3e57e0730b4e08dac7c1cdf5f7ad4152e",
+            "auto": "8deb3754b0d679f50000aeee1b89d3c3e57e0730b4e08dac7c1cdf5f7ad4152e"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "f57a6dd21334cd662dcbbcdd75c0ea3622a1c3caa50d3ae4ef8273b1059558e8",
+            "auto": "f57a6dd21334cd662dcbbcdd75c0ea3622a1c3caa50d3ae4ef8273b1059558e8"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "f57a6dd21334cd662dcbbcdd75c0ea3622a1c3caa50d3ae4ef8273b1059558e8",
+            "auto": "f57a6dd21334cd662dcbbcdd75c0ea3622a1c3caa50d3ae4ef8273b1059558e8"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "83a3598366925f5b909f3f6ada90022a559f8413684cfd7419aaa870a72ff26a",
+            "auto": "83a3598366925f5b909f3f6ada90022a559f8413684cfd7419aaa870a72ff26a"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p4-t2",
+      "button_order": "apply_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "8deb3754b0d679f50000aeee1b89d3c3e57e0730b4e08dac7c1cdf5f7ad4152e",
+            "auto": "8deb3754b0d679f50000aeee1b89d3c3e57e0730b4e08dac7c1cdf5f7ad4152e"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "2c631dfb90d8fba50f7f12de866da52dcdb380189e49d91c874fff50e7dd834e",
+            "auto": "2c631dfb90d8fba50f7f12de866da52dcdb380189e49d91c874fff50e7dd834e"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "2c631dfb90d8fba50f7f12de866da52dcdb380189e49d91c874fff50e7dd834e",
+            "auto": "2c631dfb90d8fba50f7f12de866da52dcdb380189e49d91c874fff50e7dd834e"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "9c855586121eb43db2f634a809c6402bb225aeebd2e83a9bb4540b3d03b7bd44",
+            "auto": "9c855586121eb43db2f634a809c6402bb225aeebd2e83a9bb4540b3d03b7bd44"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p4-t2",
+      "button_order": "apply_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "8deb3754b0d679f50000aeee1b89d3c3e57e0730b4e08dac7c1cdf5f7ad4152e",
+            "auto": "8deb3754b0d679f50000aeee1b89d3c3e57e0730b4e08dac7c1cdf5f7ad4152e"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "2c631dfb90d8fba50f7f12de866da52dcdb380189e49d91c874fff50e7dd834e",
+            "auto": "2c631dfb90d8fba50f7f12de866da52dcdb380189e49d91c874fff50e7dd834e"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "2c631dfb90d8fba50f7f12de866da52dcdb380189e49d91c874fff50e7dd834e",
+            "auto": "2c631dfb90d8fba50f7f12de866da52dcdb380189e49d91c874fff50e7dd834e"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "83a3598366925f5b909f3f6ada90022a559f8413684cfd7419aaa870a72ff26a",
+            "auto": "83a3598366925f5b909f3f6ada90022a559f8413684cfd7419aaa870a72ff26a"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p4-t3",
+      "button_order": "close_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "8deb3754b0d679f50000aeee1b89d3c3e57e0730b4e08dac7c1cdf5f7ad4152e",
+            "auto": "8deb3754b0d679f50000aeee1b89d3c3e57e0730b4e08dac7c1cdf5f7ad4152e"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "be80a284f6199d375e703527720f73626d64fac65818cdedc382408cbc7a7053",
+            "auto": "be80a284f6199d375e703527720f73626d64fac65818cdedc382408cbc7a7053"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "be80a284f6199d375e703527720f73626d64fac65818cdedc382408cbc7a7053",
+            "auto": "be80a284f6199d375e703527720f73626d64fac65818cdedc382408cbc7a7053"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "9c855586121eb43db2f634a809c6402bb225aeebd2e83a9bb4540b3d03b7bd44",
+            "auto": "9c855586121eb43db2f634a809c6402bb225aeebd2e83a9bb4540b3d03b7bd44"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p4-t3",
+      "button_order": "close_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "8deb3754b0d679f50000aeee1b89d3c3e57e0730b4e08dac7c1cdf5f7ad4152e",
+            "auto": "8deb3754b0d679f50000aeee1b89d3c3e57e0730b4e08dac7c1cdf5f7ad4152e"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "be80a284f6199d375e703527720f73626d64fac65818cdedc382408cbc7a7053",
+            "auto": "be80a284f6199d375e703527720f73626d64fac65818cdedc382408cbc7a7053"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "be80a284f6199d375e703527720f73626d64fac65818cdedc382408cbc7a7053",
+            "auto": "be80a284f6199d375e703527720f73626d64fac65818cdedc382408cbc7a7053"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "5099402cccd4faf7b68f7717f85f92b03937f05d39d4cd3902ceefaaaa704395",
+            "auto": "5099402cccd4faf7b68f7717f85f92b03937f05d39d4cd3902ceefaaaa704395"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p4-t3",
+      "button_order": "apply_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "8deb3754b0d679f50000aeee1b89d3c3e57e0730b4e08dac7c1cdf5f7ad4152e",
+            "auto": "8deb3754b0d679f50000aeee1b89d3c3e57e0730b4e08dac7c1cdf5f7ad4152e"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "b0bb44d89e72ff15597209b1627e53f0bc5caab39ac2fb46bc46708b1ee158f8",
+            "auto": "b0bb44d89e72ff15597209b1627e53f0bc5caab39ac2fb46bc46708b1ee158f8"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "b0bb44d89e72ff15597209b1627e53f0bc5caab39ac2fb46bc46708b1ee158f8",
+            "auto": "b0bb44d89e72ff15597209b1627e53f0bc5caab39ac2fb46bc46708b1ee158f8"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "9c855586121eb43db2f634a809c6402bb225aeebd2e83a9bb4540b3d03b7bd44",
+            "auto": "9c855586121eb43db2f634a809c6402bb225aeebd2e83a9bb4540b3d03b7bd44"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p4-t3",
+      "button_order": "apply_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "8deb3754b0d679f50000aeee1b89d3c3e57e0730b4e08dac7c1cdf5f7ad4152e",
+            "auto": "8deb3754b0d679f50000aeee1b89d3c3e57e0730b4e08dac7c1cdf5f7ad4152e"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "b0bb44d89e72ff15597209b1627e53f0bc5caab39ac2fb46bc46708b1ee158f8",
+            "auto": "b0bb44d89e72ff15597209b1627e53f0bc5caab39ac2fb46bc46708b1ee158f8"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "b0bb44d89e72ff15597209b1627e53f0bc5caab39ac2fb46bc46708b1ee158f8",
+            "auto": "b0bb44d89e72ff15597209b1627e53f0bc5caab39ac2fb46bc46708b1ee158f8"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "5099402cccd4faf7b68f7717f85f92b03937f05d39d4cd3902ceefaaaa704395",
+            "auto": "5099402cccd4faf7b68f7717f85f92b03937f05d39d4cd3902ceefaaaa704395"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p5-t1",
+      "button_order": "close_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "c2d9711bd4d5def552db82b61a594be2121802b69c9a11d19784de334534c9ab",
+            "auto": "c2d9711bd4d5def552db82b61a594be2121802b69c9a11d19784de334534c9ab"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "17748b178faf1eeb15dcc91475db96873c9613c95d0496da91c55ba26afcad94",
+            "auto": "17748b178faf1eeb15dcc91475db96873c9613c95d0496da91c55ba26afcad94"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "17748b178faf1eeb15dcc91475db96873c9613c95d0496da91c55ba26afcad94",
+            "auto": "17748b178faf1eeb15dcc91475db96873c9613c95d0496da91c55ba26afcad94"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "1e07428dd13ffdc5f10494f29243f632daa105816642b06560917c9da6037ccb",
+            "auto": "1e07428dd13ffdc5f10494f29243f632daa105816642b06560917c9da6037ccb"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p5-t1",
+      "button_order": "close_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "c2d9711bd4d5def552db82b61a594be2121802b69c9a11d19784de334534c9ab",
+            "auto": "c2d9711bd4d5def552db82b61a594be2121802b69c9a11d19784de334534c9ab"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "17748b178faf1eeb15dcc91475db96873c9613c95d0496da91c55ba26afcad94",
+            "auto": "17748b178faf1eeb15dcc91475db96873c9613c95d0496da91c55ba26afcad94"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "17748b178faf1eeb15dcc91475db96873c9613c95d0496da91c55ba26afcad94",
+            "auto": "17748b178faf1eeb15dcc91475db96873c9613c95d0496da91c55ba26afcad94"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "4a306003d4ae0bb4eb052d3321901f79c698558bb7927d4eaf6d055497476c7b",
+            "auto": "4a306003d4ae0bb4eb052d3321901f79c698558bb7927d4eaf6d055497476c7b"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p5-t1",
+      "button_order": "apply_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "c2d9711bd4d5def552db82b61a594be2121802b69c9a11d19784de334534c9ab",
+            "auto": "c2d9711bd4d5def552db82b61a594be2121802b69c9a11d19784de334534c9ab"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "edbcd9f4726d03dd746a87f1aded4dedc8e13aa334d0f0928af725c440d006b7",
+            "auto": "edbcd9f4726d03dd746a87f1aded4dedc8e13aa334d0f0928af725c440d006b7"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "edbcd9f4726d03dd746a87f1aded4dedc8e13aa334d0f0928af725c440d006b7",
+            "auto": "edbcd9f4726d03dd746a87f1aded4dedc8e13aa334d0f0928af725c440d006b7"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "1e07428dd13ffdc5f10494f29243f632daa105816642b06560917c9da6037ccb",
+            "auto": "1e07428dd13ffdc5f10494f29243f632daa105816642b06560917c9da6037ccb"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p5-t1",
+      "button_order": "apply_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "c2d9711bd4d5def552db82b61a594be2121802b69c9a11d19784de334534c9ab",
+            "auto": "c2d9711bd4d5def552db82b61a594be2121802b69c9a11d19784de334534c9ab"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "edbcd9f4726d03dd746a87f1aded4dedc8e13aa334d0f0928af725c440d006b7",
+            "auto": "edbcd9f4726d03dd746a87f1aded4dedc8e13aa334d0f0928af725c440d006b7"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "edbcd9f4726d03dd746a87f1aded4dedc8e13aa334d0f0928af725c440d006b7",
+            "auto": "edbcd9f4726d03dd746a87f1aded4dedc8e13aa334d0f0928af725c440d006b7"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "4a306003d4ae0bb4eb052d3321901f79c698558bb7927d4eaf6d055497476c7b",
+            "auto": "4a306003d4ae0bb4eb052d3321901f79c698558bb7927d4eaf6d055497476c7b"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p5-t2",
+      "button_order": "close_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "c2d9711bd4d5def552db82b61a594be2121802b69c9a11d19784de334534c9ab",
+            "auto": "c2d9711bd4d5def552db82b61a594be2121802b69c9a11d19784de334534c9ab"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "88af2e703750c1e2bee3e27bbb94d9e64600ec72736929d11b6dcca1869098c6",
+            "auto": "88af2e703750c1e2bee3e27bbb94d9e64600ec72736929d11b6dcca1869098c6"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "88af2e703750c1e2bee3e27bbb94d9e64600ec72736929d11b6dcca1869098c6",
+            "auto": "88af2e703750c1e2bee3e27bbb94d9e64600ec72736929d11b6dcca1869098c6"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "1e07428dd13ffdc5f10494f29243f632daa105816642b06560917c9da6037ccb",
+            "auto": "1e07428dd13ffdc5f10494f29243f632daa105816642b06560917c9da6037ccb"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p5-t2",
+      "button_order": "close_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "c2d9711bd4d5def552db82b61a594be2121802b69c9a11d19784de334534c9ab",
+            "auto": "c2d9711bd4d5def552db82b61a594be2121802b69c9a11d19784de334534c9ab"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "88af2e703750c1e2bee3e27bbb94d9e64600ec72736929d11b6dcca1869098c6",
+            "auto": "88af2e703750c1e2bee3e27bbb94d9e64600ec72736929d11b6dcca1869098c6"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "88af2e703750c1e2bee3e27bbb94d9e64600ec72736929d11b6dcca1869098c6",
+            "auto": "88af2e703750c1e2bee3e27bbb94d9e64600ec72736929d11b6dcca1869098c6"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "4d5015dba28ab2f918c5fa40a2e1b92f92a83527dd002ec6f2e3fb340f616db0",
+            "auto": "4d5015dba28ab2f918c5fa40a2e1b92f92a83527dd002ec6f2e3fb340f616db0"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p5-t2",
+      "button_order": "apply_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "c2d9711bd4d5def552db82b61a594be2121802b69c9a11d19784de334534c9ab",
+            "auto": "c2d9711bd4d5def552db82b61a594be2121802b69c9a11d19784de334534c9ab"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "3fe942a880e84b61c38d8d030180c3ef69d2baeb39a177985f66646b1130c2b8",
+            "auto": "3fe942a880e84b61c38d8d030180c3ef69d2baeb39a177985f66646b1130c2b8"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "3fe942a880e84b61c38d8d030180c3ef69d2baeb39a177985f66646b1130c2b8",
+            "auto": "3fe942a880e84b61c38d8d030180c3ef69d2baeb39a177985f66646b1130c2b8"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "1e07428dd13ffdc5f10494f29243f632daa105816642b06560917c9da6037ccb",
+            "auto": "1e07428dd13ffdc5f10494f29243f632daa105816642b06560917c9da6037ccb"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p5-t2",
+      "button_order": "apply_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "c2d9711bd4d5def552db82b61a594be2121802b69c9a11d19784de334534c9ab",
+            "auto": "c2d9711bd4d5def552db82b61a594be2121802b69c9a11d19784de334534c9ab"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "3fe942a880e84b61c38d8d030180c3ef69d2baeb39a177985f66646b1130c2b8",
+            "auto": "3fe942a880e84b61c38d8d030180c3ef69d2baeb39a177985f66646b1130c2b8"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "3fe942a880e84b61c38d8d030180c3ef69d2baeb39a177985f66646b1130c2b8",
+            "auto": "3fe942a880e84b61c38d8d030180c3ef69d2baeb39a177985f66646b1130c2b8"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "4d5015dba28ab2f918c5fa40a2e1b92f92a83527dd002ec6f2e3fb340f616db0",
+            "auto": "4d5015dba28ab2f918c5fa40a2e1b92f92a83527dd002ec6f2e3fb340f616db0"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p5-t3",
+      "button_order": "close_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "c2d9711bd4d5def552db82b61a594be2121802b69c9a11d19784de334534c9ab",
+            "auto": "c2d9711bd4d5def552db82b61a594be2121802b69c9a11d19784de334534c9ab"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "303b7a8226714bc716109773e0d040f696d7e3d51876e99268d6a78554e63963",
+            "auto": "303b7a8226714bc716109773e0d040f696d7e3d51876e99268d6a78554e63963"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "303b7a8226714bc716109773e0d040f696d7e3d51876e99268d6a78554e63963",
+            "auto": "303b7a8226714bc716109773e0d040f696d7e3d51876e99268d6a78554e63963"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "1e07428dd13ffdc5f10494f29243f632daa105816642b06560917c9da6037ccb",
+            "auto": "1e07428dd13ffdc5f10494f29243f632daa105816642b06560917c9da6037ccb"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p5-t3",
+      "button_order": "close_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "c2d9711bd4d5def552db82b61a594be2121802b69c9a11d19784de334534c9ab",
+            "auto": "c2d9711bd4d5def552db82b61a594be2121802b69c9a11d19784de334534c9ab"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "303b7a8226714bc716109773e0d040f696d7e3d51876e99268d6a78554e63963",
+            "auto": "303b7a8226714bc716109773e0d040f696d7e3d51876e99268d6a78554e63963"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "303b7a8226714bc716109773e0d040f696d7e3d51876e99268d6a78554e63963",
+            "auto": "303b7a8226714bc716109773e0d040f696d7e3d51876e99268d6a78554e63963"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "20aa5b3fc4bb5ae8f5c4ea609170c5eb4cc21db24767da00b103f95ab5579dfb",
+            "auto": "20aa5b3fc4bb5ae8f5c4ea609170c5eb4cc21db24767da00b103f95ab5579dfb"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p5-t3",
+      "button_order": "apply_first",
+      "choice": "close",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "c2d9711bd4d5def552db82b61a594be2121802b69c9a11d19784de334534c9ab",
+            "auto": "c2d9711bd4d5def552db82b61a594be2121802b69c9a11d19784de334534c9ab"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "46a72b8812bb6067616a313a4e11275705432f823bf5246790448ee34fd1c4eb",
+            "auto": "46a72b8812bb6067616a313a4e11275705432f823bf5246790448ee34fd1c4eb"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "46a72b8812bb6067616a313a4e11275705432f823bf5246790448ee34fd1c4eb",
+            "auto": "46a72b8812bb6067616a313a4e11275705432f823bf5246790448ee34fd1c4eb"
+          }
+        },
+        "s2_after_close": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "1e07428dd13ffdc5f10494f29243f632daa105816642b06560917c9da6037ccb",
+            "auto": "1e07428dd13ffdc5f10494f29243f632daa105816642b06560917c9da6037ccb"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 58,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    },
+    {
+      "content_id": "p5-t3",
+      "button_order": "apply_first",
+      "choice": "apply",
+      "states": {
+        "s1_empty": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c",
+            "auto": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c"
+          }
+        },
+        "s1_invalid": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724",
+            "auto": "821119ea020e568348faa9562f9a9f10e46fe63ffbb329e49fb5cdbece4bf724"
+          }
+        },
+        "s1_filled": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "c2d9711bd4d5def552db82b61a594be2121802b69c9a11d19784de334534c9ab",
+            "auto": "c2d9711bd4d5def552db82b61a594be2121802b69c9a11d19784de334534c9ab"
+          }
+        },
+        "s2_popup": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "46a72b8812bb6067616a313a4e11275705432f823bf5246790448ee34fd1c4eb",
+            "auto": "46a72b8812bb6067616a313a4e11275705432f823bf5246790448ee34fd1c4eb"
+          }
+        },
+        "s2_popup_after_esc": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": true,
+          "badge_visible": true,
+          "masked_sha256": {
+            "ai": "46a72b8812bb6067616a313a4e11275705432f823bf5246790448ee34fd1c4eb",
+            "auto": "46a72b8812bb6067616a313a4e11275705432f823bf5246790448ee34fd1c4eb"
+          }
+        },
+        "s2_after_apply": {
+          "masked_equal": true,
+          "dom_equal": true,
+          "badge_box_equal": true,
+          "raw_differs": false,
+          "badge_visible": false,
+          "masked_sha256": {
+            "ai": "20aa5b3fc4bb5ae8f5c4ea609170c5eb4cc21db24767da00b103f95ab5579dfb",
+            "auto": "20aa5b3fc4bb5ae8f5c4ea609170c5eb4cc21db24767da00b103f95ab5579dfb"
+          }
+        }
+      },
+      "button_box_equal": true,
+      "external_requests": [],
+      "n_requests": 60,
+      "s1_fits": true,
+      "log_errors": {
+        "ai": [],
+        "auto": []
+      },
+      "pass": true,
+      "problems": []
+    }
+  ]
+}
