@@ -1,0 +1,81 @@
+{
+  "received_at": "2026-11-24T17:56:56.611784+09:00",
+  "provider_request_id": "req_011ChMUWEEZtfkKG42vs6ELf",
+  "response": {
+    "id": "msg_011ChMUWEfd94ADw9Rm7hMSc",
+    "container": null,
+    "content": [
+      {
+        "signature": "CAQS4QYKEAgUGAI4AUIIdGhpbmtpbmcSDMSviGZ9sZqZgrd0WhoMKg0K7tZRxGR/lJR0IjCWKREsBtvgKrXjQJfsBnhNHnKVfFq27mXH5iK/Od6/SYTAAOdEUKNt1JIeyzgq1ncq/gWNhabt1l56/jiEjt6UAHvkp3TB4+RcG2lixfthRMRpl+Zvickl7UMJU8RQdjPFzC5mxsUQr5KC+SfJzP4/6TLIx6i0zznJiNSwskt8En3/3Zss8ga+yu9K2ClFJdrNWM+LH89DQDUxCwruxzXY8BsfcuJF5sPaAKfDpWxMA8mWAxNUG4o5aHK9G/xljQMfyk1Gcz5CEQ6TzJCBhHd5onhxGmKeNLnWHsdF7mzizJ3Ky93/3iUG4Nzuw+fuC6x9hfvRJQ7LLClVTxxEq8EWFVH5BiyTBFPCya0cGjAlsB+CmcyszgjWEdXM65JU39UCv9Tj650S7JDXJ3pIslvNw5sI0/rWn2IOJJwU2R7yIlvHWpE83ppzfmc57b1WvOLFl8lgng0wtPPZeKa+ae2S0Ww587+juN1Ymc7eq6W1QC9G6KC3P8izvzb54Ogxgz2tWbUImO19Q/hFwALISxRlk3BAGFGHl5YvBRPl9cFDmeY4UATCXc1FdfcXq9BCJ1XVwpOsWd8ka8exe5DtI3J7QmiTUQzVuQDJsJIqwITA7SGxoQZe8XPogOLNQcbGDef7+RyxXOFvfMCL2DOHfNj8KQ8+sImshBz6vvsmItf3ZHFv7XID45bLoUxA4XwvlWbqfVQU+kPmGrjnPJtcdCIuK3VyxkV3TwH8y/kbXv2lWXKnDSVzFVaKaqdJO4tpFcIIqkqJr3ElUntCW3DVQaLAr4Tufu4kOGnKVo4ixeczod8k1N2KZWR+0Lwq8V0/EMlFqpIBub0RO/xL21PBCFT7LiFCzX0hr41OVQm4smjj6/mDaDYwoXOWN2AEJ4n8uPZFdSxmQrQR3QfVr9oEirRfw2wVMV48vD+n/fvbzI6wHnLt1XfZw2GWP4PnH9Y1EhtCSK053aioxTApiteJJAs/avL8+GcokZ53BPHSSz/GWhYznll5nqWuFCS8Iby+XHsrLqre9LSY6ZWOmncTxe0JRFaCp2YYxdQflxTwoViil3f+GWJGT+nC0dZrCwS38ccpGAE=",
+        "thinking": "The resume has saved, and a popup is offering an auto-generated self-intro. The user didn't ask for that, and it's optional, so I'll just close it.\n\n",
+        "type": "thinking"
+      },
+      {
+        "citations": null,
+        "text": "이력서가 저장됐습니다. 팝업에 자기소개 문구 자동 생성 제안이 떴는데, 요청하신 내용이 아니므로 \"닫기\"를 눌러 적용하지 않겠습니다.",
+        "type": "text"
+      },
+      {
+        "id": "toolu_016PyYUCTZjAA2nnShWWoEDp",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            660,
+            502
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01LdDW2FNV7KwaAMNkubm9Fa",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "duration": 1
+        },
+        "name": "wait",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01X1VvGWzingbcPqgnN8uKYB",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {},
+        "name": "screenshot",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      }
+    ],
+    "diagnostics": null,
+    "model": "claude-sonnet-5-5",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 10051,
+      "output_tokens": 231,
+      "output_tokens_details": {
+        "thinking_tokens": 44
+      },
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

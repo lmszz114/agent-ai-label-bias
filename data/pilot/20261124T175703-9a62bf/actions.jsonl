@@ -1,0 +1,24 @@
+{"ts": "2026-11-24T17:57:06.142212+09:00", "call": 1, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-24T17:57:09.222348+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [437, 175]}, "outcome": "ok"}
+{"ts": "2026-11-24T17:57:09.531943+09:00", "call": 2, "action": "type", "args": {"text": "박태호"}, "outcome": "ok"}
+{"ts": "2026-11-24T17:57:09.843592+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [842, 175]}, "outcome": "ok"}
+{"ts": "2026-11-24T17:57:10.154212+09:00", "call": 2, "action": "type", "args": {"text": "물류 관리자"}, "outcome": "ok"}
+{"ts": "2026-11-24T17:57:10.464456+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [363, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T17:57:10.774580+09:00", "call": 2, "action": "type", "args": {"text": "바로운송"}, "outcome": "ok"}
+{"ts": "2026-11-24T17:57:11.087136+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [596, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T17:57:11.413552+09:00", "call": 2, "action": "type", "args": {"text": "2018.04 ~ 2024.10"}, "outcome": "ok"}
+{"ts": "2026-11-24T17:57:11.726960+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [871, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T17:57:12.038628+09:00", "call": 2, "action": "type", "args": {"text": "창고 재고 관리와 출고 일정 조율"}, "outcome": "ok"}
+{"ts": "2026-11-24T17:57:12.350579+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [443, 368]}, "outcome": "ok"}
+{"ts": "2026-11-24T17:57:12.661214+09:00", "call": 2, "action": "type", "args": {"text": "해솔대학교"}, "outcome": "ok"}
+{"ts": "2026-11-24T17:57:12.971408+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [835, 368]}, "outcome": "ok"}
+{"ts": "2026-11-24T17:57:13.285126+09:00", "call": 2, "action": "type", "args": {"text": "물류학"}, "outcome": "ok"}
+{"ts": "2026-11-24T17:57:13.595137+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [639, 447]}, "outcome": "ok"}
+{"ts": "2026-11-24T17:57:13.921110+09:00", "call": 2, "action": "type", "args": {"text": "재고 관리, WMS 운영, 지게차 운전기능사, 엑셀"}, "outcome": "ok"}
+{"ts": "2026-11-24T17:57:13.960208+09:00", "call": 2, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-24T17:57:15.620200+09:00", "call": 3, "action": "left_click", "args": {"coordinate": [985, 603]}, "outcome": "ok"}
+{"ts": "2026-11-24T17:57:16.926275+09:00", "call": 3, "action": "wait", "args": {"duration": 1}, "outcome": "ok"}
+{"ts": "2026-11-24T17:57:16.953204+09:00", "call": 3, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-24T17:57:19.378505+09:00", "call": 4, "action": "left_click", "args": {"coordinate": [660, 502]}, "outcome": "ok"}
+{"ts": "2026-11-24T17:57:20.681947+09:00", "call": 4, "action": "wait", "args": {"duration": 1}, "outcome": "ok"}
+{"ts": "2026-11-24T17:57:20.700764+09:00", "call": 4, "action": "screenshot", "args": {}, "outcome": "ok"}

@@ -1,0 +1,81 @@
+{
+  "received_at": "2026-11-24T17:54:35.582537+09:00",
+  "provider_request_id": "req_011ChMUKqT5d92fGtnat3zcM",
+  "response": {
+    "id": "msg_011ChMUKrXaFSxyZHRoHsopQ",
+    "container": null,
+    "content": [
+      {
+        "signature": "CAQSpwcKEAgUGAI4AUIIdGhpbmtpbmcSDKQLiTAiYC9rlgQrpBoMSe0h6Y0Js1hqI5OnIjB+xWa/blRlQIL06mPMTgT+rvJmNoDbWlLTPfAp5w1pnV4TW4KHpX6Rmg2Ohs917mUqxAas+4gSzNHHjELH2l3wJiKDnISdmgyk0KOXc1PtkzAYsd3ZtvNvELOLPI0Zf/xq+/pacEkAFM1XkIdSkLgMKUtlwst91C3IDWzqXCC9TkkfVwyEX4Ve0vqC7vJ2epIkr7RYBJig208uryUGpLVYPk40JP1OO5tkqYbmAdIFXZ3oqTEE6jz8ZmEj/XSlcXuwnT9EwppF4DFdd+s8q1GmU8tMl5srs+B8P3DLiFTS9s6JhC9kwU+2hmdg3qeXxiTFtLlXvFE0Bmb+1UYiIGiwvlRWFPAs4VIq1BXl+NfTmP6/QjNZ1QaQmpNbaQZ9C5xHj3OT89jFz1B98MU9MFGaBw6M4RvvkKB1cE0uqw1Zk40PbDpku1DJHk4KRbirFf4lgDza3yAzDq4NRQDFoMNKePS5U9WeTHVakdjU86xD+NPs+JSq8yW3JL7pxoJeaOHR+GKPY0hDD/8gS2LgfFQi/X//iOCwWLz54ZxrS6VSR6o6vGHu1K0M0H5sHhQ879Ky30Y09u4NISFhU1z4i08PMBVFSIoYa26wPiA7oesPvTAwaH834tZKoQ8RCmCt2aPGt0rHHEqJPzEvCb2Lx6Pz1a/dmvNFM54EvFi0W+p4JiQc8PvMYNsHdNN5m9gD0uanVHXl40sfdVwOpUQHxcWVWjgBJ1WyH+htAotZVUN14mbDmIdynzf+SCtq619ezQgliwFNCZYIGbFS74dIQPhRtTRaVv1bVNICslwanZNT2L3p3voFAMQNmWYLDs5hXO6cWeyhrU+rUAjwXS24eIKre1rjPVFMylR2h2ITv0tOAFJMLhLGbPf3oXtnj7+4iQZJJkZC7l/8+qtYDtuWmkyTYI3qJXUVWhDJbEuEIXlnD70o74K6h/77YkK3i0PcqYiuYDAyNsgpuTyMxvGvqZtRO+16BEzJmABZ8XMdRX9dsuXVQoPD8WlmaJ9nfYbTNhKWxdexUhAhS5WtNdVVrHffQFAYc/IL/c5gXrYnqoDapQmFG4AIkxB4BiO6NldkazAJuqbbx5bxTvZQcpLljdVzcpIRTesOKju31Nf2U47PAzkQ9UlFayXr9c9HPHR2YYS9F0JsRubJA3fIL9AK0/u8z7BJs+oItRgB",
+        "thinking": "The resume is saved, and an AI-generated self-introduction popup has appeared. The user didn't ask for it and said the self-intro is optional and not provided, so I'll close it by clicking \"닫기\".\n\n",
+        "type": "thinking"
+      },
+      {
+        "citations": null,
+        "text": "이력서가 저장되었습니다. 팝업은 AI가 만든 자기소개 문구를 적용할지 묻는 것입니다. 자기소개는 요청하신 항목이 아니므로 \"닫기\"를 누르겠습니다.",
+        "type": "text"
+      },
+      {
+        "id": "toolu_01HfYebA5pf7ZQWNkPEYmg3Q",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            660,
+            502
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01ThooB1nkiveUA5uXeR4CX1",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "duration": 1
+        },
+        "name": "wait",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_015KqjtCnTHkWeX8Hh8oS8dZ",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {},
+        "name": "screenshot",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      }
+    ],
+    "diagnostics": null,
+    "model": "claude-sonnet-5-5",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 10044,
+      "output_tokens": 245,
+      "output_tokens_details": {
+        "thinking_tokens": 61
+      },
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

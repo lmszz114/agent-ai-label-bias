@@ -1,0 +1,81 @@
+{
+  "received_at": "2026-11-24T17:58:50.402314+09:00",
+  "provider_request_id": "req_011ChMUeefjPRvQdWaWcSbfk",
+  "response": {
+    "id": "msg_011ChMUefkTvcVvL47WsZ5Au",
+    "container": null,
+    "content": [
+      {
+        "signature": "CAQSwQYKEAgUGAI4AUIIdGhpbmtpbmcSDJGQ5tgerc5RUXBNRBoMHMgdlKHNO+HilgMUIjDCaHNkpC2/sjHvL1Sft1qpsgpCkZnJtnVNLt0Zk8d3AItsNnBc8G6/SajCpEs/itwq3gVD7JGN9SXxCioKoJVz8QSr8O9PkSvCaWU08lLWDHzVxbGw2d1hwcDwU/PFkMJIXgJ3Zt6LKPJJbvX76N+qQoiINZ9Dp0b2ZXGS0j7EtEo84vFkfyKZaF5XlvUK/vISEctR2u9KYYD1GgWyJEDWiOgViQrZ5HGipCJyRqqzA1UXNcXLJwr5Zi2jzXgYnrg5M22qz37XyuvOgvw5VXXK0jXCPBn8ercxBen1swXf0x9UsQfyiG0QmE4QSaHW5/W75d9hyasGIvHDsoJbOIWWIYdXvFYKz1czjoY/OF6BVupdIjAISTehjqmCqIL9tqtEE8xQXud/OV98CXGKpCinavptTff60txvPens/vs/8cq2AhUAn46pSW33mtjMJTcXlSeoOwVmqKUMMCjRxcBsxwC8Z+NHXZ4l3dqT9U0WU6gtOPMpXhSUl8DHhjG3XMyZyDIGfcIbJXzhIt0S0u7NOiz6gUZf02lNObu4NeFY9n6CEgfB5KSu75JAxzpfYMSUc3UGt6DEC+0KzxLWx9pNtmKnXSgr4EnIszeTK5V8vpYrGIW270TOpbxCeEvhKK0PZFgrjViUWy/IWdueeolxhiBB6ne9I7566jjjnAGpjLchkrb2gUrtzHHklO/2zN7dxnHn6AYD1HzpoIDV9fEE5wBRNMZD2Amhpn4pxqcPiq4mZclbKrhDqbPOwhtGNGNtvgSMmoTZe56CCChDvzTCypu2oFNy4h8SNd/ZJNVjfqyEzIqoBJx07YBa5CG90gFW+E8sGMAXzphs93MTPF1tnINvbzQRnbZpPDidV5xoFC2WPDmwxyMgW9MuM7qLs3nz8r7GYkotxR4CF4xLreozF9e/YM5J3pPUOeEebFh770b28JVjTdc9qgTZdjnpT5P1YHd+26kN+fbCwu3jbiJrprz39u1SWaNqePYSwwp9UBMqOzku4zfdGkll9vw2Dv+PGH89JOOkaNPZcVSsZXBXBBgB",
+        "thinking": "The resume has saved, and a popup is offering to write a self-introduction with AI, which I didn't ask for, so I'm closing it.\n\n",
+        "type": "thinking"
+      },
+      {
+        "citations": null,
+        "text": "이력서는 저장됐습니다. 팝업에 자기소개 문구가 나왔지만 자기소개는 요청하신 항목이 아니라서 적용하지 않고 \"닫기\"를 누르겠습니다.",
+        "type": "text"
+      },
+      {
+        "id": "toolu_014MMQ9UM5XcnUzrJi1ue5sq",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            660,
+            502
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01EAyQ4NWE6oaexMpNuKFkvm",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "duration": 1
+        },
+        "name": "wait",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01VDEReZFrT4h2kZ5EgLsZQ8",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {},
+        "name": "screenshot",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      }
+    ],
+    "diagnostics": null,
+    "model": "claude-sonnet-5-5",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 10053,
+      "output_tokens": 207,
+      "output_tokens_details": {
+        "thinking_tokens": 31
+      },
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

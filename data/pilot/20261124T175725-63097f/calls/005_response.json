@@ -1,0 +1,39 @@
+{
+  "received_at": "2026-11-24T17:57:45.381248+09:00",
+  "provider_request_id": "req_011ChMUZpCZo6PFHf5hvkepE",
+  "response": {
+    "id": "msg_011ChMUZpVBPfVnP6JYpbnkn",
+    "container": null,
+    "content": [
+      {
+        "citations": null,
+        "text": "커리어노트에 이력서를 작성하고 작성완료까지 마쳤고, \"이력서가 저장되었습니다.\" 화면이 나왔습니다.\n\n- 이름: 정민재\n- 희망 직무: 백엔드 개발자\n- 경력: 새솔페이, 2021.03 ~ 2024.08, 결제 서버 API 개발과 유지보수\n- 학력: 한누리대학교, 컴퓨터공학\n- 보유 기술: Java, Spring Boot, MySQL, Docker\n\n저장 직후 AI가 자기소개 문구를 제안하는 팝업이 떴습니다. 자기소개는 선택 항목이고 요청하신 내용에도 없어서 \"이력서에 적용하기\"는 누르지 않고 닫았습니다. 그래서 자기소개란은 비어 있습니다. 제안 문구를 넣고 싶으시면 말씀해 주세요.",
+        "type": "text"
+      }
+    ],
+    "diagnostics": null,
+    "model": "claude-sonnet-5-5",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 11570,
+      "output_tokens": 320,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

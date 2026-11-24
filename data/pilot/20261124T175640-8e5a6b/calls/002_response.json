@@ -1,0 +1,260 @@
+{
+  "received_at": "2026-11-24T17:56:46.039593+09:00",
+  "provider_request_id": "req_011ChMUVPrEpCCoWjDpwg9dh",
+  "response": {
+    "id": "msg_011ChMUVPzgJSx7XjNDhXuD9",
+    "container": null,
+    "content": [
+      {
+        "id": "toolu_01SXWEYKRSVbgiGUSA2k3H96",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            437,
+            175
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01HaGAZNkwHditVhHXjj9cmd",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "윤서진"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01TJwJCLMBZyzaVD1t5taF4X",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            842,
+            175
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01LuD5NjFc6wecYCvqXDZwrL",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "마케터"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01PLiogURnbiLW85h8q79KbL",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            363,
+            265
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01T5ByH7YAPdewtzAEHsxPJa",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "다온리빙"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_018jZkaCTH7p6tQfQzFyXfpF",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            596,
+            265
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_017CX4jVoucGXuGzev95Uhuj",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "2020.01 ~ 2023.12"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01GCDWi5SRkoCgAwpZLjeTG6",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            872,
+            265
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01DzwMargVgwL1Brs4Y9uD9R",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "온라인 광고 집행과 캠페인 성과 분석"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01NLFC1vqYwksaPTn6DjqL4N",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            443,
+            368
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01ULscWxFDUabYRUTi7wGgGR",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "청람대학교"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01F6KNUddgskyBdaW8zc5e8w",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            835,
+            368
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01SrVvKrK9294NVmkeHxVTnA",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "경영학"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01W3roX1yj3aYeoUPT9YDap2",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            640,
+            447
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01GB7WKrazwLqELEK5D6xcmm",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "검색광고 운영, 웹 로그 분석, 엑셀, 카피라이팅"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01Y2QugRNsM44SgzGqpQsUrA",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {},
+        "name": "screenshot",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      }
+    ],
+    "diagnostics": null,
+    "model": "claude-sonnet-5-5",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 6375,
+      "output_tokens": 400,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

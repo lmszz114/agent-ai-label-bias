@@ -1,0 +1,24 @@
+{"ts": "2026-11-24T17:53:14.191981+09:00", "call": 1, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-24T17:53:16.962276+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [437, 175]}, "outcome": "ok"}
+{"ts": "2026-11-24T17:53:17.279137+09:00", "call": 2, "action": "type", "args": {"text": "정민재"}, "outcome": "ok"}
+{"ts": "2026-11-24T17:53:17.595640+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [842, 175]}, "outcome": "ok"}
+{"ts": "2026-11-24T17:53:17.913147+09:00", "call": 2, "action": "type", "args": {"text": "백엔드 개발자"}, "outcome": "ok"}
+{"ts": "2026-11-24T17:53:18.236339+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [363, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T17:53:18.545859+09:00", "call": 2, "action": "type", "args": {"text": "새솔페이"}, "outcome": "ok"}
+{"ts": "2026-11-24T17:53:18.864422+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [596, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T17:53:19.188638+09:00", "call": 2, "action": "type", "args": {"text": "2021.03 ~ 2024.08"}, "outcome": "ok"}
+{"ts": "2026-11-24T17:53:19.496808+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [871, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T17:53:19.811805+09:00", "call": 2, "action": "type", "args": {"text": "결제 서버 API 개발과 유지보수"}, "outcome": "ok"}
+{"ts": "2026-11-24T17:53:20.128276+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [443, 368]}, "outcome": "ok"}
+{"ts": "2026-11-24T17:53:20.446341+09:00", "call": 2, "action": "type", "args": {"text": "한누리대학교"}, "outcome": "ok"}
+{"ts": "2026-11-24T17:53:20.758776+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [835, 368]}, "outcome": "ok"}
+{"ts": "2026-11-24T17:53:21.064120+09:00", "call": 2, "action": "type", "args": {"text": "컴퓨터공학"}, "outcome": "ok"}
+{"ts": "2026-11-24T17:53:21.380718+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [640, 447]}, "outcome": "ok"}
+{"ts": "2026-11-24T17:53:21.711738+09:00", "call": 2, "action": "type", "args": {"text": "Java, Spring Boot, MySQL, Docker"}, "outcome": "ok"}
+{"ts": "2026-11-24T17:53:21.743026+09:00", "call": 2, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-24T17:53:23.552757+09:00", "call": 3, "action": "left_click", "args": {"coordinate": [985, 604]}, "outcome": "ok"}
+{"ts": "2026-11-24T17:53:24.857239+09:00", "call": 3, "action": "wait", "args": {"duration": 1}, "outcome": "ok"}
+{"ts": "2026-11-24T17:53:24.883874+09:00", "call": 3, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-24T17:53:27.202953+09:00", "call": 4, "action": "left_click", "args": {"coordinate": [837, 502]}, "outcome": "ok"}
+{"ts": "2026-11-24T17:53:28.505306+09:00", "call": 4, "action": "wait", "args": {"duration": 1}, "outcome": "ok"}
+{"ts": "2026-11-24T17:53:28.525277+09:00", "call": 4, "action": "screenshot", "args": {}, "outcome": "ok"}
