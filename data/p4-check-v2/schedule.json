@@ -1,0 +1,427 @@
+{
+  "seed": 20261124,
+  "per_condition": 0,
+  "created_at": "2026-11-24T23:11:32.418438+09:00",
+  "cells": [
+    {
+      "condition": "ai",
+      "content_id": "p5-t1",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 0
+    },
+    {
+      "condition": "auto",
+      "content_id": "p2-t3",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 1
+    },
+    {
+      "condition": "auto",
+      "content_id": "p1-t3",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 2
+    },
+    {
+      "condition": "ai",
+      "content_id": "p2-t1",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 3
+    },
+    {
+      "condition": "ai",
+      "content_id": "p3-t1",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 4
+    },
+    {
+      "condition": "auto",
+      "content_id": "p4-t3",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 5
+    },
+    {
+      "condition": "ai",
+      "content_id": "p4-t2",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 6
+    },
+    {
+      "condition": "auto",
+      "content_id": "p4-t1",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 7
+    },
+    {
+      "condition": "auto",
+      "content_id": "p1-t2",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 8
+    },
+    {
+      "condition": "auto",
+      "content_id": "p1-t1",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 9
+    },
+    {
+      "condition": "ai",
+      "content_id": "p3-t1",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 10
+    },
+    {
+      "condition": "auto",
+      "content_id": "p5-t1",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 11
+    },
+    {
+      "condition": "auto",
+      "content_id": "p2-t3",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 12
+    },
+    {
+      "condition": "ai",
+      "content_id": "p5-t1",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 13
+    },
+    {
+      "condition": "ai",
+      "content_id": "p4-t3",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 14
+    },
+    {
+      "condition": "auto",
+      "content_id": "p4-t1",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 15
+    },
+    {
+      "condition": "auto",
+      "content_id": "p5-t3",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 16
+    },
+    {
+      "condition": "ai",
+      "content_id": "p4-t1",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 17
+    },
+    {
+      "condition": "auto",
+      "content_id": "p3-t2",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 18
+    },
+    {
+      "condition": "auto",
+      "content_id": "p2-t2",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 19
+    },
+    {
+      "condition": "auto",
+      "content_id": "p5-t3",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 20
+    },
+    {
+      "condition": "ai",
+      "content_id": "p2-t1",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 21
+    },
+    {
+      "condition": "auto",
+      "content_id": "p3-t3",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 22
+    },
+    {
+      "condition": "ai",
+      "content_id": "p3-t3",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 23
+    },
+    {
+      "condition": "ai",
+      "content_id": "p3-t2",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 24
+    },
+    {
+      "condition": "ai",
+      "content_id": "p1-t3",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 25
+    },
+    {
+      "condition": "ai",
+      "content_id": "p4-t2",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 26
+    },
+    {
+      "condition": "ai",
+      "content_id": "p5-t2",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 27
+    },
+    {
+      "condition": "auto",
+      "content_id": "p4-t2",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 28
+    },
+    {
+      "condition": "auto",
+      "content_id": "p1-t2",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 29
+    },
+    {
+      "condition": "auto",
+      "content_id": "p5-t1",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 30
+    },
+    {
+      "condition": "auto",
+      "content_id": "p3-t1",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 31
+    },
+    {
+      "condition": "ai",
+      "content_id": "p3-t3",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 32
+    },
+    {
+      "condition": "ai",
+      "content_id": "p4-t3",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 33
+    },
+    {
+      "condition": "ai",
+      "content_id": "p1-t1",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 34
+    },
+    {
+      "condition": "ai",
+      "content_id": "p4-t1",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 35
+    },
+    {
+      "condition": "auto",
+      "content_id": "p3-t3",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 36
+    },
+    {
+      "condition": "ai",
+      "content_id": "p2-t2",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 37
+    },
+    {
+      "condition": "ai",
+      "content_id": "p1-t2",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 38
+    },
+    {
+      "condition": "auto",
+      "content_id": "p1-t3",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 39
+    },
+    {
+      "condition": "auto",
+      "content_id": "p2-t1",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 40
+    },
+    {
+      "condition": "auto",
+      "content_id": "p5-t2",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 41
+    },
+    {
+      "condition": "ai",
+      "content_id": "p1-t3",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 42
+    },
+    {
+      "condition": "ai",
+      "content_id": "p3-t2",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 43
+    },
+    {
+      "condition": "auto",
+      "content_id": "p2-t1",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 44
+    },
+    {
+      "condition": "ai",
+      "content_id": "p5-t2",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 45
+    },
+    {
+      "condition": "ai",
+      "content_id": "p5-t3",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 46
+    },
+    {
+      "condition": "ai",
+      "content_id": "p2-t3",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 47
+    },
+    {
+      "condition": "auto",
+      "content_id": "p1-t1",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 48
+    },
+    {
+      "condition": "ai",
+      "content_id": "p5-t3",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 49
+    },
+    {
+      "condition": "auto",
+      "content_id": "p2-t2",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 50
+    },
+    {
+      "condition": "ai",
+      "content_id": "p2-t2",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 51
+    },
+    {
+      "condition": "auto",
+      "content_id": "p3-t2",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 52
+    },
+    {
+      "condition": "auto",
+      "content_id": "p4-t2",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 53
+    },
+    {
+      "condition": "auto",
+      "content_id": "p5-t2",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 54
+    },
+    {
+      "condition": "ai",
+      "content_id": "p1-t2",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 55
+    },
+    {
+      "condition": "ai",
+      "content_id": "p1-t1",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 56
+    },
+    {
+      "condition": "auto",
+      "content_id": "p3-t1",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 57
+    },
+    {
+      "condition": "ai",
+      "content_id": "p2-t3",
+      "layout": "card_below",
+      "seed": 20261124,
+      "index": 58
+    },
+    {
+      "condition": "auto",
+      "content_id": "p4-t3",
+      "layout": "card_above",
+      "seed": 20261124,
+      "index": 59
+    }
+  ]
+}

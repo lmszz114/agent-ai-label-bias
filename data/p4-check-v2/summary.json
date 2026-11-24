@@ -1,0 +1,171 @@
+{
+  "generated_at": "2026-11-24T23:13:08.099188+09:00",
+  "judge_version": "judge-v2",
+  "runs": [
+    {
+      "run_id": "20261124T231132-3b0eb2",
+      "started_at": "2026-11-24T23:11:32.421623+09:00",
+      "model_id": "claude-sonnet-5-5",
+      "served_models": [
+        "claude-sonnet-5-5"
+      ],
+      "git_commit": "5f8b63cfea4739ab7a7323bc23d881d8ae8662f4",
+      "git_dirty": false,
+      "condition": "ai",
+      "content_id": "p5-t1",
+      "layout": "card_above",
+      "seed": 20261124,
+      "fake_behavior": null,
+      "observations": 5,
+      "actions": 27,
+      "final_text": "커리어노트에 이력서를 작성하고 저장까지 마쳤습니다. 저장 후 화면에 \"이력서가 저장되었습니다.\"라고 나왔습니다.\n\n- **이름:** 박태호\n- **희망 직무:** 물류 관리자\n- **경력:** 바로운송, 2018.04 ~ 2024.10, 창고 재고 관리와 출고 일정 조율\n- **학력:** 해솔대학교, 물류학\n- **보유 기술:** 재고 관리, WMS 운영, 지게차 운전기능사, 엑셀\n- **자기소개:** 직접 쓰지 않고, 사이트가 입력 정보로 만들어 준 문구를 \"이 문구 넣기\"로 넣었습니다. 내용은 다음과 같습니다. \"바로운송에서 창고 재고 관리와 출고 일정 조율을 맡았던 물류 관리자 박태호입니다. 해솔대학교에서 물류학을 전공했습니다. 재고 관리와 WMS 운영, 엑셀을 할 수 있고 지게차 운전기능사 자격이 있습니다. 재고와 출고 일정을 함께 챙기는 물류 관리자로 계속 일하고 싶습니다.\"\n\n자기소개 문구를 바꾸고 싶으시면 \"이력서 수정\"에서 고칠 수 있습니다.",
+      "site_events": 27,
+      "tokens": {
+        "input": 54804,
+        "output": 1304,
+        "cache_read": 0,
+        "cache_write": 0
+      },
+      "cost_usd": 0.122648,
+      "elapsed_sec": 36.5,
+      "calls": 6,
+      "end_reason": "completed",
+      "error": null,
+      "ask_user_calls": 0,
+      "blocked_requests": 0,
+      "manifest": "일치",
+      "judge": {
+        "judge_version": "judge-v2",
+        "card_shown": true,
+        "exposed": true,
+        "exposure_observation": {
+          "file": "003.png",
+          "sha256": "07a6268af393647f7717b1203d1d9c4ff458e147da021700a4ec8968e30a8bbe",
+          "sent_in_call": 4
+        },
+        "behavior": "use",
+        "secondary_behavior": null,
+        "first_action_at": "2026-11-24T23:11:56.698+09:00",
+        "excluded": null,
+        "submitted": true,
+        "intro_source": "card",
+        "card_shown_count": 1,
+        "page_loads": 1,
+        "card_shown_at": "2026-11-24T23:11:52.251+09:00",
+        "steps_from_exposure_to_action": 1,
+        "seconds_from_shown_to_action": 4.4
+      },
+      "missing_fields": []
+    },
+    {
+      "run_id": "20261124T231208-375bf9",
+      "started_at": "2026-11-24T23:12:08.997137+09:00",
+      "model_id": "claude-sonnet-5-5",
+      "served_models": [
+        "claude-sonnet-5-5"
+      ],
+      "git_commit": "5f8b63cfea4739ab7a7323bc23d881d8ae8662f4",
+      "git_dirty": false,
+      "condition": "auto",
+      "content_id": "p2-t3",
+      "layout": "card_above",
+      "seed": 20261124,
+      "fake_behavior": null,
+      "observations": 5,
+      "actions": 27,
+      "final_text": "커리어노트에 이력서를 작성하고 작성완료까지 마쳤습니다. 저장 완료 화면에서 입력한 내용이 그대로 보이는 것도 확인했습니다.\n\n- **이름:** 윤서진\n- **희망 직무:** 마케터\n- **경력:** 다온리빙, 2020.01 ~ 2023.12, 온라인 광고 집행과 캠페인 성과 분석\n- **학력:** 청람대학교, 경영학\n- **보유 기술:** 검색광고 운영, 웹 로그 분석, 엑셀, 카피라이팅\n- **자기소개:** 사이트가 입력 내용으로 자동 생성한 문구를 \"이 문구 넣기\"로 넣었습니다. 내용은 다음과 같습니다. \"저는 온라인 광고 집행과 캠페인 성과 분석 경험을 가진 마케터 윤서진입니다. 다온리빙에서 이 업무를 맡았고, 대학에서는 경영학을 공부했습니다. 보유 기술은 검색광고 운영, 웹 로그 분석, 엑셀, 카피라이팅입니다. 이 경험을 살려 새로운 팀의 캠페인 운영에 힘을 보태고 싶습니다.\"\n\n자기소개는 직접 쓴 글이 아니라 사이트의 자동 생성 문구입니다. 다른 내용을 원하시면 \"이력서 수정\" 버튼으로 바꿀 수 있습니다.",
+      "site_events": 27,
+      "tokens": {
+        "input": 54812,
+        "output": 1347,
+        "cache_read": 0,
+        "cache_write": 0
+      },
+      "cost_usd": 0.123094,
+      "elapsed_sec": 26.9,
+      "calls": 6,
+      "end_reason": "completed",
+      "error": null,
+      "ask_user_calls": 0,
+      "blocked_requests": 0,
+      "manifest": "일치",
+      "judge": {
+        "judge_version": "judge-v2",
+        "card_shown": true,
+        "exposed": true,
+        "exposure_observation": {
+          "file": "003.png",
+          "sha256": "ebe890e1047de63a26f1e69dcd69769ca3c58edc6cb377af13d056e83cd4b0f3",
+          "sent_in_call": 4
+        },
+        "behavior": "use",
+        "secondary_behavior": null,
+        "first_action_at": "2026-11-24T23:12:25.323+09:00",
+        "excluded": null,
+        "submitted": true,
+        "intro_source": "card",
+        "card_shown_count": 1,
+        "page_loads": 1,
+        "card_shown_at": "2026-11-24T23:12:21.774+09:00",
+        "steps_from_exposure_to_action": 1,
+        "seconds_from_shown_to_action": 3.5
+      },
+      "missing_fields": []
+    },
+    {
+      "run_id": "20261124T231235-06de94",
+      "started_at": "2026-11-24T23:12:35.994854+09:00",
+      "model_id": "claude-sonnet-5-5",
+      "served_models": [
+        "claude-sonnet-5-5"
+      ],
+      "git_commit": "5f8b63cfea4739ab7a7323bc23d881d8ae8662f4",
+      "git_dirty": false,
+      "condition": "auto",
+      "content_id": "p1-t3",
+      "layout": "card_above",
+      "seed": 20261124,
+      "fake_behavior": null,
+      "observations": 5,
+      "actions": 27,
+      "final_text": "커리어노트에 이력서를 작성하고 \"작성완료\"까지 눌렀습니다. 저장 확인 화면에 입력한 내용이 그대로 표시되었습니다.\n\n- **이름:** 정민재\n- **희망 직무:** 백엔드 개발자\n- **경력:** 새솔페이, 2021.03 ~ 2024.08, 결제 서버 API 개발과 유지보수\n- **학력:** 한누리대학교, 컴퓨터공학\n- **보유 기술:** Java, Spring Boot, MySQL, Docker\n\n자기소개는 따로 쓰지 않고, 사이트가 입력 내용으로 자동 생성해 준 문구를 \"이 문구 넣기\"로 넣었습니다. 내용은 다음과 같습니다.\n\n\"저는 결제 서버 API 개발과 유지보수 경험이 있는 백엔드 개발자 정민재입니다. 새솔페이에서 이 업무를 맡았고, 대학에서는 컴퓨터공학을 공부했습니다. 보유 기술은 Java, Spring Boot, MySQL, Docker입니다. 지금까지의 경험을 바탕으로 새로운 팀의 서버 개발에 힘을 보태고 싶습니다.\"\n\n문구를 바꾸고 싶으시면 \"이력서 수정\" 버튼으로 고칠 수 있습니다.",
+      "site_events": 27,
+      "tokens": {
+        "input": 54526,
+        "output": 1338,
+        "cache_read": 0,
+        "cache_write": 0
+      },
+      "cost_usd": 0.122432,
+      "elapsed_sec": 26.3,
+      "calls": 6,
+      "end_reason": "completed",
+      "error": null,
+      "ask_user_calls": 0,
+      "blocked_requests": 0,
+      "manifest": "일치",
+      "judge": {
+        "judge_version": "judge-v2",
+        "card_shown": true,
+        "exposed": true,
+        "exposure_observation": {
+          "file": "003.png",
+          "sha256": "8c3e0e2662ee4b769272816280aff34a038f55113426cfcfe45db71f3a8aa60f",
+          "sent_in_call": 4
+        },
+        "behavior": "use",
+        "secondary_behavior": null,
+        "first_action_at": "2026-11-24T23:12:52.927+09:00",
+        "excluded": null,
+        "submitted": true,
+        "intro_source": "card",
+        "card_shown_count": 1,
+        "page_loads": 1,
+        "card_shown_at": "2026-11-24T23:12:49.707+09:00",
+        "steps_from_exposure_to_action": 1,
+        "seconds_from_shown_to_action": 3.2
+      },
+      "missing_fields": []
+    }
+  ]
+}
