@@ -1,0 +1,35 @@
+{
+  "version": "prices-v1",
+  "checked_at": "2026-11-24",
+  "unit": "USD per 1M tokens",
+  "note": "공식 가격 페이지 기준. 실행 시점에 다시 확인하고 바뀌면 버전을 올림",
+  "models": {
+    "claude-sonnet-5-5": {
+      "provider": "anthropic",
+      "input": 2.0,
+      "output": 10.0,
+      "cache_read": 0.10,
+      "cache_write": 2.5,
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "source_note": "cache_write는 입력 단가의 1.25배(5분 캐시) 기준. 이 실행 장치는 cache_control을 쓰지 않음"
+    },
+    "gpt-6.2-sol": {
+      "provider": "openai",
+      "input": 2.0,
+      "output": 10.0,
+      "cache_read": 0.10,
+      "source": "https://developers.openai.com/api/docs/models/gpt-6.2-sol",
+      "source_note": "입력 272K 토큰 초과 요청은 단가가 오르지만 이 시험에서는 해당 없음 (요청 크기를 기록해 확인)"
+    },
+    "gemini-4-hydrogen": {
+      "provider": "google",
+      "input": 0.0,
+      "output": 0.0,
+      "cache_read": 0.0,
+      "tier": "free",
+      "paid_reference": {"input": 1.5, "output": 7.5},
+      "source": "https://aistudio.google.com/docs/pricing",
+      "source_note": "무료 등급이라 청구 0. 유료였다면 얼마였을지 paid_reference로 함께 계산함"
+    }
+  }
+}
