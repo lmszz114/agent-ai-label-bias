@@ -32,6 +32,8 @@ python -I mockup/server.py --port 8765
 
 - 커밋 안 된 변경이 있으면 실행하지 않는다. `--allow-dirty`는 가짜 모델에만 허용
 - 조건 배정: 조건 2 × 내용 15 × 버튼 순서 2 = 60칸을 시드로 섞어 앞에서부터 쓴다. 배정표 전체는 `schedule.json`
+- `--per-condition N`: 조건마다 N회, 그 안에서 버튼 순서 절반씩, 같은 조건 안에서 내용이 겹치지 않게 골라 실행 순서를 다시 섞는다 (P6 파일럿부터)
+- 텍스트 판정: `.venv/Scripts/python.exe runner/text_judge.py runs data/pilot` → `data/pilot/_judge/` (원자료 폴더는 건드리지 않음, 사람 검증 표본 페이지 포함)
 - 누적 비용이 설정의 `budget_usd`에 닿으면 다음 호출 전에 멈춘다
 
 ## 실행 1회의 기록 (`<data_dir>/<run_id>/`)

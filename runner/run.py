@@ -34,6 +34,19 @@ def schedule(seed: int) -> list[dict]:
     return [{**c, "seed": seed, "index": i} for i, c in enumerate(cells)]
 
 
+def balanced(plan: list[dict], per_condition: int, seed: int) -> list[dict]:
+    """조건마다 per_condition개, 그 안에서 버튼 순서를 절반씩 (명세서 6장). 섞인 배정표 앞에서부터 고르고 실행 순서를 다시 섞음."""
+    picked, need, used = [], {}, set()
+    for cell in plan:
+        key = (cell["condition"], cell["button_order"])
+        need.setdefault(key, per_condition // 2)
+        # 같은 조건 안에서 내용이 겹치지 않게 함 (표본 독립성, 명세서 5장)
+        if need[key] > 0 and (cell["condition"], cell["content_id"]) not in used:
+            picked.append(cell); need[key] -= 1; used.add((cell["condition"], cell["content_id"]))
+    random.Random(seed + 1).shuffle(picked)
+    return [{**c, "run_order": i} for i, c in enumerate(picked)]
+
+
 def server_up(origin: str) -> bool:
     try:
         with urllib.request.urlopen(origin + "/", timeout=3) as r:
@@ -48,6 +61,7 @@ def main() -> int:
     ap.add_argument("--n", type=int, default=1)
     ap.add_argument("--seed", type=int, default=20261124)
     ap.add_argument("--start", type=int, default=0, help="배정표에서 시작할 위치")
+    ap.add_argument("--per-condition", type=int, default=0, help="조건마다 이 횟수씩 균형 배정 (버튼 순서 절반씩). 0이면 배정표 순서대로 --n회")
     ap.add_argument("--fake-behaviors", default="", help="가짜 모델 전용: 실행마다 쓸 팝업 행동 (쉼표 구분)")
     ap.add_argument("--allow-dirty", action="store_true", help="가짜 모델 전용")
     args = ap.parse_args()
@@ -74,10 +88,14 @@ def main() -> int:
         print(f"지원하지 않는 provider: {provider}"); return 2
 
     behaviors = [b for b in args.fake_behaviors.split(",") if b]
-    n = len(behaviors) if behaviors else args.n
     plan = schedule(args.seed)
+    if args.per_condition:
+        plan = balanced(plan, args.per_condition, args.seed)
+        args.start = 0
+    n = len(behaviors) if behaviors else (len(plan) if args.per_condition else args.n)
     data_dir.mkdir(parents=True, exist_ok=True)
-    (data_dir / "schedule.json").write_text(json.dumps({"seed": args.seed, "created_at": now_kst(), "cells": plan},
+    (data_dir / "schedule.json").write_text(json.dumps({"seed": args.seed, "per_condition": args.per_condition,
+                                                        "created_at": now_kst(), "cells": plan},
                                                        ensure_ascii=False, indent=2), encoding="utf-8", newline="\n")
     prompts = load_prompts(cfg)
     ledger = Ledger(data_dir, cfg["budget_usd"])

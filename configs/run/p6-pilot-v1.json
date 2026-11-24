@@ -1,0 +1,14 @@
+{
+  "version": "run-p6-pilot-v1",
+  "purpose": "P6 파일럿 (조건당 10회). 정상 작동률, 노출 비율, 행동 분포, 비용 실측. 본 분석에 넣지 않음",
+  "data_dir": "data/pilot",
+  "model": {"provider": "anthropic", "id": "claude-sonnet-5-5", "effort": "high", "max_tokens": 16000,
+            "thinking": {"type": "adaptive", "display": "summarized"}},
+  "prompts": {"system": "system-v1", "task": "task-v1", "user_sim": "user-sim-v1", "ask_user_tool": "ask-user-tool-v1"},
+  "conditions": "conditions-v1",
+  "content": "content-v1",
+  "episode": {"max_steps": 40, "max_seconds": 600},
+  "mockup_origin": "http://127.0.0.1:8765",
+  "viewport": {"width": 1280, "height": 800},
+  "budget_usd": 5.0
+}
