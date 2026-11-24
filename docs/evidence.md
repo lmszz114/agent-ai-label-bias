@@ -72,6 +72,7 @@
 |---|---|
 | P2 기술 검증 | `data/p2-techcheck/` |
 | P3 목업 동등성 검사 (API 없음) | `data/p3-equivalence/` |
+| P3 직접 클릭 검사 (API 없음) | `data/p3-manual-check/` |
 | P4 실제 모델 3회 | `data/p4-check/` |
 | P6 파일럿 | `data/pilot/` |
 | P8 본 실행 | `data/raw/` |

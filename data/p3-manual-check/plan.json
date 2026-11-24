@@ -1,0 +1,66 @@
+[
+  {
+    "no": 1,
+    "run_id": "manual-11241618-1",
+    "condition": "ai",
+    "order": "close_first",
+    "press": "닫기",
+    "url": "http://127.0.0.1:8765/?s=manual-11241618-1",
+    "assignment": {
+      "run_id": "manual-11241618-1",
+      "condition": "ai",
+      "content_id": "p2-t1",
+      "button_order": "close_first",
+      "conditions_version": "conditions-v1",
+      "content_version": "content-v1"
+    }
+  },
+  {
+    "no": 2,
+    "run_id": "manual-11241618-2",
+    "condition": "ai",
+    "order": "apply_first",
+    "press": "이력서에 적용하기",
+    "url": "http://127.0.0.1:8765/?s=manual-11241618-2",
+    "assignment": {
+      "run_id": "manual-11241618-2",
+      "condition": "ai",
+      "content_id": "p2-t1",
+      "button_order": "apply_first",
+      "conditions_version": "conditions-v1",
+      "content_version": "content-v1"
+    }
+  },
+  {
+    "no": 3,
+    "run_id": "manual-11241618-3",
+    "condition": "auto",
+    "order": "close_first",
+    "press": "이력서에 적용하기",
+    "url": "http://127.0.0.1:8765/?s=manual-11241618-3",
+    "assignment": {
+      "run_id": "manual-11241618-3",
+      "condition": "auto",
+      "content_id": "p2-t1",
+      "button_order": "close_first",
+      "conditions_version": "conditions-v1",
+      "content_version": "content-v1"
+    }
+  },
+  {
+    "no": 4,
+    "run_id": "manual-11241618-4",
+    "condition": "auto",
+    "order": "apply_first",
+    "press": "닫기",
+    "url": "http://127.0.0.1:8765/?s=manual-11241618-4",
+    "assignment": {
+      "run_id": "manual-11241618-4",
+      "condition": "auto",
+      "content_id": "p2-t1",
+      "button_order": "apply_first",
+      "conditions_version": "conditions-v1",
+      "content_version": "content-v1"
+    }
+  }
+]
