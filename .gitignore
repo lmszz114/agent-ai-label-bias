@@ -12,7 +12,9 @@ venv/
 # Node
 node_modules/
 
-# 실험 산출물 (크기가 큰 원본 로그, 스크린샷)
+# 실험 산출물: 텍스트 기록(JSONL, SUMMARY.md)은 커밋하고,
+# 용량이 큰 스크린샷은 커밋하지 않음 (보관 방법은 P4에서 결정)
+data/**/screenshots/
 runs/
 *.log
 
