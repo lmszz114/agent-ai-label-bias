@@ -12,10 +12,9 @@ venv/
 # Node
 node_modules/
 
-# 실험 산출물: 텍스트 기록(JSONL, SUMMARY.md)은 커밋하고,
-# 용량이 큰 스크린샷은 커밋하지 않음 (보관 방법은 P4에서 결정)
-data/**/screenshots/
-# P2 시험 페이지 수동 점검 기록
+# 실험 원자료(스크린샷 포함)는 증거이므로 커밋함 (docs/evidence.md).
+# P6, P8의 대용량 보관 방법은 P4에서 결정
+# P2 시험 페이지 수동 점검 기록 (실행 장치 기록은 각 run 폴더에 따로 남음)
 p2/testpage/events.jsonl
 runs/
 *.log

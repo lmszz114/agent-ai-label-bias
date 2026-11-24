@@ -1,0 +1,80 @@
+{
+  "received_at": "2026-11-24T14:37:29.794545+09:00",
+  "provider_request_id": "iSIFa5zZK4GA2roPl6LMyQY",
+  "response": {
+    "sdk_http_response": {
+      "headers": {
+        "x-gemini-service-tier": "standard",
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Tue, 24 Nov 2026 05:37:29 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=16152",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      }
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "function_call": {
+                "id": "call_8695485479527572434",
+                "args": {
+                  "y": 180,
+                  "intent": "이름 입력창을 클릭합니다.",
+                  "x": 150
+                },
+                "name": "click"
+              },
+              "thought_signature": "EsEECr4EAWkUfRM6JnkQdy96Rz-MGuGb7DrCVqlky6wwXPVAOdJEVwxGaTexEbKrRwQcXdxNbwiy95wVYJFv_RNJFvlQf6FBAIqvJbTOjjffYJ9x0f_8X82nZgZaMlHmQvTSC4J9iaf9WcYERtSLBPkIfnDCaui7YhzOtXgFYCKvJ1prYJPi58bIZvlhNYePh3wNGG6ZqkL1-ypFycOPnw1peS512wfzVrDNZIua8jIOQPBfmlzcT0g92qKmXkWroFX0-hrQLBO5qh5o3ORWvA9aIvVq2imHA1hNV2ef8dIzwhsLO2t2qI-9rO7SDUx7h_b5iMEbcZYQRXZbC-1we7-Dy1MhqlubKgWgvDr95IZaswP86icdrqW_4ukf8XZ57FeFhpjFg_6o3sF0SWzr3NsUYqyrMlcc8GdE3afhxQXhbD7SmzDELmzmzeMOy8jYvZScur0Y6cCC5iAFn0nzDip-IdB9IZF9NB5y9TjD2NM1p2CuHGCodfZaCyMRSMaSQg5gSBrtWN4yAI3TaPD0WDCcu1CvxtqCesqLqM6f7vUy_6OkQIFOK9GIayn4q_ES2qmYzo-Zh1hjDmRizkYP_Ja1YSDau1U1Q0r4HuLE0RBJiPrjyoC4bLQAW6aBRD6uW8W7gjSCQBbcGcIU2aqcuQG6twWs6jNBUc7xRZtpniHWJmbLUhfJSQG8Ac6jFoACQX18pvcfC1G0_SSU2e7xAodFONbrcW00X-ZVoB9lU-6DKGrPa5UWMojr5oLVrMvcdpkU0Q=="
+            }
+          ],
+          "role": "model"
+        },
+        "finish_reason": "STOP",
+        "index": 0
+      }
+    ],
+    "model_version": "gemini-4-hydrogen",
+    "response_id": "iSIFa5zZK4GA2roPl6LMyQY",
+    "usage_metadata": {
+      "cache_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1781
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 439
+        }
+      ],
+      "cached_content_token_count": 2220,
+      "candidates_token_count": 41,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 41
+        }
+      ],
+      "prompt_token_count": 5521,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 4429
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 1092
+        }
+      ],
+      "thoughts_token_count": 127,
+      "total_token_count": 5689
+    }
+  }
+}

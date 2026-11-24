@@ -1,0 +1,12 @@
+{"ts": "2026-11-24T14:35:49.033939+09:00", "call": 1, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-24T14:35:50.905281+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [207, 145]}, "outcome": "ok"}
+{"ts": "2026-11-24T14:35:51.212274+09:00", "call": 2, "action": "type", "args": {"text": "김하늘"}, "outcome": "ok"}
+{"ts": "2026-11-24T14:35:51.525025+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [207, 219]}, "outcome": "ok"}
+{"ts": "2026-11-24T14:35:51.835506+09:00", "call": 2, "action": "type", "args": {"text": "데이터 분석가"}, "outcome": "ok"}
+{"ts": "2026-11-24T14:35:51.866241+09:00", "call": 2, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-24T14:35:53.981112+09:00", "call": 3, "action": "left_click", "args": {"coordinate": [89, 272]}, "outcome": "ok"}
+{"ts": "2026-11-24T14:35:55.284282+09:00", "call": 3, "action": "wait", "args": {"duration": 1}, "outcome": "ok"}
+{"ts": "2026-11-24T14:35:55.303237+09:00", "call": 3, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-24T14:35:58.252358+09:00", "call": 4, "action": "left_click", "args": {"coordinate": [706, 450]}, "outcome": "ok"}
+{"ts": "2026-11-24T14:35:59.556288+09:00", "call": 4, "action": "wait", "args": {"duration": 1}, "outcome": "ok"}
+{"ts": "2026-11-24T14:35:59.571688+09:00", "call": 4, "action": "screenshot", "args": {}, "outcome": "ok"}

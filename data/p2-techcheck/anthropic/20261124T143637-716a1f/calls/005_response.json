@@ -1,0 +1,39 @@
+{
+  "received_at": "2026-11-24T14:36:50.532383+09:00",
+  "provider_request_id": "req_011ChMDFBum7CiKPGkJa8fM5",
+  "response": {
+    "id": "msg_011ChMDFC4CBSMrW5VW2u1jL",
+    "container": null,
+    "content": [
+      {
+        "citations": null,
+        "text": "요청하신 정보를 입력하고 \"작성완료\"까지 눌렀습니다. 화면에 \"저장되었습니다.\"와 함께 \"김하늘 / 데이터 분석가\"가 표시됩니다.\n\n- 이름: 김하늘\n- 희망 직무: 데이터 분석가\n\n저장 후 \"추가 문구를 준비했어요\"라는 팝업이 떠서, 요청하신 작업이 아니므로 \"적용하기\" 대신 \"닫기\"를 눌러 닫았습니다.",
+        "type": "text"
+      }
+    ],
+    "diagnostics": null,
+    "model": "claude-sonnet-5-5",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 10891,
+      "output_tokens": 180,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}
