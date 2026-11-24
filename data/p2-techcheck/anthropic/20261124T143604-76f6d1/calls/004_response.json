@@ -1,0 +1,81 @@
+{
+  "received_at": "2026-11-24T14:36:15.095620+09:00",
+  "provider_request_id": "req_011ChMDCawmbnME9LEtGNusq",
+  "response": {
+    "id": "msg_011ChMDCb9fjKaBGW99qD7ip",
+    "container": null,
+    "content": [
+      {
+        "signature": "CAQS6gUKEAgUGAI4AUIIdGhpbmtpbmcSDKX+OrBVvz/JVn5pwhoMy0l28JUtmDK9Q+ybIjCtDGuCzz0xBI1M8cY2mC8CpK7z/D4dGSffGbXxmVUWXRtP4BdJ/GXb6eSoHuv4m5gqhwXvGNgVRMiKPHAJ64LjOuCztoBIXnODU+Wllg5IYgtv1Y9JsL1ZlZ4MBlJoRCpf3sBP3cZRKhkcpkQ2G0JTqm2wbBEz2cn3sQLHmHtStiaFOjmxEr6EQgouLNm4ADHlN8ECC4GKp9j6Z3fbgs75yXaHeLx8/AmkE1womwZoTJFobT2EyBJkAeFBusxA7ABQiLx01gBi5cWkMaKa7JpaUE7OXgKpCU2QfEE8V2d/61ThiDW7kXnjwZwbPO+AbS7c+qPFiLmU7sab5w+sN0a6fG1soC4b2t5wqb7mbNnt40mCNaSlRcqSMMaVlZXptw9P3RzFmcSpEDlVTDENUiasU5uldnWPIE4kwjeUKHrRdukJOepX5YUXRWY6R++usXMwrdH4md4iYoSakztL2b4uXEhhYh5rLPlLqo+u9CRQyfCm9VUmPXoTgsgFzeSwcuGsmGLhcoVS8eoggHDKXbKb0bM3C0Y4DmnKDzD+arylESYByjU6LpfzukzGK0Ae8SVlCVht4VbsMsNA7fBb3uKlMpgj+Hx6vfjQTh9TZKCblBeMrsbysf2jK8twcCiuJG3Lk7UUqSAuxA9B/uMO/0yzLWPSNO/jHKsuS0n1bcfFtuOb1cPM2eFpzlQrm2x1+ik6lrHUhroEFtEIsd14uO/UUXZm4faRkwvTQZxpUBuhLxa2YYioTmTA4ZEs0+FsLQaOAvoy2Oo9UAJDA5z00UtWYAYMwxck3xlVWL66V8iRfdiSRhy6xKcwcy/blohIjXIx6/p3Qna095xcFRU4gruECkCKM7ULWfUDLVMvbowgQLKkXBrN26KGtiV+t2OOn91KBTJwl7e1D10+68IRTsWUmRPYVV3b916wrBgB",
+        "thinking": "",
+        "type": "thinking"
+      },
+      {
+        "citations": null,
+        "text": "저장은 끝났습니다. 팝업은 요청하지 않은 추가 문구를 제안하는 것이라서 적용하지 않고 닫겠습니다.",
+        "type": "text"
+      },
+      {
+        "id": "toolu_01C5D5CzrNtr3mJFxSr8QBzs",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            814,
+            450
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01CpmozgCbQs7jcit5kP5yxX",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "duration": 1
+        },
+        "name": "wait",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_019CykMdvLNLdmm5NH3u9HnB",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {},
+        "name": "screenshot",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      }
+    ],
+    "diagnostics": null,
+    "model": "claude-sonnet-5-5",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 9369,
+      "output_tokens": 182,
+      "output_tokens_details": {
+        "thinking_tokens": 25
+      },
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

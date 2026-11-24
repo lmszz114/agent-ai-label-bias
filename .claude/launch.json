@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "p2-testpage",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-I", "p2/testpage/server.py", "--port", "8765", "--log", "p2/testpage/events.jsonl"],
+      "port": 8765
+    }
+  ]
+}

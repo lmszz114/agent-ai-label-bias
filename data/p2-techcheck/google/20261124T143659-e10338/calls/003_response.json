@@ -1,0 +1,80 @@
+{
+  "received_at": "2026-11-24T14:37:49.414213+09:00",
+  "provider_request_id": "miIFa8DMEJ3t2roP2PDTwQY",
+  "response": {
+    "sdk_http_response": {
+      "headers": {
+        "x-gemini-service-tier": "standard",
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Tue, 24 Nov 2026 05:37:49 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=19225",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      }
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "function_call": {
+                "id": "call_7268375415480311356",
+                "args": {
+                  "press_enter": false,
+                  "intent": "이름 입력창에 김하늘을 입력합니다.",
+                  "text": "김하늘"
+                },
+                "name": "type"
+              },
+              "thought_signature": "Er8BCrwBAWkUfRMho3gSXDCvCOh063e02wfvNKIJ0btVffSBY_IKxMQwZ-fdDF7dC6K3H23eViswRXUuDF3FK4S8lPjGlNz3MlNooDuW2d6f73futoW4lkmgay5m3RmosHt8qAKO05hIRW_MkoOTO7djIBeupFIYwSSG_eWrXf0DnKcYgjqq5OkuF-XG4uE8zrkCRQB487Qn1PJWyAnRID6HG1wKFw9FkN5RUwLepDdXKYjbzZAwy7IoRoEUJuuknbU="
+            }
+          ],
+          "role": "model"
+        },
+        "finish_reason": "STOP",
+        "index": 0
+      }
+    ],
+    "model_version": "gemini-4-hydrogen",
+    "response_id": "miIFa8DMEJ3t2roP2PDTwQY",
+    "usage_metadata": {
+      "cache_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 2856
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 1335
+        }
+      ],
+      "cached_content_token_count": 4191,
+      "candidates_token_count": 46,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 46
+        }
+      ],
+      "prompt_token_count": 6853,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 4669
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 2184
+        }
+      ],
+      "thoughts_token_count": 10,
+      "total_token_count": 6909
+    }
+  }
+}

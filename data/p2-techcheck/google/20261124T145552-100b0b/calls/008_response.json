@@ -1,0 +1,69 @@
+{
+  "received_at": "2026-11-24T15:05:10.006754+09:00",
+  "provider_request_id": "pCgFa_jhKJbM2roPr97DwQY",
+  "response": {
+    "sdk_http_response": {
+      "headers": {
+        "x-gemini-service-tier": "standard",
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Tue, 24 Nov 2026 06:05:09 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=113461",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      }
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "function_call": {
+                "id": "call_12793823513603377796",
+                "args": {
+                  "x": 552,
+                  "y": 563,
+                  "intent": "추가 문구 안내 창 닫기 버튼 클릭"
+                },
+                "name": "click"
+              },
+              "thought_signature": "ErUICrIIAWkUfRM-Xu8Lo_d3XTElzkjuwBXaG1pHO2iPJ5jJWn3v_AMfsblWZy4ZN9IKULgTuMFigLvqz-meA6cdyC5ssVFxtV3JaPYpGBffZVIqWgoDIOwiqUv4LScWAuYzSIoTiO2hevyO_NpVTo21a0wCV86C6NyIEj31JRNZWwETZbC6XYerSxc9V6aEi83khsXH-TjWECVoReyxDAhKB5qPyHbxIcy8xRGt-rGj8_s47gsHUG_O82BC7aCpKP2dAZ5qYNaK1KvxYF5hcOO9lAOLLQFQBAV-D-LMV0xNL4y-GOL1B_c79bv_tfbi-CO9-PuSZb76Rp1PZAAxmLUaiCAoxyBu7ls3RRNljNCY6-p2nL1GH4f7zagF8B5l-tJCZgVhRj3-NzfnyDGKvzkwSIw0GH_IFeQ4vw5__3_3KJL7HTbfAk6JKtN5S111iabe8P4eJoVTIJZN0BBnYeyB5hLcDSnxabJYT6avd0MuZtA-YNFWN81J4j6OEY-HIiUn5N3W6pdHYXlIvzvuBna_ceSeY8Dg_tJD8JxaMHzEiNfT3ZRNziY2kdopMotT9rMX6B3mFBLWi4SXuRlCLBjGHkO9nzxssIyS7kJQ20TV6YlNA3RSkraNusdWM4YOtJfPcJRUNbzSmQ-MTF6YMnyE70cXECLfZYpfU05ww9BbgRaHWYEtfBr_xTcijP21-WzhSvODF6NVuqfRSpGnOQ23xCKawrKCVSQNw1lLrPBGiLKcq_LI2v-kTs-7wKM1OLVOrZI1jKDCgSmNWBK8O1WE0-q6HoeAJ9y57PSynHlSwQASQUvUeqq6OsRpdp31gUAlNzfHLetnjv7zURj0w53VanDn5GhmpXfiHJTYO2QJcAdIc83bmpKRd7hCN2I9X0AspvAxD7VkQF3ZMG1LnPESVhAZGsxGItqwCpgL_p9HHcq_B0fIGixmFYGBh1Kl1M0Ezx7IDoKLvRXp1rYGNl-ISzEQZEuT1Mg3OZzj012_bbQOfDfAXSQWcEB895iZiYospa1SezNsImTYo_R7U4MNdsWye43YVV-zZdu_SCMtcfmkIix8GxrTKSgrkHEYF6-aVAqPgsWqIkCwfKZJHVlrADUmPs5otOLYHx_RQq1c6-dviFNJTw1RfF3QvAJO_Xt0vswJATnFoVa5wQY9rI5sn_o7B7F3tcaQbxDUAZ9c7ELMVrMUTIAsp1gPn7nuJv1wgiNzIRgst_sG_g_fIQfLqToHO4DezeIICO31DXTc9rdPW16pPPCPW0x_Xv35jyb6clRGZlTPvlN9B1VSTZyZoypFIT2XS-DId_Y7HtpcRvn0ZBM1kuljSHXHRjefazDfY2hVi0t1SUqMM-0chiGduHqZ5tKi-AsHn1QSq9Iz0R2K7F1W7JasDOBUCqfsiwHWrEj_MS_Zg38AQCWOs6YwmUl0D1Wq"
+            }
+          ],
+          "role": "model"
+        },
+        "finish_reason": "STOP",
+        "index": 0
+      }
+    ],
+    "model_version": "gemini-4-hydrogen",
+    "response_id": "pCgFa_jhKJbM2roPr97DwQY",
+    "usage_metadata": {
+      "candidates_token_count": 42,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 42
+        }
+      ],
+      "prompt_token_count": 12799,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 6247
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 6552
+        }
+      ],
+      "thoughts_token_count": 217,
+      "total_token_count": 13058
+    }
+  }
+}

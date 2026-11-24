@@ -1,0 +1,69 @@
+{
+  "received_at": "2026-11-24T14:39:09.263178+09:00",
+  "provider_request_id": "3CIFa6qQDdWMvr0PjPGoqAM",
+  "response": {
+    "sdk_http_response": {
+      "headers": {
+        "x-gemini-service-tier": "standard",
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Tue, 24 Nov 2026 05:39:09 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=33321",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      }
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "function_call": {
+                "id": "call_8098464357840500127",
+                "args": {
+                  "text": "데이터 분석가",
+                  "press_enter": false,
+                  "intent": "희망 직무 입력창에 데이터 분석가를 입력합니다."
+                },
+                "name": "type"
+              },
+              "thought_signature": "EsgBCsUBAWkUfRMqo6WqTip323wrUfTJZoGtZGlhv_uIDqIzSrUdbP1xD9ect51wQI0ZL_W4_fGWhqGFt7CZ-aVq8vvZ7nJ_517sPeDG_dlY9bwqw76_9NtO9uHtgpQCzHhODX7I8mzrTS2rzVssXlcqeDfGvt0wkAdz-bYh660xq1ua-PB-LY6e0YS4ZnbbNB2I8Gd-v5P3XSQ7Ky925BooT33OWnAMrEGTiz7slqahSWWz759_8yWnmSjVAFQtqsOD0LGq0rperas="
+            }
+          ],
+          "role": "model"
+        },
+        "finish_reason": "STOP",
+        "index": 0
+      }
+    ],
+    "model_version": "gemini-4-hydrogen",
+    "response_id": "3CIFa6qQDdWMvr0PjPGoqAM",
+    "usage_metadata": {
+      "candidates_token_count": 49,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 49
+        }
+      ],
+      "prompt_token_count": 9305,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 4937
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 4368
+        }
+      ],
+      "thoughts_token_count": 10,
+      "total_token_count": 9364
+    }
+  }
+}

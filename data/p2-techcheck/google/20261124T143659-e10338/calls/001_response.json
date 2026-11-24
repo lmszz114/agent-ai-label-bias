@@ -1,0 +1,63 @@
+{
+  "received_at": "2026-11-24T14:37:13.257657+09:00",
+  "provider_request_id": "fCIFa8G_Bbmgvr0P7ZLD-Qs",
+  "response": {
+    "sdk_http_response": {
+      "headers": {
+        "x-gemini-service-tier": "standard",
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Tue, 24 Nov 2026 05:37:13 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=13225",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      }
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "function_call": {
+                "id": "call_17779708276081718664",
+                "args": {
+                  "intent": "현재 브라우저에 열린 페이지의 상태를 확인합니다."
+                },
+                "name": "take_screenshot"
+              },
+              "thought_signature": "EpsDCpgDAWkUfRNOdYQq-egycfZ8Ndn8AxFAeIS5sN5fL2OfnpVnqErF8HutHy1EWiL25JGwtjmFm1f206j4vLfkRpo9eH3ojHTw5sR2nm3oEtsPFBVaoSm_lYgj9mDt2b6XVrRziuFz267XnFKirHxZ4vV_92I-vtNrsrYv1H8_0LxjqK6pu7YfSqAXRlXCRjx9BOFW00Nf6lCRVlsegsLXqrCktcP6Boq-klwAO_dfKb61ShnajB5fDRbYTPO4ayhVrliofRq_UWyn2YsQUmCjki1rRTIxZ_lt65X06MgJUJeZCVGqPz_BBl9mzKtUMClkypFybvxJh0nijNnzdk29RnvgxBi6KJHvctnDGFzGKdRsEXhcQkh2f_tqw5zvH_ITaqS_fzCc3Jm0MQoczkjvyIpnjnYupmvnb1IO7YxqUM2IYs5QXZ85-6Co-wF-szmm_nqVe3IOm9gr_hsvEd7xoBZRy2gOeJxwqzhvWcHUjJVVsr94QFk085kTuxjnXg4rxQ9eDD17tJADavyjpnG3gJnbSMi5hWyoOtwp"
+            }
+          ],
+          "role": "model"
+        },
+        "finish_reason": "STOP",
+        "index": 0
+      }
+    ],
+    "model_version": "gemini-4-hydrogen",
+    "response_id": "fCIFa8G_Bbmgvr0P7ZLD-Qs",
+    "usage_metadata": {
+      "candidates_token_count": 33,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 33
+        }
+      ],
+      "prompt_token_count": 4269,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 4269
+        }
+      ],
+      "thoughts_token_count": 52,
+      "total_token_count": 4354
+    }
+  }
+}

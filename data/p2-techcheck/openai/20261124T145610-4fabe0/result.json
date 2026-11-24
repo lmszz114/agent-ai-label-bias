@@ -1,0 +1,9 @@
+{
+  "end_reason": "completed",
+  "final_text": "이름은 **김하늘**, 희망 직무는 **데이터 분석가**로 입력하고 ‘작성완료’를 눌렀습니다'\"'습니다. 화면에서 저장이 완료된 것을 확인했습니다.",
+  "ask_user_calls": [],
+  "safety_checks": [],
+  "calls": 4,
+  "screenshots": 3,
+  "elapsed_sec": 17.5
+}

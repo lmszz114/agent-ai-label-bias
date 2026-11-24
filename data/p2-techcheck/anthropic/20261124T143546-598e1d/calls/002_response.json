@@ -1,0 +1,98 @@
+{
+  "received_at": "2026-11-24T14:35:50.598915+09:00",
+  "provider_request_id": "req_011ChMDArT7y5rCdQ3cz4p5X",
+  "response": {
+    "id": "msg_011ChMDArsfxna5Ytmb4PThi",
+    "container": null,
+    "content": [
+      {
+        "id": "toolu_0178vSM1xSpSGEbHkKN321Fn",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            207,
+            145
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01MRUNUVHivDiioSk6YyaikN",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "김하늘"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01HPksJKDk9xxcozBBHEJ97p",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            207,
+            219
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_015PBF86CZ9eUdhnvTcux7Ab",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "데이터 분석가"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01CZgb6q7Rxj3JV9HA1Am5MA",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {},
+        "name": "screenshot",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      }
+    ],
+    "diagnostics": null,
+    "model": "claude-sonnet-5-5",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 6280,
+      "output_tokens": 144,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

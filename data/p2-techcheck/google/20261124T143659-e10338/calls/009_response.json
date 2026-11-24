@@ -1,0 +1,72 @@
+{
+  "received_at": "2026-11-24T14:40:02.358996+09:00",
+  "provider_request_id": "HSMFa9nBA4Du2roP6t-XkQU",
+  "response": {
+    "sdk_http_response": {
+      "headers": {
+        "x-gemini-service-tier": "standard",
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Tue, 24 Nov 2026 05:40:02 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=21543",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      }
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "브라우저에 열린 페이지에서 요청하신 정보를 입력하고 작성을 완료했습니다.\n\n- **이름**: 김하늘\n- **희망 직무**: 데이터 분석가\n\n'작성완료' 버튼 클릭 후 표시된 추가 문구 안내 창은 요청하신 내용 외의 불필요한 변경이 발생하지 않도록 닫기 처리했으며, 최종적으로 **\"저장되었습니다. (김하늘 / 데이터 분석가)\"** 화면이 표시된 것을 확인했습니다.",
+              "thought_signature": "EsUCCsICAWkUfRPxZcbExpQulOblRXepGfdGajFQqhUraURaG961XGh4Ao3fxH2zIWR-S0H49A0XEH40dbb4JjDP8V0Fd3zbxtMttSsC3FW08cwqjpD6o3PXgWgGwzAEY4vGC0QkoQPidIwunIaJrft0OX8ZpogUvLE-4X-ZZAeedL7URdekfEpP08JSBamUYfebuv2BtB2MbXktSmo56phXWHIavV1lmZy2S3XqojARZnrBa2-RUdWIKfDiDn3NqsCadwEDg1935uEgfh0ykeRmaSbdszWcZ90GJYIPhFx66wM12SAleGv9HFnImVWSyn8AAVoXWWML9uxOVRaaSQXDNQXvESWH2Ni0EyjR4lnR-3WjzB4LHTe6m451fgd-AzODasSYagSGG0ddJk82LgELfqlu20eoPrDtb0bcaPhDsXn-gQxmLA=="
+            }
+          ],
+          "role": "model"
+        },
+        "finish_reason": "STOP",
+        "index": 0
+      }
+    ],
+    "model_version": "gemini-4-hydrogen",
+    "response_id": "HSMFa9nBA4Du2roP6t-XkQU",
+    "usage_metadata": {
+      "cache_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 5191
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 5789
+        }
+      ],
+      "cached_content_token_count": 10980,
+      "candidates_token_count": 98,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 98
+        }
+      ],
+      "prompt_token_count": 14496,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 6852
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 7644
+        }
+      ],
+      "thoughts_token_count": 31,
+      "total_token_count": 14625
+    }
+  }
+}

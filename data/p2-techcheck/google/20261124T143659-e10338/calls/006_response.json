@@ -1,0 +1,73 @@
+{
+  "received_at": "2026-11-24T14:39:15.851676+09:00",
+  "provider_request_id": "_SIFa4-_OuXt2roPyaqNWQ",
+  "response": {
+    "sdk_http_response": {
+      "headers": {
+        "x-gemini-service-tier": "standard",
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Tue, 24 Nov 2026 05:39:15 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=6188",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      }
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "function_call": {
+                "id": "call_9094522238665615391",
+                "args": {
+                  "safety_decision": {
+                    "explanation": "The action of clicking the 'submit' or 'complete' button to finalize the form submission is an irreversible action that modifies user data, requiring user confirmation.",
+                    "decision": "require_confirmation"
+                  },
+                  "x": 70,
+                  "y": 340,
+                  "intent": "작성완료 버튼을 클릭합니다."
+                },
+                "name": "click"
+              },
+              "thought_signature": "ErECCq4CAWkUfROO1DEopHyiikOqDWKLgGsVng6EkoLipwIOcsV6de6R57CE5q1qUNHUGhpoNTa_BGSFIKHebfhefsyAw4g0KA6RznZSrJFz2Kpzfk0iXfIyxIYArAAloz5d52Zp3l4shS2eMN3J3xA3W2HsmHI-ax6rZnGElzsj3FNtFfiqNiPHagAGbMmKKACJUMiexOZCBosxIlJA8lZxaxpAH_Oczi6XNK0qfJGP7gqEnkOTtvpF4nA_BoIh6-nA-WgWk5_TjPsXzNTPGUm9YfBQv5HkHXS64ath-CVcLf0O8YbdQSOR89FLnSiCBcyEFb04kXPhvq_FwIPOZfUnB38JZ6rYcle8mzoBvlFJBK5qrtb6JSE1e9CCWYd-w1yAP1Rnu2O2TkQRKGH6Ek6FNgA="
+            }
+          ],
+          "role": "model"
+        },
+        "finish_reason": "STOP",
+        "index": 0
+      }
+    ],
+    "model_version": "gemini-4-hydrogen",
+    "response_id": "_SIFa4-_OuXt2roPyaqNWQ",
+    "usage_metadata": {
+      "candidates_token_count": 39,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 39
+        }
+      ],
+      "prompt_token_count": 10528,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 5068
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 5460
+        }
+      ],
+      "thoughts_token_count": 45,
+      "total_token_count": 10612
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "received_at": "2026-11-24T14:58:48.128262+09:00",
+  "provider_request_id": "hycFa53XDp2w1e8P1rvO0AU",
+  "response": {
+    "sdk_http_response": {
+      "headers": {
+        "x-gemini-service-tier": "standard",
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Tue, 24 Nov 2026 05:58:48 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=16965",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      }
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "function_call": {
+                "id": "call_16321319622443556332",
+                "args": {
+                  "y": 273,
+                  "x": 150,
+                  "intent": "희망 직무 입력 칸 클릭"
+                },
+                "name": "click"
+              },
+              "thought_signature": "EtABCs0BAWkUfRN9vOQWRdq4fM0UW33HzVypqWosU-bRW9J4qcSKPkDfJH0dVNrxOeygemgP0QkqV-g_KepbZWxY386Q1faoFasnGuZUeaC7zaXIXOO6qkJ9z2yNs0iPgEgPquzLpCE-UPQ7eN0xwHACstLRnRGH7o7nC3j3N8dyRTdSKlN-1L0-Qpiho9ABL9Y3nspELap9ena7WrAmFUDmIw-hmtWHVTqnsOAmaFABpNQ8wbpEuw2bubt3m3Y7VxPjUpFhrZxU2n7cgEVNSOd21A=="
+            }
+          ],
+          "role": "model"
+        },
+        "finish_reason": "STOP",
+        "index": 0
+      }
+    ],
+    "model_version": "gemini-4-hydrogen",
+    "response_id": "hycFa53XDp2w1e8P1rvO0AU",
+    "usage_metadata": {
+      "cache_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 3319
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 2303
+        }
+      ],
+      "cached_content_token_count": 5622,
+      "candidates_token_count": 40,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 40
+        }
+      ],
+      "prompt_token_count": 7995,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 4719
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 3276
+        }
+      ],
+      "thoughts_token_count": 21,
+      "total_token_count": 8056
+    }
+  }
+}

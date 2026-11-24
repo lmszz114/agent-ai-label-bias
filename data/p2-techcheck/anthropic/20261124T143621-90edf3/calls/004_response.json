@@ -1,0 +1,69 @@
+{
+  "received_at": "2026-11-24T14:36:32.358775+09:00",
+  "provider_request_id": "req_011ChMDDp55QtUgSSbjRRDhL",
+  "response": {
+    "id": "msg_011ChMDDpDmFj8Zfkz19qskL",
+    "container": null,
+    "content": [
+      {
+        "signature": "CAQS8wUKEAgUGAI4AUIIdGhpbmtpbmcSDKjcK/mm7oJ5voITfRoMbn4karTlRxxRdOlyIjAX3umTPNO/jhRmfrggcGW1V+LXTVFlGuYBmY/n/mvHkECM78DmlVfycilNUvmN4cUqkAUkfx3CPcWe/4J+3iApOIQaRKUY/zr7MTqYk2E4HIm/RfPYcBai27UTBUw0mnzDnN6B/hPG6eQ3ZpqKuFio8XIVtfLEftikYFjahnpRGdQ45Za9zg9LmvZrX73WH0GPQrr7u9mQpKjiG8eN/z1MNyGDe7CIaHlbuutiLSJos6jEXB55O7aXobJrQcpgxnsg1SUSD3K46A5nlPfweAFJpeAxn4kJdJr03SJ4p2qfOTmZVj4a1gbwvqNZV7dlThYUtENMEiixsu3H+3DHYyFfkpC5d3sWvY7+0bSIPkNSVgEwmCIzLuq32722vCSBgjyXf7Z4vMEGXCkEFBxI4o4qCMRwOgFWMXuvZ02nqLoZna7cXr6SJESE2H3CiqOdoVjYSjsMUSH2tIQ0sT2RDf1E7MS+6oamFtN6qokqHAi1BrDQAZuU/5S0eHIYNuXaVNC/2q6eUU7kSU7F9mN5pjL4Wa43UzJLrmWAetKt0/Iybc/qXc+OH3USzKySKfbmXDWQFoHHODQ6mOmSyvMzGt0mGbcvlZQz0hj8Q9jcWDfynm6GyK+WkY7yND0d4sevJ1m7F6l7ydsiwZ0DswQUxYLXbsctVlPQcZKureSzi9Wr4BsE10cuXspKpUNseIg9u93u9JOJuM7o4w+Q3beCJrwKoeCSJ6wpf2CbRn1Nn3bG1XxQ21zluIZN0H+wppKoIgxEYYCmybtCYC1O1wACW0YPFCp/7CCL3A1ZSIlBsFG/cgrlm3P9Bp/bW/MC+UqUUgUra8QFv1s1EEHpdHbdHcioLRuj2bNcShoPUBwnF4nIclZBomTfxaln18SNU2pYCvOJ/fAyRpHEOWDUxSzFb0Xxt6jPm9A2SVCWFe6G0UuX3jCaHBgB",
+        "thinking": "",
+        "type": "thinking"
+      },
+      {
+        "citations": null,
+        "text": "저장은 끝났습니다. 팝업에서 추가 문구를 적용할지 묻는데, 요청하신 작업이 아니므로 \"닫기\"만 누르겠습니다.",
+        "type": "text"
+      },
+      {
+        "id": "toolu_01M6ya5bk7LjcHQuoYU4HLR1",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            706,
+            450
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01VVx9ajKdNrQCqfW1Jxk8N1",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {},
+        "name": "screenshot",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      }
+    ],
+    "diagnostics": null,
+    "model": "claude-sonnet-5-5",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 9341,
+      "output_tokens": 181,
+      "output_tokens_details": {
+        "thinking_tokens": 33
+      },
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

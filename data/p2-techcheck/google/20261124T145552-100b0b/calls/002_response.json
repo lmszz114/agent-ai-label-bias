@@ -1,0 +1,69 @@
+{
+  "received_at": "2026-11-24T14:58:06.661756+09:00",
+  "provider_request_id": "XCcFa9WHNtrD0-kPxcLZ0AY",
+  "response": {
+    "sdk_http_response": {
+      "headers": {
+        "x-gemini-service-tier": "standard",
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Tue, 24 Nov 2026 05:58:06 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=17847",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      }
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "function_call": {
+                "id": "call_10444546551157162386",
+                "args": {
+                  "intent": "이름 입력 칸 클릭",
+                  "x": 150,
+                  "y": 180
+                },
+                "name": "click"
+              },
+              "thought_signature": "EtsDCtgDAWkUfRNJg8KlLPxIJZ3Er1YdZCGx3BMOC6k0oddWvbdp_iBs86v8JFhhlEvepB56bkXZ53TixBgk4c-qEC3DFsBx6e2jZUWFTk1DDFtQ6Qx6OKS45NrzU8QmrQwg8YAipM1SyLLUIKDe6xL4jDPP8qty9BDdtkXgmbhGJBb2LKbiuB3dln149mPKrtmqwzPdtZ1Yj9EonYpQlvkaGt3c2ruh2N3y7Akdn4f7JRC1-KP-pCgSs9tAWT8g09c0GAWD68ygJdNFtIrUqve_CswguNROGFI3j8kdTiNVCPiBWILtlQl8HMMMKYFH-wx6-5gAnHh_Fofr9yjivnmlGxYy7oDhLYCfV1eVlcm0gxhGzfhzQ35bgRRahOwwrJ7P7VnQScWgo7_AuhSnneBwsEuk6DhlleY7pi9mpzwC75YOMA8TKyk6729u8mbCEN7b2NzxIIp8GHRia24M-06myANzIXceSaaJmtv7hEb9vF2YNEcM1pHQWGiGU8EQb8xTpXagU6bEmQv3XaRfLzE_bVygL67FJDnhfRGN2kOIDOnQV3cHGoEtDTxrp0PwvpPst8GPyy6TqQ5yypAYxnldRDcCqo9h2A3rbZkEm-h0dyoT3TZq09Mjjp7ewA=="
+            }
+          ],
+          "role": "model"
+        },
+        "finish_reason": "STOP",
+        "index": 0
+      }
+    ],
+    "model_version": "gemini-4-hydrogen",
+    "response_id": "XCcFa9WHNtrD0-kPxcLZ0AY",
+    "usage_metadata": {
+      "candidates_token_count": 37,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 37
+        }
+      ],
+      "prompt_token_count": 5481,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 4389
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 1092
+        }
+      ],
+      "thoughts_token_count": 103,
+      "total_token_count": 5621
+    }
+  }
+}

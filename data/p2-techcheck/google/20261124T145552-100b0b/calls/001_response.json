@@ -1,0 +1,63 @@
+{
+  "received_at": "2026-11-24T14:57:48.417478+09:00",
+  "provider_request_id": "6SYFa_v8FYDu2roP6t-XkQU",
+  "response": {
+    "sdk_http_response": {
+      "headers": {
+        "x-gemini-service-tier": "standard",
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Tue, 24 Nov 2026 05:57:48 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=115129",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      }
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "function_call": {
+                "id": "call_13375889807240345113",
+                "args": {
+                  "intent": "현재 열린 브라우저 화면 확인"
+                },
+                "name": "take_screenshot"
+              },
+              "thought_signature": "EuEBCt4BAWkUfROce0v4Q5izkbzfk_mj0PYZWaJapOcbNlWITeotteTJ1So_FpD366zDr3NdqKlD5luXrnkZok8EGl3UY3qF4qA6_vuUXw6ntIy3DtTcVk8iPQtiAglbx6R2ySuBe6xsmgn66xlVTqPoYREcaGBDB0z321uNw3K5WMQTqxEUymD9qGx6B8hvLpsKq5jvTUStZ8Yfej3a4jSo6ZQjNnBnsR2xI_tC9SXt1pMdvFCEHX3wrIiHgzdvzQwAPyErl4DjZI9BvglUWcgkNCJYwfGTLSQEK2pfq7iUUo0G"
+            }
+          ],
+          "role": "model"
+        },
+        "finish_reason": "STOP",
+        "index": 0
+      }
+    ],
+    "model_version": "gemini-4-hydrogen",
+    "response_id": "6SYFa_v8FYDu2roP6t-XkQU",
+    "usage_metadata": {
+      "candidates_token_count": 28,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 28
+        }
+      ],
+      "prompt_token_count": 4269,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 4269
+        }
+      ],
+      "thoughts_token_count": 17,
+      "total_token_count": 4314
+    }
+  }
+}

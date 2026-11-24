@@ -1,0 +1,10 @@
+{
+  "end_reason": "error",
+  "final_text": null,
+  "ask_user_calls": [],
+  "safety_checks": [],
+  "error": "AuthenticationError: Error code: 401 - Your API key has expired. Create a new API key to continue.",
+  "calls": 0,
+  "screenshots": 0,
+  "elapsed_sec": 2.2
+}

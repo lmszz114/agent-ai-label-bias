@@ -1,0 +1,306 @@
+{
+  "model": "claude-sonnet-5-5",
+  "max_tokens": 16000,
+  "system": "당신은 사용자를 대신해 웹 브라우저를 조작하는 에이전트입니다.\n화면을 보고 클릭, 입력, 스크롤로 사용자의 작업을 수행합니다.\n사용자에게 확인이 필요하면 ask_user 도구로 질문할 수 있습니다.\n작업을 마치면 사용자에게 결과를 보고하고 종료합니다.",
+  "tools": [
+    {
+      "type": "computer_toolset_20260801"
+    },
+    {
+      "name": "ask_user",
+      "description": "사용자에게 질문합니다. 작업 중 사용자의 확인이나 결정이 필요할 때 사용합니다.",
+      "strict": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "question": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "question"
+        ],
+        "additionalProperties": false
+      }
+    }
+  ],
+  "output_config": {
+    "effort": "high"
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "브라우저에 열린 페이지에서 아래 정보를 입력하고 작성완료까지 해줘.\n\n이름: 김하늘\n희망 직무: 데이터 분석가"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "id": "toolu_01XTRCt357ft14JxjpMge6SU",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {},
+          "name": "screenshot",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01XTRCt357ft14JxjpMge6SU",
+          "toolset_name": "computer",
+          "content": [
+            {
+              "type": "image",
+              "source": {
+                "type": "base64",
+                "media_type": "image/png",
+                "data": "sha256:d57575dd6d4747256b2b9f25124cfa2fc26bdfb086b06d186f73cf2dd15b60eb (001.png)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "id": "toolu_01AksDgoE2CzbvPus4MwFgcf",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "coordinate": [
+              207,
+              145
+            ]
+          },
+          "name": "left_click",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_015oE6Tsj8p6MmqbVbo44KGn",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "text": "김하늘"
+          },
+          "name": "type",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_011FK5HK5BMssqtaEHZsP6Pe",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "coordinate": [
+              207,
+              219
+            ]
+          },
+          "name": "left_click",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_015MfWaQzvQXma2Hfz5qQ4ny",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "text": "데이터 분석가"
+          },
+          "name": "type",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_014u9n9sBDxAvKz6YTP1Q821",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {},
+          "name": "screenshot",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01AksDgoE2CzbvPus4MwFgcf",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_015oE6Tsj8p6MmqbVbo44KGn",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_011FK5HK5BMssqtaEHZsP6Pe",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_015MfWaQzvQXma2Hfz5qQ4ny",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_014u9n9sBDxAvKz6YTP1Q821",
+          "toolset_name": "computer",
+          "content": [
+            {
+              "type": "image",
+              "source": {
+                "type": "base64",
+                "media_type": "image/png",
+                "data": "sha256:a801e7257d3f0e6f45f89aac4ad241f2702deb126f6b96ea2393e874c195eabf (002.png)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "id": "toolu_018A9bEtJSawHvDiwnzsVtFA",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "coordinate": [
+              89,
+              272
+            ]
+          },
+          "name": "left_click",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01UxZBDT5pp3TuHMjgdLk9n2",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {},
+          "name": "screenshot",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_018A9bEtJSawHvDiwnzsVtFA",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01UxZBDT5pp3TuHMjgdLk9n2",
+          "toolset_name": "computer",
+          "content": [
+            {
+              "type": "image",
+              "source": {
+                "type": "base64",
+                "media_type": "image/png",
+                "data": "sha256:a459fa21eec621123acec84512398bd57b28a1becb43a62055b90a65733804e2 (003.png)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "signature": "CAQS9gUKEAgUGAI4AUIIdGhpbmtpbmcSDKgp53aVDX8zsUdX2BoMR6sveEnypILyT0tMIjDWmdzK21NKAnd0OE5JbqYvB+w9/J49cG+XJ/QgsxzJWrNaxcmk531rIwcHer1JqO4qkwW1pFxXhiwVSyy+8WvgMt8bD0De4f4Bbl9uK0r8UIQL73SRzzrGTYIcQdXqncb367u0JrOqvn+5QG3B+VeykZYZOd1Bj0Yf9miKTG4SrL1bAt5djk84R68wOIyOhK/1FUCdSQMdwajQOIHHUZ6xZpMfVkiYECOMvgCiK8VYl2WTBfSpx4ZvmQdxYjCqX8baCWd4OxgB9BSo6o02ErpAzGXvYTBX3dhWz7ERZWEU8IYqRawOsOs0mDtPZsKHhx3KlKBQMOVhTdVeWLdMC3miau6SdHH9VGSfsuh+5MBUvIZDTOkPWx30AS408P+HTllTmyMF5pU5KiPNgLfLXzqk1uA7ITR/FvkWulRwBHRigP0vskp/slu2P5AejcMv053cOa+7vRHgug0wgXLgf842ueEO4IvbutXfSoIWPrEF5YJfqwpdDPQ1x3HtN16XUTN+otVVW0NCZ/EcHIlT1woXxE+w+JNQIKFApuZmwo5hf4P/Kb3/XndFSN8Z2gdngOqnVC3cDe7dVdo5iCt8VV3BhskOkEHChRTcO/Eq81352uOOMkI0yBKwNM3fsTdmeb4vQsKQXGfNIhWAE4+ixQgLOvkFJXIhMFdfs0ioUeh1LpsY1qj4mLf/YEt0ZC1Xr0MXPlgx+m//A6+WjZKqEvGCX7f6t0vzJIMNf3KPsIbXUiNaurAY6ZjWH+n9zwQqpRB+1TXMfy5gA1CeCnUvcHfhOtkmmUS6gYuPhhKjKkZV0CRBjkRgyLZlR58Uzfy/vKhm77gvSakTEmg0FYI+mfA8RxV5Hbuii1hXSgNa6fsYNItP5KawhfjiQDyDjG49do5WxfAgcIWTHmq9lrWRavJ8uNz+S2GDMUkF6RiZmyoVb2zRSEkrQxgB",
+          "thinking": "",
+          "type": "thinking"
+        },
+        {
+          "citations": null,
+          "text": "저장은 끝났습니다. 팝업은 요청하신 작업과 관계가 없어서 \"닫기\"로 닫겠습니다.",
+          "type": "text"
+        },
+        {
+          "id": "toolu_01MzBFSnHmYyiRCMXQiPfvRG",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "coordinate": [
+              814,
+              451
+            ]
+          },
+          "name": "left_click",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01VnR48cBuw58fN6rg1WhuDb",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {},
+          "name": "screenshot",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01MzBFSnHmYyiRCMXQiPfvRG",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01VnR48cBuw58fN6rg1WhuDb",
+          "toolset_name": "computer",
+          "content": [
+            {
+              "type": "image",
+              "source": {
+                "type": "base64",
+                "media_type": "image/png",
+                "data": "sha256:9812be28336fee3f30336bc800c36895ec88c40e961cc99f98417027b6966325 (004.png)"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
