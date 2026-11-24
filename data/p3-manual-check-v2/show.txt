@@ -1,0 +1,133 @@
+
+=== 1. 조건 ai, 카드 위치 card_above, 할 일 제안 넣기 ===
+  -- 페이지 1번째 열기 (page_id ee3429ea1a20e44105b) --
+      1 00:54:31.427 page_load {"viewport": [948, 837], "layout": "card_above"}
+      2 00:54:34.589 클릭 btn-next (839,495)
+      3 00:54:34.590 next_invalid {"missing": ["name", "job", "company", "period", "duty", "school", "major", "skills"]}
+      4 00:54:36.833 클릭 f-name (232,166)
+      5 00:54:37.388 입력 name = ㅁㄴㅇㅁㄴㅇ
+      6 00:54:37.396 클릭 f-job (526,171)
+      7 00:54:37.800 입력 job = ㅁㄴㅇㅁㄴㅇ
+      8 00:54:37.850 클릭 f-company (237,252)
+      9 00:54:38.167 입력 company = ㅁㄴㅇ
+     10 00:54:38.182 클릭 f-period (393,260)
+     11 00:54:38.490 입력 period = ㅁㄴㅇ
+     12 00:54:38.561 클릭 f-duty (621,267)
+     13 00:54:38.952 입력 duty = ㅁㄴㅇ
+     14 00:54:38.973 클릭 f-school (310,359)
+     15 00:54:39.282 입력 school = ㅁㄴㅇ
+     16 00:54:39.330 클릭 f-major (561,366)
+     17 00:54:44.207 입력 major = ㅁㄴㅇ
+     18 00:54:44.236 클릭 f-skills (339,444)
+     19 00:54:45.875 입력 skills = ㅁㄴㅇ
+     20 00:54:45.893 클릭 btn-next (833,493)
+     21 00:54:45.895 다음 (기본 정보 통과)
+     22 00:54:45.895 screen {"name": "s1b", "by": "next"}
+     23 00:54:45.895 card_shown {"layout": "card_above", "count": 1}
+     24 00:54:45.915 card_rendered {"in_viewport": true, "rect": [77, 137, 794, 208], "count": 1}
+     25 00:54:56.917 클릭 btn-insert (798,311)
+     26 00:54:56.917 card_insert {"replaced_nonempty": false}
+     27 00:55:05.333 클릭 btn-submit (842,530)
+     28 00:55:05.335 저장 자기소개=있음, 출처=card
+     29 00:55:05.335 screen {"name": "s2", "by": "submit"}
+
+=== 2. 조건 ai, 카드 위치 card_below, 할 일 직접 쓰기 ===
+  -- 페이지 1번째 열기 (page_id d75f872e1a20e449fe4) --
+      1 00:55:08.161 page_load {"viewport": [948, 837], "layout": "card_below"}
+      2 00:55:09.854 클릭 btn-next (850,490)
+      3 00:55:09.854 next_invalid {"missing": ["name", "job", "company", "period", "duty", "school", "major", "skills"]}
+      4 00:55:10.738 클릭 f-name (333,178)
+      5 00:55:11.070 입력 name = ㅁㄴㅇ
+      6 00:55:11.094 클릭 f-job (523,181)
+      7 00:55:11.445 입력 job = ㅁㄴㅇ
+      8 00:55:11.519 클릭 f-company (230,262)
+      9 00:55:11.867 입력 company = ㅁㄴㅇ
+     10 00:55:11.867 클릭 f-period (403,263)
+     11 00:55:12.190 입력 period = ㅁㄴㅇ
+     12 00:55:12.201 클릭 f-duty (656,272)
+     13 00:55:12.602 입력 duty = ㅁㄴㅇ
+     14 00:55:12.646 클릭 f-school (360,368)
+     15 00:55:12.975 입력 school = ㅁㄴㅇ
+     16 00:55:12.981 클릭 f-major (551,370)
+     17 00:55:13.342 입력 major = ㅁㄴㅇ
+     18 00:55:13.351 클릭 f-skills (480,440)
+     19 00:55:14.700 입력 skills = ㅁㄴㅇ
+     20 00:55:14.701 클릭 btn-next (846,499)
+     21 00:55:14.701 다음 (기본 정보 통과)
+     22 00:55:14.701 screen {"name": "s1b", "by": "next"}
+     23 00:55:14.721 card_shown {"layout": "card_below", "count": 1}
+     24 00:55:14.723 card_rendered {"in_viewport": true, "rect": [77, 291, 794, 208], "count": 1}
+     25 00:55:24.227 클릭 f-intro (329,177)
+     26 00:55:24.539 intro_input {"after_insert": false}
+     27 00:55:28.840 입력 intro = ㅁㄴㅇㅁㄴㅇ
+     28 00:55:28.858 클릭 btn-submit (836,538)
+     29 00:55:28.883 저장 자기소개=있음, 출처=typed
+     30 00:55:28.884 screen {"name": "s2", "by": "submit"}
+
+=== 3. 조건 auto, 카드 위치 card_above, 할 일 직접 쓰기 ===
+  -- 페이지 1번째 열기 (page_id 9b323c991a20e44feda) --
+      1 00:55:32.497 page_load {"viewport": [948, 837], "layout": "card_above"}
+      2 00:55:33.467 클릭 f-name (172,178)
+      3 00:55:34.390 클릭 btn-next (826,494)
+      4 00:55:34.390 next_invalid {"missing": ["name", "job", "company", "period", "duty", "school", "major", "skills"]}
+      5 00:55:35.154 클릭 resume-form (324,193)
+      6 00:55:35.326 클릭 f-name (344,178)
+      7 00:55:35.700 입력 name = ㅁㄴㅇ
+      8 00:55:35.731 클릭 f-job (590,178)
+      9 00:55:36.161 입력 job = ㅁㄴㅇ
+     10 00:55:36.195 클릭 f-company (209,259)
+     11 00:55:36.486 입력 company = ㅁㄴㅇ
+     12 00:55:36.531 클릭 f-period (443,268)
+     13 00:55:36.861 입력 period = ㅁㄴㅇ
+     14 00:55:36.866 클릭 f-duty (689,272)
+     15 00:55:37.234 입력 duty = ㅁㄴㅇ
+     16 00:55:37.278 클릭 f-school (414,376)
+     17 00:55:37.602 입력 school = ㅁㄴㅇ
+     18 00:55:37.616 클릭 f-major (586,379)
+     19 00:55:38.015 입력 major = ㅁㄴㅇ
+     20 00:55:38.054 클릭 f-skills (478,455)
+     21 00:55:38.665 입력 skills = ㅁㄴㅇ
+     22 00:55:38.718 클릭 btn-next (837,497)
+     23 00:55:38.718 다음 (기본 정보 통과)
+     24 00:55:38.719 screen {"name": "s1b", "by": "next"}
+     25 00:55:38.719 card_shown {"layout": "card_above", "count": 1}
+     26 00:55:38.720 card_rendered {"in_viewport": true, "rect": [77, 137, 794, 208], "count": 1}
+     27 00:55:40.582 클릭 f-intro (310,411)
+     28 00:55:40.803 intro_input {"after_insert": false}
+     29 00:55:43.791 입력 intro = ㅁㄴㅇㅁㅁㅁㅁ
+     30 00:55:43.827 클릭 btn-submit (826,538)
+     31 00:55:43.834 저장 자기소개=있음, 출처=typed
+     32 00:55:43.834 screen {"name": "s2", "by": "submit"}
+
+=== 4. 조건 auto, 카드 위치 card_below, 할 일 제안 넣기 ===
+  -- 페이지 1번째 열기 (page_id f2936bd11a20e453364) --
+      1 00:55:45.938 page_load {"viewport": [948, 837], "layout": "card_below"}
+      2 00:55:47.362 클릭 btn-next (829,494)
+      3 00:55:47.362 next_invalid {"missing": ["name", "job", "company", "period", "duty", "school", "major", "skills"]}
+      4 00:55:47.927 클릭 f-name (278,163)
+      5 00:55:48.369 입력 name = ㅁㄴㅇ
+      6 00:55:48.409 클릭 f-job (557,176)
+      7 00:55:48.820 입력 job = ㅁㄴㅇ
+      8 00:55:48.857 클릭 f-company (250,270)
+      9 00:55:49.179 입력 company = ㅁㄴㅇ
+     10 00:55:49.203 클릭 f-period (474,281)
+     11 00:55:49.550 입력 period = ㅁㄴㅇ
+     12 00:55:49.576 클릭 f-duty (668,268)
+     13 00:55:50.016 입력 duty = ㅁㄴㅇ
+     14 00:55:50.016 클릭 resume-form (384,350)
+     15 00:55:50.215 클릭 f-school (383,372)
+     16 00:55:50.570 입력 school = ㅁㄴㅇ
+     17 00:55:50.617 클릭 f-major (598,368)
+     18 00:55:51.067 입력 major = ㅁㄴㅇ
+     19 00:55:51.129 클릭 f-skills (449,453)
+     20 00:55:51.944 입력 skills = ㅁㄴㅇ
+     21 00:55:52.013 클릭 btn-next (838,499)
+     22 00:55:52.013 다음 (기본 정보 통과)
+     23 00:55:52.035 screen {"name": "s1b", "by": "next"}
+     24 00:55:52.035 card_shown {"layout": "card_below", "count": 1}
+     25 00:55:52.036 card_rendered {"in_viewport": true, "rect": [77, 291, 794, 208], "count": 1}
+     26 00:55:54.520 클릭 btn-insert (783,471)
+     27 00:55:54.520 card_insert {"replaced_nonempty": false}
+     28 00:55:58.340 클릭 btn-submit (833,539)
+     29 00:55:58.341 저장 자기소개=있음, 출처=card
+     30 00:55:58.348 screen {"name": "s2", "by": "submit"}

@@ -138,7 +138,7 @@
 - **연구 가치 점검**: 측정이 없는 단계라 판단 근거 없음. 문제 없음
 - **v2 다시 (결정 005)**
   - [ ] 동등성 자동 검사 통과 (결과: 60/60 통과, 코드 4e0c1ff(커밋 04d46aa는 데이터만 추가), 외부 요청 0건 / 전체 3060건, data/p3-equivalence-v2/SUMMARY.md. 사용자 확인 대기)
-  - [ ] 직접 클릭 검사에서 로그 불일치 0건 (사용자 조작 대기, `mockup/manual_check.py`)
+  - [ ] 직접 클릭 검사에서 로그 불일치 0건 (결과: 4건 중 불일치 0, 2026-11-25 사용자 조작, 코드 4e0c1ff, data/p3-manual-check-v2/SUMMARY.md. 사용자 확인 대기)
   - 생성 문구 15개는 v1에서 확정한 content-v1 그대로 씀
 - **P4로 넘기는 것**: 결정적 렌더링 옵션(`mockup/session.py` `BROWSER_ARGS`)을 실행 장치 브라우저에 그대로 씀, 실행마다 `mockup/runtime/events.jsonl`에서 run_id 줄을 run 폴더로 복사, 판정은 `page_id`별 `seq` 순서
 
