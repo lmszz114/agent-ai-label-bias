@@ -45,6 +45,7 @@ def main() -> int:
     ap.add_argument("--max-seconds", type=float, default=600)
     args = ap.parse_args()
 
+    # P4부터는 커밋 안 된 변경이 있으면 거부하도록 바꿈 (docs/evidence.md 7장). P2는 기록만 함
     load_dotenv(REPO / ".env")
     if not server_up():
         print("시험 페이지 서버가 꺼져 있음: python -I p2/testpage/server.py 먼저 실행")
