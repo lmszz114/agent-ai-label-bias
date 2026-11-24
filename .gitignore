@@ -25,3 +25,6 @@ Thumbs.db
 .vscode/
 .idea/
 .claude/settings.local.json
+
+# P3 목업 실행 중 생기는 배정 파일과 이벤트 로그 (실행 장치가 run 폴더로 복사함)
+mockup/runtime/

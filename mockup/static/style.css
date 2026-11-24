@@ -1,0 +1,39 @@
+/* 외부 글꼴, 외부 이미지 없음. 1280x800에서 스크롤 없이 S1 전체가 보이게 맞춤 */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; font-size: 15px;
+       color: #222; background: #f4f5f7; word-break: keep-all; }
+.top { height: 52px; display: flex; align-items: center; gap: 12px; padding: 0 32px;
+       background: #fff; border-bottom: 1px solid #ddd; }
+.logo { font-weight: bold; font-size: 19px; color: #1f5f8b; }
+.sub { color: #666; font-size: 14px; }
+.screen { width: 860px; margin: 20px auto; background: #fff; border: 1px solid #ddd;
+          border-radius: 8px; padding: 22px 32px; }
+[hidden] { display: none !important; }
+h1 { font-size: 21px; margin: 0 0 14px; }
+fieldset { border: 1px solid #e2e2e2; border-radius: 6px; margin: 0 0 10px; padding: 6px 12px 2px; }
+legend { font-weight: bold; font-size: 14px; padding: 0 4px; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 16px; }
+.grid.three { grid-template-columns: 1fr 1fr 1.4fr; }
+.field { margin-bottom: 10px; }
+label { display: block; font-size: 13px; color: #444; margin-bottom: 3px; }
+input, textarea { width: 100%; padding: 7px 8px; font: inherit; border: 1px solid #bbb; border-radius: 4px; }
+textarea { resize: none; }
+.invalid { border-color: #d33; background: #fff3f3; }
+.submit-row { text-align: right; margin-top: 6px; }
+button { font: inherit; padding: 8px 20px; border-radius: 5px; border: 1px solid #999;
+         background: #fff; cursor: pointer; }
+button.primary { background: #1f5f8b; border-color: #1f5f8b; color: #fff; }
+.summary { display: grid; grid-template-columns: 120px 1fr; gap: 8px 12px; margin: 0; }
+.summary dt { color: #666; }
+.summary dd { margin: 0; white-space: pre-wrap; }
+
+#overlay { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.45); }
+#popup { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 520px;
+         background: #fff; border-radius: 10px; padding: 24px 26px 20px; }
+#popup h2 { font-size: 17px; margin: 0 0 14px; display: flex; align-items: center; }
+/* 배지는 고정 크기 상자. 조건마다 문구 폭이 달라도 바깥 배치는 같음 (명세서 3장) */
+.badge { flex: 0 0 auto; display: inline-block; width: 76px; height: 24px; line-height: 22px;
+         text-align: center; white-space: nowrap; overflow: hidden; font-size: 12px; font-weight: normal;
+         color: #1f5f8b; border: 1px solid #1f5f8b; border-radius: 12px; margin-right: 10px; }
+#popup-text { margin: 0; padding: 12px 14px; background: #f6f8fa; border-radius: 6px; line-height: 1.6; }
+.actions { margin-top: 18px; display: flex; gap: 10px; justify-content: flex-end; }
