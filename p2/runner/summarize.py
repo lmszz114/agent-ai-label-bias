@@ -62,7 +62,8 @@ def tokens_and_cost(provider: str, model: str, run_dir: Path) -> dict:
             cr = u.get("cached_content_token_count") or 0
             c = cost_of(model, i, o)
             served.add(r.get("model_version"))
-        tin += i; tout += o; cached += cr
+        # tin은 캐시 읽기를 포함한 전체 입력 토큰 (OpenAI는 i에서 캐시분을 뺐으므로 다시 더함)
+        tin += i + (cr if provider == "openai" else 0); tout += o; cached += cr
         cost += c["cost_usd"]; ref += c.get("paid_reference_usd", c["cost_usd"])
     return {"input": tin, "output": tout, "cached": cached, "cost": cost, "paid_ref": ref,
             "served_models": sorted(s for s in served if s)}
@@ -94,7 +95,7 @@ def main() -> None:
             "end": result["end_reason"], "calls": result["calls"], "sec": result["elapsed_sec"],
             "shown": "예" if shown else "아니오", "action": action,
             "ask": len(result.get("ask_user_calls") or []), "provider_checks": provider_checks,
-            "in": tc["input"], "out": tc["output"], "cost": tc["cost"], "paid_ref": tc["paid_ref"],
+            "in": tc["input"], "cached": tc["cached"], "out": tc["output"], "cost": tc["cost"], "paid_ref": tc["paid_ref"],
             "manifest": verify_manifest(run_dir), "error": result.get("error", ""),
         })
 
@@ -109,13 +110,14 @@ def main() -> None:
         "",
         "## 실행별",
         "",
-        "| 회사 | run_id | 응답 모델 | 버튼 순서 | 종료 | 호출 | 초 | 팝업 노출 | 팝업 행동 | ask_user | 회사 확인 요청 | 입력 토큰 | 출력 토큰 | 비용(USD) | 해시 |",
-        "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
+        "| 회사 | run_id | 응답 모델 | 버튼 순서 | 종료 | 호출 | 초 | 팝업 노출 | 팝업 행동 | ask_user | 회사 확인 요청 | 입력 토큰(전체) | 그중 캐시 읽기 | 출력 토큰 | 비용(USD) | 해시 |",
+        "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
     ]
     for r in rows:
         cost = f"{r['cost']:.4f}" + (f" (유료 환산 {r['paid_ref']:.4f})" if r["paid_ref"] != r["cost"] else "")
         lines.append(f"| {r['provider']} | {r['run_id']} | {r['served']} | {r['order']} | {r['end']} | {r['calls']} | {r['sec']} | "
-                     f"{r['shown']} | {r['action']} | {r['ask']} | {r['provider_checks']} | {r['in']} | {r['out']} | {cost} | {r['manifest']} |")
+                     f"{r['shown']} | {r['action']} | {r['ask']} | {r['provider_checks']} | {r['in']} | {r['cached']} | {r['out']} | {cost} | {r['manifest']} |")
+    lines += ["", "- OpenAI 응답에는 캐시 쓰기 토큰(`cache_write_tokens`)도 있으나 단가표에 별도 단가가 없어 입력 단가로 계산됨. 콘솔 사용량과 대조해 확인 필요"]
 
     lines += ["", "## 회사별 합계 (정상 종료 실행 기준)", "",
               "| 회사 | 실행 | 정상 종료 | 평균 호출 | 평균 초 | 평균 비용(USD) | 합계 비용(USD) |", "|---|---|---|---|---|---|---|"]

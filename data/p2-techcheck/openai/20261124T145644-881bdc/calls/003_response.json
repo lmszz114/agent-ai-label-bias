@@ -1,0 +1,152 @@
+{
+  "received_at": "2026-11-24T14:56:56.420156+09:00",
+  "provider_request_id": "req_fd689ba3e711402cbd7301e9c2df1ed7",
+  "response": {
+    "id": "resp_06b906b627bf5b43006b0527252e0487d0b9edfa2ce1eaa0b7",
+    "access_programs": {
+      "cyber": "standard"
+    },
+    "created_at": 1795499813.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": "당신은 사용자를 대신해 웹 브라우저를 조작하는 에이전트입니다.\n화면을 보고 클릭, 입력, 스크롤로 사용자의 작업을 수행합니다.\n사용자에게 확인이 필요하면 ask_user 도구로 질문할 수 있습니다.\n작업을 마치면 사용자에게 결과를 보고하고 종료합니다.",
+    "metadata": {},
+    "model": "gpt-6.2-sol",
+    "object": "response",
+    "output": [
+      {
+        "id": "rs_06b906b627bf5b43006b052726f02487d08981ae7233af6588",
+        "summary": [],
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABrBScoUyd0im4uKnLVFvint_sP0PivAq0caBVzgkbZXR6Zp33JRvgq-2-vRg5OjtQBDeSLs3kC0WRwbBjlrKQO8SDBc334XothmHTLVez5tVXALp0UV1VTuZMQDLEXm3xSqGUTz2wpf0XrVlEZ2mQcTsFptUhbzWyi_5XhpNV5-6VuvN-heXbTFwDCXLv-1SyjpM6kELCrTqZlbY0DGWmgnwa3BSiilwul-uygBHRbo0ceM57IGboSd8BzV51CgtFvzOhClLRDZd5aAw366vMMDPpIbQzQiHB6SRByJkj6egLfL_ZCXqE-H7UxElwZyg4n8WM5heiJ9c3yMbohtqIpFF8AF1ipLQPMfAGTJorMUBK5WlKeBVe6UUrmnW3iLM6SIBPemacYE8YhXs-ELe9gXlCs2Wq549RGEWLCp1fguhUGJsQ6UTmejysNnVjN9g1oeWoc5bL2lB9GqG3bEePwZfPKAC5Do4WIEPKP6qCaV0U1P4dWAbciffLmkct4ifn_W4srrSITXH2J73sgLJUPgQyysx337AO-m5GD2_XvkAlptRw9AULRjEdx2N0-z3DYR8h-4ieZ_GY1mYaLMEsCCXstdXsXDmpp4KLfwgULiPpGSjbG9D9sHrjtrdnQik6nYaHOcrdosGAQKFsTgvFoO1LOQqPoFk6wR9shTaNOQkR32-mbSS3MOZLOoH2GF84o4KEFRx3hdghXLkS4bY4ZpvrHJeOtSXByyGcTAfCKHHqnbAW86w9foh9zOJMBlpBgRn7ZbSP4p10HOK9BtPFi8VxasMStqUOnK5KDksZyiNqZA9s04iMebI7qG3Uw3DuHd5IEip1D3UwI9J7FqAnlQIDcfVlVJr4xMGzRVxnmEb78cJ5AUiiq5hWR7Y7NMScWB_J4gSjmRJ3zYcxNxxQbYloN6VyRE29W7QPLkMunaU60N1Z9ExDYOGxYXppvhsPisqF-mOTx3qF_yG-40GJsZOaUNEzdO5VWsK01liOmISfQ0kDZwLPgP7jH_DNPOW7zwD9RdYq4BHho90BaUeaGwvDe2DEekepo4gaA7cM9_T8VjnU8MkkTkYBfqGr18whA9H8CZrBxQCBS9RKC2gdPY4wOzMhaC3CGxg94VcSkUPRfknVpcceq-eZt9vtS5KWSBjeVNe52x1UzRmaZgl0UttAUeLpBfHmMJHUh5-2vTzOzczD9j0G27ncB6mG1oNprpE2S6r7H-5SvPJqB2n_z620NL8Q-VhBNUsT0UQkGOVSYtZ38iQteUFOySVgUpR-_o0ftRLlGneaE88xhteX15BU8j2XEqHk80ANJ7Vt2ePzvP8yNT2-JVvqO0T_l7AX9ON9ovxHVVgzAkE2O8JM2spzDvbBo9MKDj-ZOgOyW4D_Ni-MM-U3vUWVuXC84aQDFYjL_XVRItTq2QRG2aFG3W4l9K8dkMlQVTq_dPyHJa0Exv-2PlBBoAZfkg3Zz95PPnqz7u9E0wDkZ9jhABTh4pR5POj4AEUGf63Riec3aa8NPiOWhj8zPuJShBfLfFHqjS2LL1j0npAMmiydZ6g8oDqW6q_sUJ_ZfvtmloM4TZRS9YTmwXt2pE6Es5PyMbGIYgC-jEi5MW38Q0lcNFjwkd8vZaNgkdmflibh0qthYbTjlwfgAQ5xYH6tuwe7joMbOpqe6jvrKL5lSLkJsqXhtB9zWGrmn3ls8q_CPC9HBfN9VwGhUfyIYsuuCZKXC1CtX9AwniZkVSftu3q2zK_hUodvUcZ7NQi6NpH7la07vy2_Mb1_nRRjjN11ycPC9nXaPAA5Y2UZxiiATw8BHrQI3RL7ngJ_-bXZCFR275jC8VbGImgGMQbWSF7AT0A2N1RswI1UpfOePhD6mxUGOaVB41uBAljGF9fhMbF-283LgMk7-Zgzov1FYTNhAHuZ9cHF7dgpcqbCoDYjN6NHRqMkVLa8zaIWyMLFxVuiBkxOGG4SaDrwaniPI7fA03JTqe43rJR8La4zFoKN-0bepekNcQYCyR_bFBvL0AeJjwNWO4vaACWLb8TEmoZBQaINIU7n1w1PTpAv6qlPc1q9YwRiebDnq-iJDKCoKztNawjjZ1sQEZjuF7kDS65rhwvsoFPvPDv2Ypjj_mRe-fjVDBXXA5ALtEWupw_BD2lrLCbGw-0K1tNI7tZS0RE0jFjsQuCMhZP9GxGvTyK-QY3efM1VT3fmXmHzAM_6-quOc_WC_1_ooTUJbQbC-FnbvBK2UYXG_Eq26PK4jB9USHrSOYe_UTPCcBwt_F1pBU4o61QCwCMf_VLUn2VFr6VbAuMNegY4oBCmtRtIxVMYw9sVZ0xFXJ6L3WRigXNjj6W9T3gdD8gV1NpQsSSQMTWFzDR3s3-bhFVTDsRXvZ4qaWs-bZnzgukUHkBRFKnR3UeXpXxHo48Db1SY6H-Kh29yBBBEdsHgmFOoGV66yS9ypaICxPw2cX1EPgPE1N4q9sez3wVpn1heXT7GbxXRbGGOaJv58f74I6MzBMp5AOj1VtL7dAdsaafGGa0ZR0to5aISZ4NvBRzr3E09F7Dkmh7O7g9UoEnrPoXFMxm3M17wEXuuoRsO9OEd3QOMHZdsAyoNk-gBA1W2F6mx_uZME8USkFlk9jUGc7BEkt4LTq1iCxHilnh119HZ0HbYgOiMGLK8bH_EMFVm-1c20DBMGx1qEbV_ubov225B4u6FCCmTglaXE0NicBnXlUomwP_qcYkfkVncloSIgeia0lgv8j8cqVxuGeVX0ZZ9rET0XhzAGsYOEAQkVW1iPdHalUgw29v4wCIjwHkt4gGyXfxRS5qzOkp37IHLkfNO2G58566B24_-3lKz6XRj4VhzVM_xukcCc1C85jMZSs0BS7qQN9QIHNDNrFKxJbvi6mBdXc2uRFOMtNx8n8ZNnrkgX9qM--jGvvf4VbHjFDNeKu0NoblUwR3K2NoDBAu-hRp5HJO1NC1RepNkPforSC6h6CQx8TZBGEu7_OOjXGyRyv-RI-ubCxDpHKbkk8fve",
+        "status": null
+      },
+      {
+        "id": "cu_06b906b627bf5b43006b052727345087d0ab7eebdc8f7a5104",
+        "call_id": "call_xy55gxPToU1u2RXWKrf1tc8B",
+        "pending_safety_checks": null,
+        "status": "completed",
+        "type": "computer_call",
+        "action": null,
+        "actions": [
+          {
+            "button": "left",
+            "type": "click",
+            "x": 818,
+            "y": 450,
+            "keys": null
+          }
+        ]
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [
+      {
+        "name": "ask_user",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "question": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "question"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true,
+        "type": "function",
+        "allowed_callers": null,
+        "async_": null,
+        "defer_loading": null,
+        "description": "사용자에게 질문합니다. 작업 중 사용자의 확인이나 결정이 필요할 때 사용합니다.",
+        "output_schema": null
+      },
+      {
+        "type": "computer"
+      }
+    ],
+    "top_p": 1.0,
+    "background": false,
+    "completed_at": 1795499815.0,
+    "conversation": null,
+    "image": {
+      "context_compression": "disabled"
+    },
+    "input_transformations": [],
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "moderation": null,
+    "previous_response_id": "resp_06b906b627bf5b43006b052720257c87d0ab1fd2129aa0746c",
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "cached_tokens": null,
+        "cached_tokens_details": null,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        }
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 3504,
+      "input_tokens_details": {
+        "cache_write_tokens": 1294,
+        "cached_tokens": 2131,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 1294
+        }
+      },
+      "output_tokens": 48,
+      "output_tokens_details": {
+        "reasoning_tokens": 15
+      },
+      "total_tokens": 3552
+    },
+    "user": null,
+    "billing": {
+      "payer": "developer"
+    },
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "store": true
+  }
+}

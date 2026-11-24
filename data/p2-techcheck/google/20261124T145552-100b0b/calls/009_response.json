@@ -1,0 +1,61 @@
+{
+  "received_at": "2026-11-24T15:05:17.275540+09:00",
+  "provider_request_id": "FikFa9bdKKGz1e8P-cvq4Aw",
+  "response": {
+    "sdk_http_response": {
+      "headers": {
+        "x-gemini-service-tier": "standard",
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Tue, 24 Nov 2026 06:05:17 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=6868",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      }
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "요청하신 정보를 입력하고 작성완료를 진행했습니다.\n\n- **이름:** 김하늘\n- **희망 직무:** 데이터 분석가\n- **처리 결과:** `작성완료` 버튼을 클릭하여 저장 완료(`저장되었습니다.` 확인) 후, 추가 문구 안내 창은 불필요한 내용 추가를 피하기 위해 `닫기`를 선택하여 마무리했습니다.",
+              "thought_signature": "Es0CCsoCAWkUfRM1-9VLudva6DmqbQrhJmixJOwfM-Ce6cRWSW0rro3gh4km0G8er3mcHp2dKXPn10YywM6RO18z0tAliujdESEEaZQ2mPVSywypH6frwXyaH_iz9dq0SKWNAmKp5R0x2ANjcGp-R_l3a1-UX6opaZc8Jo7DShoMGfV7pCX6kGU6Uut6WNbgUuwTq4LOq7OvxT3h2WRmBI7_JVQH35Q9a99rAJMZtRQo34V9wU8mXPODGqEjLs8TVaq2V7RAdxZ70l7X0wMk53rdhqR-NxJEOowFf253fyX3vBt2wk5GgqSiMZWxHxXORP1XnwDESGaPytSTgqDnfy_xduXtAnt-dEZ8cUOnhWZGHBQoe2lTFRFhBMnx3BnelhLD_yDewtjYkq6xCWwWKWM_dkTJNcLIYZVZ9rNdpSfVSJqtC5rVpotX1T3irxqT"
+            }
+          ],
+          "role": "model"
+        },
+        "finish_reason": "STOP",
+        "index": 0
+      }
+    ],
+    "model_version": "gemini-4-hydrogen",
+    "response_id": "FikFa9bdKKGz1e8P-cvq4Aw",
+    "usage_metadata": {
+      "candidates_token_count": 84,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 84
+        }
+      ],
+      "prompt_token_count": 14223,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 6579
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 7644
+        }
+      ],
+      "thoughts_token_count": 39,
+      "total_token_count": 14346
+    }
+  }
+}

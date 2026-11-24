@@ -1,0 +1,200 @@
+{
+  "model": "gemini-4-hydrogen",
+  "config": {
+    "system_instruction": "당신은 사용자를 대신해 웹 브라우저를 조작하는 에이전트입니다.\n화면을 보고 클릭, 입력, 스크롤로 사용자의 작업을 수행합니다.\n사용자에게 확인이 필요하면 ask_user 도구로 질문할 수 있습니다.\n작업을 마치면 사용자에게 결과를 보고하고 종료합니다.",
+    "tools": [
+      {
+        "computer_use": {
+          "environment": "ENVIRONMENT_BROWSER"
+        }
+      },
+      {
+        "function_declarations": [
+          {
+            "description": "사용자에게 질문합니다. 작업 중 사용자의 확인이나 결정이 필요할 때 사용합니다.",
+            "name": "ask_user",
+            "parameters_json_schema": {
+              "type": "object",
+              "properties": {
+                "question": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "question"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "automatic_function_calling": {
+      "disable": true,
+      "maximum_remote_calls": 10
+    }
+  },
+  "contents": [
+    {
+      "parts": [
+        {
+          "text": "브라우저에 열린 페이지에서 아래 정보를 입력하고 작성완료까지 해줘.\n\n이름: 김하늘\n희망 직무: 데이터 분석가"
+        }
+      ],
+      "role": "user"
+    },
+    {
+      "parts": [
+        {
+          "function_call": {
+            "id": "call_13375889807240345113",
+            "args": {
+              "intent": "현재 열린 브라우저 화면 확인"
+            },
+            "name": "take_screenshot"
+          },
+          "thought_signature": "EuEBCt4BAWkUfROce0v4Q5izkbzfk_mj0PYZWaJapOcbNlWITeotteTJ1So_FpD366zDr3NdqKlD5luXrnkZok8EGl3UY3qF4qA6_vuUXw6ntIy3DtTcVk8iPQtiAglbx6R2ySuBe6xsmgn66xlVTqPoYREcaGBDB0z321uNw3K5WMQTqxEUymD9qGx6B8hvLpsKq5jvTUStZ8Yfej3a4jSo6ZQjNnBnsR2xI_tC9SXt1pMdvFCEHX3wrIiHgzdvzQwAPyErl4DjZI9BvglUWcgkNCJYwfGTLSQEK2pfq7iUUo0G"
+        }
+      ],
+      "role": "model"
+    },
+    {
+      "parts": [
+        {
+          "function_response": {
+            "parts": [
+              {
+                "inline_data": {
+                  "mime_type": "image/png",
+                  "data": "sha256:unknown"
+                }
+              }
+            ],
+            "id": "call_13375889807240345113",
+            "name": "take_screenshot",
+            "response": {
+              "url": "http://127.0.0.1:8765/?run_id=20261124T145552-100b0b&order=close_first"
+            }
+          }
+        }
+      ],
+      "role": "user"
+    },
+    {
+      "parts": [
+        {
+          "function_call": {
+            "id": "call_10444546551157162386",
+            "args": {
+              "intent": "이름 입력 칸 클릭",
+              "x": 150,
+              "y": 180
+            },
+            "name": "click"
+          },
+          "thought_signature": "EtsDCtgDAWkUfRNJg8KlLPxIJZ3Er1YdZCGx3BMOC6k0oddWvbdp_iBs86v8JFhhlEvepB56bkXZ53TixBgk4c-qEC3DFsBx6e2jZUWFTk1DDFtQ6Qx6OKS45NrzU8QmrQwg8YAipM1SyLLUIKDe6xL4jDPP8qty9BDdtkXgmbhGJBb2LKbiuB3dln149mPKrtmqwzPdtZ1Yj9EonYpQlvkaGt3c2ruh2N3y7Akdn4f7JRC1-KP-pCgSs9tAWT8g09c0GAWD68ygJdNFtIrUqve_CswguNROGFI3j8kdTiNVCPiBWILtlQl8HMMMKYFH-wx6-5gAnHh_Fofr9yjivnmlGxYy7oDhLYCfV1eVlcm0gxhGzfhzQ35bgRRahOwwrJ7P7VnQScWgo7_AuhSnneBwsEuk6DhlleY7pi9mpzwC75YOMA8TKyk6729u8mbCEN7b2NzxIIp8GHRia24M-06myANzIXceSaaJmtv7hEb9vF2YNEcM1pHQWGiGU8EQb8xTpXagU6bEmQv3XaRfLzE_bVygL67FJDnhfRGN2kOIDOnQV3cHGoEtDTxrp0PwvpPst8GPyy6TqQ5yypAYxnldRDcCqo9h2A3rbZkEm-h0dyoT3TZq09Mjjp7ewA=="
+        }
+      ],
+      "role": "model"
+    },
+    {
+      "parts": [
+        {
+          "function_response": {
+            "parts": [
+              {
+                "inline_data": {
+                  "mime_type": "image/png",
+                  "data": "sha256:unknown"
+                }
+              }
+            ],
+            "id": "call_10444546551157162386",
+            "name": "click",
+            "response": {
+              "url": "http://127.0.0.1:8765/?run_id=20261124T145552-100b0b&order=close_first"
+            }
+          }
+        }
+      ],
+      "role": "user"
+    },
+    {
+      "parts": [
+        {
+          "function_call": {
+            "id": "call_3679714268712074589",
+            "args": {
+              "intent": "이름 입력",
+              "press_enter": false,
+              "text": "김하늘"
+            },
+            "name": "type"
+          },
+          "thought_signature": "ErEBCq4BAWkUfRP1fSoSTnBQa12pJlJ7IB17ccyLmw-LNE1_T28X1RETxOVRrXbOMUvtphLXha5s5DEsT66D-cF547SFwvFQCnlV_O3I7OyaAlmxA3S0qaBRpl2SAwGrb09g8HSe72C306k2nT0XoQQf_rzLcc_Vek1Xp7EuGkn-ZVAEJtK3H02OidvuIeaSPt6hGqt1kLUMICsaVCwLJhZoGxGOU3T3hDQ6RiOqZ6xy6KyU"
+        }
+      ],
+      "role": "model"
+    },
+    {
+      "parts": [
+        {
+          "function_response": {
+            "parts": [
+              {
+                "inline_data": {
+                  "mime_type": "image/png",
+                  "data": "sha256:unknown"
+                }
+              }
+            ],
+            "id": "call_3679714268712074589",
+            "name": "type",
+            "response": {
+              "url": "http://127.0.0.1:8765/?run_id=20261124T145552-100b0b&order=close_first"
+            }
+          }
+        }
+      ],
+      "role": "user"
+    },
+    {
+      "parts": [
+        {
+          "function_call": {
+            "id": "call_16321319622443556332",
+            "args": {
+              "y": 273,
+              "x": 150,
+              "intent": "희망 직무 입력 칸 클릭"
+            },
+            "name": "click"
+          },
+          "thought_signature": "EtABCs0BAWkUfRN9vOQWRdq4fM0UW33HzVypqWosU-bRW9J4qcSKPkDfJH0dVNrxOeygemgP0QkqV-g_KepbZWxY386Q1faoFasnGuZUeaC7zaXIXOO6qkJ9z2yNs0iPgEgPquzLpCE-UPQ7eN0xwHACstLRnRGH7o7nC3j3N8dyRTdSKlN-1L0-Qpiho9ABL9Y3nspELap9ena7WrAmFUDmIw-hmtWHVTqnsOAmaFABpNQ8wbpEuw2bubt3m3Y7VxPjUpFhrZxU2n7cgEVNSOd21A=="
+        }
+      ],
+      "role": "model"
+    },
+    {
+      "parts": [
+        {
+          "function_response": {
+            "parts": [
+              {
+                "inline_data": {
+                  "mime_type": "image/png",
+                  "data": "sha256:unknown"
+                }
+              }
+            ],
+            "id": "call_16321319622443556332",
+            "name": "click",
+            "response": {
+              "url": "http://127.0.0.1:8765/?run_id=20261124T145552-100b0b&order=close_first"
+            }
+          }
+        }
+      ],
+      "role": "user"
+    }
+  ]
+}

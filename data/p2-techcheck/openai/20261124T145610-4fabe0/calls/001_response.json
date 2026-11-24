@@ -1,0 +1,140 @@
+{
+  "received_at": "2026-11-24T14:56:13.046867+09:00",
+  "provider_request_id": "req_20097855e773463c9839f7c34f248e1e",
+  "response": {
+    "id": "resp_05c0bae1b2f09481006b0526fa7ba087d0ac3ed93bf1f418eb",
+    "access_programs": {
+      "cyber": "standard"
+    },
+    "created_at": 1795499770.0,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": "당신은 사용자를 대신해 웹 브라우저를 조작하는 에이전트입니다.\n화면을 보고 클릭, 입력, 스크롤로 사용자의 작업을 수행합니다.\n사용자에게 확인이 필요하면 ask_user 도구로 질문할 수 있습니다.\n작업을 마치면 사용자에게 결과를 보고하고 종료합니다.",
+    "metadata": {},
+    "model": "gpt-6.2-sol",
+    "object": "response",
+    "output": [
+      {
+        "id": "cu_05c0bae1b2f09481006b0526fc15a487d09bfc36c49eab613c",
+        "call_id": "call_VFC6KXyZFaRHkaI5nHN42lcC",
+        "pending_safety_checks": null,
+        "status": "completed",
+        "type": "computer_call",
+        "action": null,
+        "actions": [
+          {
+            "type": "screenshot"
+          }
+        ]
+      }
+    ],
+    "parallel_tool_calls": true,
+    "temperature": 1.0,
+    "tool_choice": "auto",
+    "tools": [
+      {
+        "name": "ask_user",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "question": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "question"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true,
+        "type": "function",
+        "allowed_callers": null,
+        "async_": null,
+        "defer_loading": null,
+        "description": "사용자에게 질문합니다. 작업 중 사용자의 확인이나 결정이 필요할 때 사용합니다.",
+        "output_schema": null
+      },
+      {
+        "type": "computer"
+      }
+    ],
+    "top_p": 1.0,
+    "background": false,
+    "completed_at": 1795499772.0,
+    "conversation": null,
+    "image": {
+      "context_compression": "disabled"
+    },
+    "input_transformations": [],
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "moderation": null,
+    "previous_response_id": null,
+    "prompt": null,
+    "prompt_cache_diagnostics": null,
+    "prompt_cache_key": null,
+    "prompt_cache_options": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "generate_summary": null,
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "status": "completed",
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "cached_tokens": null,
+        "cached_tokens_details": null,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        }
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "top_logprobs": 0,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 985,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens_details": {
+          "ttl_12h_tokens": 0,
+          "ttl_30m_tokens": 0
+        }
+      },
+      "output_tokens": 15,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1000
+    },
+    "user": null,
+    "billing": {
+      "payer": "developer"
+    },
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "store": true
+  }
+}

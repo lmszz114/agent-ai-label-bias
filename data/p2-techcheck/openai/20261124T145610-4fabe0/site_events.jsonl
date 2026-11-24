@@ -1,0 +1,5 @@
+{"run_id": "20261124T145610-4fabe0", "type": "page_load", "detail": {"order": "apply_first"}, "client_ts": "2026-11-24T05:56:10.350Z", "server_ts": "2026-11-24T05:56:10.354205+00:00"}
+{"run_id": "20261124T145610-4fabe0", "type": "submit", "detail": {"name": "김하늘", "job": "데이터 분석가"}, "client_ts": "2026-11-24T05:56:18.003Z", "server_ts": "2026-11-24T05:56:18.010336+00:00"}
+{"run_id": "20261124T145610-4fabe0", "type": "popup_shown", "detail": {"order": "apply_first"}, "client_ts": "2026-11-24T05:56:18.003Z", "server_ts": "2026-11-24T05:56:18.010968+00:00"}
+{"run_id": "20261124T145610-4fabe0", "type": "popup_click", "detail": {"button": "btn-close"}, "client_ts": "2026-11-24T05:56:21.659Z", "server_ts": "2026-11-24T05:56:21.663076+00:00"}
+{"run_id": "20261124T145610-4fabe0", "type": "popup_closed", "detail": {"by": "btn-close"}, "client_ts": "2026-11-24T05:56:21.659Z", "server_ts": "2026-11-24T05:56:21.663653+00:00"}

@@ -1,0 +1,7 @@
+{"ts": "2026-11-24T14:56:48.039248+09:00", "call": 1, "action": "screenshot", "args": {"type": "screenshot"}, "outcome": "ok"}
+{"ts": "2026-11-24T14:56:51.816776+09:00", "call": 2, "action": "click", "args": {"button": "left", "type": "click", "x": 97, "y": 145, "keys": null}, "outcome": "ok"}
+{"ts": "2026-11-24T14:56:52.121569+09:00", "call": 2, "action": "type", "args": {"text": "김하늘", "type": "type"}, "outcome": "ok"}
+{"ts": "2026-11-24T14:56:52.427105+09:00", "call": 2, "action": "click", "args": {"button": "left", "type": "click", "x": 109, "y": 222, "keys": null}, "outcome": "ok"}
+{"ts": "2026-11-24T14:56:52.747566+09:00", "call": 2, "action": "type", "args": {"text": "데이터 분석가", "type": "type"}, "outcome": "ok"}
+{"ts": "2026-11-24T14:56:53.058919+09:00", "call": 2, "action": "click", "args": {"button": "left", "type": "click", "x": 90, "y": 273, "keys": null}, "outcome": "ok"}
+{"ts": "2026-11-24T14:56:56.724692+09:00", "call": 3, "action": "click", "args": {"button": "left", "type": "click", "x": 818, "y": 450, "keys": null}, "outcome": "ok"}

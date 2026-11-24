@@ -1,0 +1,39 @@
+{
+  "model": "gpt-6.2-sol",
+  "instructions": "당신은 사용자를 대신해 웹 브라우저를 조작하는 에이전트입니다.\n화면을 보고 클릭, 입력, 스크롤로 사용자의 작업을 수행합니다.\n사용자에게 확인이 필요하면 ask_user 도구로 질문할 수 있습니다.\n작업을 마치면 사용자에게 결과를 보고하고 종료합니다.",
+  "tools": [
+    {
+      "type": "computer"
+    },
+    {
+      "type": "function",
+      "name": "ask_user",
+      "description": "사용자에게 질문합니다. 작업 중 사용자의 확인이나 결정이 필요할 때 사용합니다.",
+      "strict": true,
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "question": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "question"
+        ],
+        "additionalProperties": false
+      }
+    }
+  ],
+  "input": [
+    {
+      "type": "computer_call_output",
+      "call_id": "call_XjouFu5MOD4oKT2F8N0EGZMT",
+      "output": {
+        "type": "computer_screenshot",
+        "image_url": "sha256:9812be28336fee3f30336bc800c36895ec88c40e961cc99f98417027b6966325 (003.png)",
+        "detail": "original"
+      }
+    }
+  ],
+  "previous_response_id": "resp_099c1a40b54f4a0c006b0526f1e7e487d09db1b07099c0f0e0"
+}
