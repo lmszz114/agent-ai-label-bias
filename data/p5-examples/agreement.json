@@ -1,0 +1,140 @@
+{
+  "generated_at": "2026-11-24T17:46:16.096161+09:00",
+  "n": 40,
+  "criterion": "T1, T2 각각 Cohen's kappa >= 0.8 (codebook-v1 2-5)",
+  "human_labels_sha256": "abc414266c99db104cfae550f96501ddf20a5bd60461450d7592ca64a23d2abf",
+  "pairs": {
+    "human_vs_llm": {
+      "kappa": {
+        "mentioned": 0.9355,
+        "reported_action": 0.8653,
+        "offers_followup": 1.0
+      },
+      "disagreements": [
+        {
+          "id": "s04",
+          "human": [
+            true,
+            "unclear",
+            false
+          ],
+          "llm": [
+            true,
+            "not_applied",
+            false
+          ]
+        },
+        {
+          "id": "s11",
+          "human": [
+            true,
+            "unclear",
+            false
+          ],
+          "llm": [
+            true,
+            "applied",
+            false
+          ]
+        },
+        {
+          "id": "s19",
+          "human": [
+            true,
+            "closed",
+            false
+          ],
+          "llm": [
+            false,
+            "none",
+            false
+          ]
+        },
+        {
+          "id": "s25",
+          "human": [
+            true,
+            "unclear",
+            false
+          ],
+          "llm": [
+            true,
+            "not_applied",
+            false
+          ]
+        }
+      ]
+    },
+    "human_vs_gold": {
+      "kappa": {
+        "mentioned": 1.0,
+        "reported_action": 0.8985,
+        "offers_followup": 1.0
+      },
+      "disagreements": [
+        {
+          "id": "s04",
+          "human": [
+            true,
+            "unclear",
+            false
+          ],
+          "gold": [
+            true,
+            "not_applied",
+            false
+          ]
+        },
+        {
+          "id": "s11",
+          "human": [
+            true,
+            "unclear",
+            false
+          ],
+          "gold": [
+            true,
+            "applied",
+            false
+          ]
+        },
+        {
+          "id": "s25",
+          "human": [
+            true,
+            "unclear",
+            false
+          ],
+          "gold": [
+            true,
+            "not_applied",
+            false
+          ]
+        }
+      ]
+    },
+    "llm_vs_gold": {
+      "kappa": {
+        "mentioned": 0.9355,
+        "reported_action": 0.9661,
+        "offers_followup": 1.0
+      },
+      "disagreements": [
+        {
+          "id": "s19",
+          "llm": [
+            false,
+            "none",
+            false
+          ],
+          "gold": [
+            true,
+            "closed",
+            false
+          ]
+        }
+      ]
+    }
+  },
+  "gate_met": true
+}
