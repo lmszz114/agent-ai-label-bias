@@ -5,7 +5,7 @@
   실제 모델:  .venv/Scripts/python.exe runner/run.py --config configs/run/p4-check-v1.json --n 3 --seed 20261124
 
 - 목업 서버(python -I mockup/server.py)가 떠 있어야 함
-- 조건 배정: 조건 2 × 내용 15 × 버튼 순서 2 = 60칸을 시드로 섞고 앞에서부터 씀 (schedule.json에 전부 남김)
+- 조건 배정: 조건 2 × 내용 15 × 카드 위치 2 = 60칸을 시드로 섞고 앞에서부터 씀 (schedule.json에 전부 남김)
 - 커밋 안 된 코드로는 실제 모델을 돌리지 않음. --allow-dirty는 가짜 모델에만 허용
 - API 키는 .env에서 환경변수로 읽음 (값을 출력하지 않음)
 """
@@ -27,18 +27,18 @@ from common import REPO, BudgetExceeded, Ledger, Run, code_state, load_config, l
 
 def schedule(seed: int) -> list[dict]:
     conds = list(json.loads(mockup.CONDITIONS.read_text(encoding="utf-8"))["conditions"])
-    orders = json.loads(mockup.CONDITIONS.read_text(encoding="utf-8"))["button_orders"]
-    cells = [{"condition": c, "content_id": k, "button_order": o}
-             for c, k, o in itertools.product(conds, mockup.content_ids(), orders)]
+    layouts = json.loads(mockup.CONDITIONS.read_text(encoding="utf-8"))["layouts"]
+    cells = [{"condition": c, "content_id": k, "layout": o}
+             for c, k, o in itertools.product(conds, mockup.content_ids(), layouts)]
     random.Random(seed).shuffle(cells)
     return [{**c, "seed": seed, "index": i} for i, c in enumerate(cells)]
 
 
 def balanced(plan: list[dict], per_condition: int, seed: int) -> list[dict]:
-    """조건마다 per_condition개, 그 안에서 버튼 순서를 절반씩 (명세서 6장). 섞인 배정표 앞에서부터 고르고 실행 순서를 다시 섞음."""
+    """조건마다 per_condition개, 그 안에서 카드 위치를 절반씩 (명세서 6장). 섞인 배정표 앞에서부터 고르고 실행 순서를 다시 섞음."""
     picked, need, used = [], {}, set()
     for cell in plan:
-        key = (cell["condition"], cell["button_order"])
+        key = (cell["condition"], cell["layout"])
         need.setdefault(key, per_condition // 2)
         # 같은 조건 안에서 내용이 겹치지 않게 함 (표본 독립성, 명세서 5장)
         if need[key] > 0 and (cell["condition"], cell["content_id"]) not in used:
@@ -61,12 +61,16 @@ def main() -> int:
     ap.add_argument("--n", type=int, default=1)
     ap.add_argument("--seed", type=int, default=20261124)
     ap.add_argument("--start", type=int, default=0, help="배정표에서 시작할 위치")
-    ap.add_argument("--per-condition", type=int, default=0, help="조건마다 이 횟수씩 균형 배정 (버튼 순서 절반씩). 0이면 배정표 순서대로 --n회")
+    ap.add_argument("--per-condition", type=int, default=0, help="조건마다 이 횟수씩 균형 배정 (카드 위치 절반씩). 0이면 배정표 순서대로 --n회")
     ap.add_argument("--fake-behaviors", default="", help="가짜 모델 전용: 실행마다 쓸 팝업 행동 (쉼표 구분)")
     ap.add_argument("--allow-dirty", action="store_true", help="가짜 모델 전용")
     args = ap.parse_args()
 
     cfg = load_config((REPO / args.config).resolve() if not args.config.is_absolute() else args.config)
+    cond_version = json.loads(mockup.CONDITIONS.read_text(encoding="utf-8"))["version"]
+    if cfg["conditions"] != cond_version:
+        print(f"설정의 조건 버전({cfg['conditions']})과 목업이 읽는 조건 파일({cond_version})이 다름. v1 설정은 코드 b3b5123에서만 돌림")
+        return 2
     provider = cfg["model"]["provider"]
     data_dir = REPO / cfg["data_dir"]
     code = code_state(data_dir)

@@ -20,6 +20,7 @@ input, textarea { width: 100%; padding: 7px 8px; font: inherit; border: 1px soli
 textarea { resize: none; }
 .invalid { border-color: #d33; background: #fff3f3; }
 .submit-row { text-align: right; margin-top: 6px; }
+#s1b .submit-row { margin-top: 14px; }
 button { font: inherit; padding: 8px 20px; border-radius: 5px; border: 1px solid #999;
          background: #fff; cursor: pointer; }
 button.primary { background: #1f5f8b; border-color: #1f5f8b; color: #fff; }
@@ -27,13 +28,14 @@ button.primary { background: #1f5f8b; border-color: #1f5f8b; color: #fff; }
 .summary dt { color: #666; }
 .summary dd { margin: 0; white-space: pre-wrap; }
 
-#overlay { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.45); }
-#popup { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 520px;
-         background: #fff; border-radius: 10px; padding: 24px 26px 20px; }
-#popup h2 { font-size: 17px; margin: 0 0 14px; display: flex; align-items: center; }
+.step { font-size: 14px; font-weight: normal; color: #666; margin-left: 8px; }
+#intro-area { display: flex; flex-direction: column; gap: 14px; }
+#intro-field { margin: 0; }
+.card { border: 1px solid #cfd8e3; border-radius: 8px; padding: 16px 18px 14px; background: #fff; }
+.card h2 { font-size: 16px; margin: 0 0 10px; display: flex; align-items: center; }
 /* 배지는 고정 크기 상자. 조건마다 문구 폭이 달라도 바깥 배치는 같음 (명세서 3장) */
 .badge { flex: 0 0 auto; display: inline-block; width: 76px; height: 24px; line-height: 22px;
          text-align: center; white-space: nowrap; overflow: hidden; font-size: 12px; font-weight: normal;
          color: #1f5f8b; border: 1px solid #1f5f8b; border-radius: 12px; margin-right: 10px; }
-#popup-text { margin: 0; padding: 12px 14px; background: #f6f8fa; border-radius: 6px; line-height: 1.6; }
-.actions { margin-top: 18px; display: flex; gap: 10px; justify-content: flex-end; }
+#card-text { margin: 0; padding: 10px 12px; background: #f6f8fa; border-radius: 6px; line-height: 1.6; }
+.actions { margin-top: 12px; display: flex; gap: 10px; justify-content: flex-end; }
