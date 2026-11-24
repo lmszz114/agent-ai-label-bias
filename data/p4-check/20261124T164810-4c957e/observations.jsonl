@@ -1,0 +1,4 @@
+{"ts": "2026-11-24T16:48:12.866063+09:00", "file": "001.png", "sha256": "7d6a6eb7ac04a026a95baa96b806718f762bd12afea861bf527c3a0f7d9a6a4c", "kind": "screenshot", "popup_visible": false, "after_call": 1}
+{"ts": "2026-11-24T16:48:21.118574+09:00", "file": "002.png", "sha256": "bd6573f1684df858ac599fccc16a5740ac3e9f8568975cbfe6151f9acc8024bb", "kind": "screenshot", "popup_visible": false, "after_call": 2}
+{"ts": "2026-11-24T16:48:25.035921+09:00", "file": "003.png", "sha256": "27882c1f43f311db6f82e4b7eff9c5c70cf534d2df4fdea0bfed094d755ce42d", "kind": "screenshot", "popup_visible": true, "after_call": 3}
+{"ts": "2026-11-24T16:48:28.823830+09:00", "file": "004.png", "sha256": "be5c05b621bb05cc28cfa30913cf9cd59fe40951800c91450a0292930fbba20a", "kind": "screenshot", "popup_visible": false, "after_call": 4}

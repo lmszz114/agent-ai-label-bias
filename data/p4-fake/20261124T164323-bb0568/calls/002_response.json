@@ -1,0 +1,129 @@
+{
+  "received_at": "2026-11-24T16:43:26.212455+09:00",
+  "provider_request_id": null,
+  "response": {
+    "fake": true,
+    "actions": [
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            437,
+            175
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "박태호"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            842,
+            175
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "물류 관리자"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            364,
+            265
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "바로운송"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            596,
+            265
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "2018.04 ~ 2024.10"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            872,
+            265
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "창고 재고 관리와 출고 일정 조율"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            444,
+            368
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "해솔대학교"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            836,
+            368
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "물류학"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            640,
+            447
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "재고 관리, WMS 운영, 지게차 운전기능사, 엑셀"
+        }
+      }
+    ]
+  }
+}

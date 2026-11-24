@@ -1,0 +1,17 @@
+{"ts": "2026-11-24T16:45:14.147931+09:00", "call": 1, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:14.480179+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [437, 175]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:14.793045+09:00", "call": 2, "action": "type", "args": {"text": "정민재"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:15.104456+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [842, 175]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:15.416754+09:00", "call": 2, "action": "type", "args": {"text": "백엔드 개발자"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:15.733182+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [364, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:16.040170+09:00", "call": 2, "action": "type", "args": {"text": "새솔페이"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:16.352922+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [596, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:16.674161+09:00", "call": 2, "action": "type", "args": {"text": "2021.03 ~ 2024.08"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:16.979910+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [872, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:17.298900+09:00", "call": 2, "action": "type", "args": {"text": "결제 서버 API 개발과 유지보수"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:17.611841+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [444, 368]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:17.928792+09:00", "call": 2, "action": "type", "args": {"text": "한누리대학교"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:18.246172+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [836, 368]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:18.563366+09:00", "call": 2, "action": "type", "args": {"text": "컴퓨터공학"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:18.881818+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [640, 447]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:19.221458+09:00", "call": 2, "action": "type", "args": {"text": "Java, Spring Boot, MySQL, Docker"}, "outcome": "ok"}

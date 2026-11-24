@@ -1,0 +1,13 @@
+{
+  "version": "run-p4-check-v1",
+  "purpose": "P4 실제 모델 3회 실행 (workplan P4 게이트 2, 3). 정식 결과 아님",
+  "data_dir": "data/p4-check",
+  "model": {"provider": "anthropic", "id": "claude-sonnet-5-5", "effort": "high", "max_tokens": 16000},
+  "prompts": {"system": "system-v1", "task": "task-v1", "user_sim": "user-sim-v1", "ask_user_tool": "ask-user-tool-v1"},
+  "conditions": "conditions-v1",
+  "content": "content-v1",
+  "episode": {"max_steps": 40, "max_seconds": 600},
+  "mockup_origin": "http://127.0.0.1:8765",
+  "viewport": {"width": 1280, "height": 800},
+  "budget_usd": 10.0
+}

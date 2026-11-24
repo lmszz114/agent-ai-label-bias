@@ -1,0 +1,129 @@
+{
+  "received_at": "2026-11-24T16:45:07.405369+09:00",
+  "provider_request_id": null,
+  "response": {
+    "fake": true,
+    "actions": [
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            437,
+            175
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "김예린"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            842,
+            175
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "회계 담당자"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            364,
+            265
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "한결정밀"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            596,
+            265
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "2019.07 ~ 2024.06"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            872,
+            265
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "월별 결산과 세금계산서 관리"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            444,
+            368
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "동림대학교"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            836,
+            368
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "회계학"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            640,
+            447
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "전산회계 1급, 엑셀, ERP 입력, 부가세 신고"
+        }
+      }
+    ]
+  }
+}

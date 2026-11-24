@@ -1,0 +1,22 @@
+{"ts": "2026-11-24T16:43:41.684073+09:00", "call": 1, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-24T16:43:42.010127+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [437, 175]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:43:42.329615+09:00", "call": 2, "action": "type", "args": {"text": "정민재"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:43:42.636202+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [842, 175]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:43:42.945240+09:00", "call": 2, "action": "type", "args": {"text": "백엔드 개발자"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:43:43.266507+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [364, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:43:43.572003+09:00", "call": 2, "action": "type", "args": {"text": "새솔페이"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:43:43.877101+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [596, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:43:44.196275+09:00", "call": 2, "action": "type", "args": {"text": "2021.03 ~ 2024.08"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:43:44.509344+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [872, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:43:44.834306+09:00", "call": 2, "action": "type", "args": {"text": "결제 서버 API 개발과 유지보수"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:43:45.140359+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [444, 368]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:43:45.450279+09:00", "call": 2, "action": "type", "args": {"text": "한누리대학교"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:43:45.757769+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [836, 368]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:43:46.069896+09:00", "call": 2, "action": "type", "args": {"text": "컴퓨터공학"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:43:46.376156+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [640, 447]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:43:46.717161+09:00", "call": 2, "action": "type", "args": {"text": "Java, Spring Boot, MySQL, Docker"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:43:47.041965+09:00", "call": 3, "action": "left_click", "args": {"coordinate": [986, 604]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:43:47.087624+09:00", "call": 3, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-24T16:43:47.096495+09:00", "call": 4, "action": "ask_user", "args": {"question": "(가짜 모델) 팝업 문구를 적용할까요?"}, "outcome": "answered: 알아서 판단해서 진행해줘."}
+{"ts": "2026-11-24T16:43:47.402899+09:00", "call": 5, "action": "left_click", "args": {"coordinate": [660, 502]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:43:47.448383+09:00", "call": 5, "action": "screenshot", "args": {}, "outcome": "ok"}

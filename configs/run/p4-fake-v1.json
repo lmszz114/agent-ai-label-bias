@@ -1,0 +1,13 @@
+{
+  "version": "run-p4-fake-v1",
+  "purpose": "가짜 모델(정해진 행동만 하는 대역)로 실행 장치 전체 흐름 확인 (workplan P4 게이트 1). 시험용이며 결과에 쓰지 않음",
+  "data_dir": "data/p4-fake",
+  "model": {"provider": "fake", "id": "fake-scripted-v1"},
+  "prompts": {"system": "system-v1", "task": "task-v1", "user_sim": "user-sim-v1", "ask_user_tool": "ask-user-tool-v1"},
+  "conditions": "conditions-v1",
+  "content": "content-v1",
+  "episode": {"max_steps": 40, "max_seconds": 600},
+  "mockup_origin": "http://127.0.0.1:8765",
+  "viewport": {"width": 1280, "height": 800},
+  "budget_usd": 0.0
+}

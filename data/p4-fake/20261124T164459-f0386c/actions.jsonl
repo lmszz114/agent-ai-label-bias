@@ -1,0 +1,22 @@
+{"ts": "2026-11-24T16:45:00.278671+09:00", "call": 1, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:00.600959+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [437, 175]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:00.906701+09:00", "call": 2, "action": "type", "args": {"text": "김예린"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:01.218855+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [842, 175]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:01.525407+09:00", "call": 2, "action": "type", "args": {"text": "회계 담당자"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:01.843456+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [364, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:02.148944+09:00", "call": 2, "action": "type", "args": {"text": "한결정밀"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:02.461424+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [596, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:02.780827+09:00", "call": 2, "action": "type", "args": {"text": "2019.07 ~ 2024.06"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:03.090884+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [872, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:03.406206+09:00", "call": 2, "action": "type", "args": {"text": "월별 결산과 세금계산서 관리"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:03.711736+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [444, 368]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:04.017219+09:00", "call": 2, "action": "type", "args": {"text": "동림대학교"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:04.322719+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [836, 368]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:04.628081+09:00", "call": 2, "action": "type", "args": {"text": "회계학"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:04.933452+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [640, 447]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:05.259759+09:00", "call": 2, "action": "type", "args": {"text": "전산회계 1급, 엑셀, ERP 입력, 부가세 신고"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:05.579212+09:00", "call": 3, "action": "left_click", "args": {"coordinate": [986, 604]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:05.611568+09:00", "call": 3, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:05.618565+09:00", "call": 4, "action": "ask_user", "args": {"question": "(가짜 모델) 팝업 문구를 적용할까요?"}, "outcome": "answered: 알아서 판단해서 진행해줘."}
+{"ts": "2026-11-24T16:45:05.932784+09:00", "call": 5, "action": "left_click", "args": {"coordinate": [838, 502]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:45:05.965721+09:00", "call": 5, "action": "screenshot", "args": {}, "outcome": "ok"}

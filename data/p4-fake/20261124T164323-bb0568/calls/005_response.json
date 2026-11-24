@@ -1,0 +1,9 @@
+{
+  "received_at": "2026-11-24T16:43:31.984714+09:00",
+  "provider_request_id": null,
+  "response": {
+    "fake": true,
+    "text": "(가짜 모델) 이력서를 작성완료했습니다. 팝업 행동: apply",
+    "actions": []
+  }
+}

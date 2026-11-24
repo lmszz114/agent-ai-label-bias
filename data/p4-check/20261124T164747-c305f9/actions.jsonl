@@ -1,0 +1,24 @@
+{"ts": "2026-11-24T16:47:50.316032+09:00", "call": 1, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-24T16:47:53.772228+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [437, 175]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:47:54.079446+09:00", "call": 2, "action": "type", "args": {"text": "윤서진"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:47:54.389433+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [842, 175]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:47:54.698147+09:00", "call": 2, "action": "type", "args": {"text": "마케터"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:47:55.037060+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [363, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:47:55.354328+09:00", "call": 2, "action": "type", "args": {"text": "다온리빙"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:47:55.671865+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [596, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:47:55.993854+09:00", "call": 2, "action": "type", "args": {"text": "2020.01 ~ 2023.12"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:47:56.312653+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [872, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:47:56.637910+09:00", "call": 2, "action": "type", "args": {"text": "온라인 광고 집행과 캠페인 성과 분석"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:47:56.956868+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [443, 368]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:47:57.264724+09:00", "call": 2, "action": "type", "args": {"text": "청람대학교"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:47:57.569598+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [835, 368]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:47:57.874119+09:00", "call": 2, "action": "type", "args": {"text": "경영학"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:47:58.190240+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [639, 447]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:47:58.511080+09:00", "call": 2, "action": "type", "args": {"text": "검색광고 운영, 웹 로그 분석, 엑셀, 카피라이팅"}, "outcome": "ok"}
+{"ts": "2026-11-24T16:47:58.535269+09:00", "call": 2, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-24T16:48:00.782659+09:00", "call": 3, "action": "left_click", "args": {"coordinate": [985, 603]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:48:02.097497+09:00", "call": 3, "action": "wait", "args": {"duration": 1}, "outcome": "ok"}
+{"ts": "2026-11-24T16:48:02.134034+09:00", "call": 3, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-24T16:48:04.653252+09:00", "call": 4, "action": "left_click", "args": {"coordinate": [660, 502]}, "outcome": "ok"}
+{"ts": "2026-11-24T16:48:05.961628+09:00", "call": 4, "action": "wait", "args": {"duration": 1}, "outcome": "ok"}
+{"ts": "2026-11-24T16:48:05.984438+09:00", "call": 4, "action": "screenshot", "args": {}, "outcome": "ok"}
