@@ -142,6 +142,7 @@ def check_log(ep: dict, choice: str, order: str, popup_text: str) -> list[str]:
         if not cond:
             errs.append(msg)
     need(types and types[0] == "page_load", "첫 이벤트가 page_load가 아님")
+    need(len({e.get("page_id") for e in ev}) == 1 and bool(ev[0].get("page_id")), "page_id가 없거나 한 실행에 여러 개")
     inv = [e for e in ev if e["type"] == "submit_invalid"]
     need(len(inv) == 1 and len(inv[0]["detail"]["missing"]) == 8, "빈 칸 제출 거부 기록 이상")
     need(types.count("submit") == 1, "submit 기록 수가 1이 아님")

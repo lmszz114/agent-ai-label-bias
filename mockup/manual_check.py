@@ -46,23 +46,32 @@ def show():
     plan = json.loads(PLAN.read_text(encoding="utf-8"))
     events = [json.loads(l) for l in S.EVENT_LOG.read_text(encoding="utf-8").splitlines() if l.strip()]
     for p in plan:
-        ev = sorted((e for e in events if e["run_id"] == p["run_id"]), key=lambda e: e["seq"])
+        ev = [e for e in events if e["run_id"] == p["run_id"]]
         print(f"\n=== {p['no']}. 조건 {p['condition']}, 버튼 순서 {p['order']}, 누를 버튼 [{p['press']}] ===")
-        for e in ev:
-            d = e["detail"]
-            if e["type"] == "click":
-                msg = f"클릭 {d['target']} ({d['x']},{d['y']}) 팝업{'열림' if d['popup_open'] else '닫힘'}"
-            elif e["type"] == "field_change":
-                msg = f"입력 {d['field']} = {d['value'][:20]}"
-            elif e["type"] in ("submit", "resume_updated"):
-                msg = f"{e['type']} 자기소개={'있음' if d['resume']['intro'] else '없음'}"
-            elif e["type"] == "page_unload":
-                continue
-            else:
-                msg = f"{e['type']} {json.dumps(d, ensure_ascii=False)}"
-            print(f"  {e['seq']:>3} {e['server_ts'][11:23]} {msg}")
+        # 페이지를 연 순서대로, 각 페이지 안에서는 seq 순서로 (page_id가 없는 옛 기록은 한 묶음)
+        pages = sorted({e.get("page_id", "?") for e in ev},
+                       key=lambda pid: min(x["server_ts"] for x in ev if x.get("page_id", "?") == pid))
+        for n, pid in enumerate(pages, 1):
+            print(f"  -- 페이지 {n}번째 열기 (page_id {pid}) --")
+            for e in sorted((x for x in ev if x.get("page_id", "?") == pid), key=lambda x: x["seq"]):
+                show_one(e)
         if not ev:
             print("  (기록 없음: 아직 열지 않았거나 서버가 꺼져 있음)")
+
+
+def show_one(e: dict) -> None:
+    d = e["detail"]
+    if e["type"] == "page_unload" or (e["type"] == "key" and d.get("key") == "Process"):
+        return
+    if e["type"] == "click":
+        msg = f"클릭 {d['target']} ({d['x']},{d['y']}) 팝업{'열림' if d['popup_open'] else '닫힘'}"
+    elif e["type"] == "field_change":
+        msg = f"입력 {d['field']} = {d['value'][:20]}"
+    elif e["type"] in ("submit", "resume_updated"):
+        msg = f"{e['type']} 자기소개={'있음' if d['resume']['intro'] else '없음'}"
+    else:
+        msg = f"{e['type']} {json.dumps(d, ensure_ascii=False)}"
+    print(f"    {e['seq']:>3} {e['server_ts'][11:23]} {msg}")
 
 
 if __name__ == "__main__":

@@ -57,4 +57,6 @@ python -I mockup/server.py --port 8765
 | `popup_closed` | 팝업이 닫힘 | 누른 버튼, 보인 시간(ms) |
 | `page_unload` | 페이지를 떠남 | 마지막 이력서 |
 
-- 모든 이벤트에 `run_id`, `seq`(페이지 안 순서), `client_ts`, `t_ms`, `server_ts`(KST)가 붙는다. 전송 순서가 바뀔 수 있으므로 순서는 `seq`로 본다
+- 모든 이벤트에 `run_id`, `page_id`(페이지를 열 때마다 새 값), `seq`(페이지 안 순서), `client_ts`, `t_ms`, `server_ts`(KST)가 붙는다. 전송 순서가 바뀔 수 있으므로 순서는 `page_id`별 `seq`로 본다. 새로고침하면 `page_id`가 바뀌고 `seq`는 1부터 다시 시작한다
+- 한글 입력 중 생기는 `Process` 키는 기록하지 않는다
+- 새로고침하면 화면이 처음(S1)으로 돌아가므로, 다시 저장하면 팝업도 다시 뜬다. 행동 판정은 실행 안의 첫 노출 기준이다 (명세서 8-2)

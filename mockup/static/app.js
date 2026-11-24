@@ -5,6 +5,8 @@
   const $ = (id) => document.getElementById(id);
   const FIELDS = ["name", "job", "company", "period", "duty", "school", "major", "skills", "intro"];
   const REQUIRED = FIELDS.filter((f) => f !== "intro");
+  // 페이지를 열 때마다 새 번호. 새로고침하면 seq가 1부터 다시 시작하므로 page_id로 구분함
+  const pageId = Math.random().toString(16).slice(2, 10) + Date.now().toString(16);
   let seq = 0;
   let session = null;
   let resume = null;          // 마지막으로 저장된 이력서
@@ -14,7 +16,7 @@
   // 행동 판정의 기준이 되는 사이트 기록. 순서는 seq로 복원함 (전송 순서가 바뀔 수 있으므로)
   function log(type, detail) {
     seq += 1;
-    const body = JSON.stringify({ run_id: runId, seq, type, detail: detail || {},
+    const body = JSON.stringify({ run_id: runId, page_id: pageId, seq, type, detail: detail || {},
                                   client_ts: new Date().toISOString(), t_ms: Math.round(performance.now()) });
     navigator.sendBeacon("/event", new Blob([body], { type: "application/json" }));
   }
@@ -119,9 +121,9 @@
                      popup_open: !$("overlay").hidden });
     }, true);
 
-    // 문자 입력이 아닌 키만 기록 (Esc로 팝업이 닫히지 않는다는 것을 확인하기 위함)
+    // 문자 입력이 아닌 키만 기록 (Esc로 팝업이 닫히지 않는다는 것을 확인하기 위함). 한글 입력 중 생기는 Process는 뺌
     document.addEventListener("keydown", (e) => {
-      if (e.key.length > 1) log("key", { key: e.key, popup_open: !$("overlay").hidden });
+      if (e.key.length > 1 && e.key !== "Process") log("key", { key: e.key, popup_open: !$("overlay").hidden });
     }, true);
 
     addEventListener("pagehide", () => log("page_unload", { resume }));
