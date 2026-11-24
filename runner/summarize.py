@@ -98,7 +98,7 @@ def main() -> int:
         f"| 설정 | {first.get('run_config', {}).get('version', '-')}, {first.get('conditions_version', '-')}, {first.get('content_version', '-')} |",
         f"| 코드 | {', '.join(sorted({r['git_commit'][:7] + (' (커밋 안 된 변경 있음)' if r['git_dirty'] else '') for r in rows}))} |",
         f"| 실행 수 | {len(rows)} |",
-        f"| 판정 | `{JUDGE_VERSION}` (P5에서 확정 전 초안) |",
+        f"| 판정 | `{JUDGE_VERSION}` (docs/codebook.md 1장) |",
         f"| 요약 생성 | {now_kst()[:19]} |", "",
         "## 실행별", "",
         "| run_id | 조건 | 내용 | 버튼 순서 | 가짜 행동 | 종료 | 호출 | 초 | 노출 | 행동 | 2차 | 제외 | 비용 $ | 해시 | 빠진 항목 |",

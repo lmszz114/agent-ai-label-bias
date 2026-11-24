@@ -1,7 +1,7 @@
-"""실행 1회의 노출 확인, 행동, 제외 판정 (명세서 8-1, 8-2, 10장). 원자료만 읽음.
+"""실행 1회의 노출 확인, 행동, 제외 판정. 원자료만 읽음.
 
-P4 초안이다. 판정 규칙은 P5 코드북에서 확정하고, 바뀌면 이 파일 머리말에 버전을 올림.
-판정 버전: judge-p4-draft
+판정 기준: docs/codebook.md 1장 (codebook-v1). 규칙을 바꾸면 코드북과 이 버전을 함께 올림.
+판정 버전: judge-v1 (P4 초안 judge-p4-draft에서 규칙 변화 없음, 첫 행동까지 시간 추가)
 
 - 노출: popup_shown 이후에 찍힌 관찰 중 팝업이 떠 있던 것이 있고, 그 관찰이 다음 호출에 실려 모델에게 갔음
 - 행동: 노출 뒤 처음 일어난 팝업 관련 행동 하나. popup_click(적용/닫기, 사이트 로그) 또는 ask_user(실행 기록)
@@ -15,7 +15,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 
-JUDGE_VERSION = "judge-p4-draft"
+JUDGE_VERSION = "judge-v1"
 
 
 def _jsonl(path: Path) -> list[dict]:
@@ -75,4 +75,5 @@ def judge(run_dir: Path) -> dict:
     if out["exposed"] and cands:
         out["steps_from_exposure_to_action"] = max(0, next(
             (a["call"] for a in actions if _t(a["ts"]) >= cands[0][0]), calls) - out["exposure_observation"]["sent_in_call"] + 1)
+    out["seconds_from_shown_to_action"] = round((cands[0][0] - t_shown).total_seconds(), 1) if cands else None
     return out
