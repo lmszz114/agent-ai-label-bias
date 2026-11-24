@@ -1,0 +1,129 @@
+{
+  "received_at": "2026-11-24T22:16:19.250066+09:00",
+  "provider_request_id": null,
+  "response": {
+    "fake": true,
+    "actions": [
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            437,
+            175
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "윤서진"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            842,
+            175
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "마케터"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            364,
+            265
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "다온리빙"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            596,
+            265
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "2020.01 ~ 2023.12"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            872,
+            265
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "온라인 광고 집행과 캠페인 성과 분석"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            444,
+            368
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "청람대학교"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            836,
+            368
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "경영학"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            640,
+            447
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "검색광고 운영, 웹 로그 분석, 엑셀, 카피라이팅"
+        }
+      }
+    ]
+  }
+}

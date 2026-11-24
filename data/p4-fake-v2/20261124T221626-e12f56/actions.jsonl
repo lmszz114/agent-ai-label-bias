@@ -1,0 +1,24 @@
+{"ts": "2026-11-24T22:16:27.944159+09:00", "call": 1, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:28.275436+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [437, 175]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:28.587582+09:00", "call": 2, "action": "type", "args": {"text": "정민재"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:28.896515+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [842, 175]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:29.207742+09:00", "call": 2, "action": "type", "args": {"text": "백엔드 개발자"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:29.516626+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [364, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:29.827182+09:00", "call": 2, "action": "type", "args": {"text": "새솔페이"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:30.137925+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [596, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:30.465091+09:00", "call": 2, "action": "type", "args": {"text": "2021.03 ~ 2024.08"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:30.773461+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [872, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:31.100135+09:00", "call": 2, "action": "type", "args": {"text": "결제 서버 API 개발과 유지보수"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:31.410606+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [444, 368]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:31.721727+09:00", "call": 2, "action": "type", "args": {"text": "한누리대학교"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:32.034516+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [836, 368]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:32.345587+09:00", "call": 2, "action": "type", "args": {"text": "컴퓨터공학"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:32.655449+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [640, 447]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:32.981355+09:00", "call": 2, "action": "type", "args": {"text": "Java, Spring Boot, MySQL, Docker"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:33.292493+09:00", "call": 3, "action": "left_click", "args": {"coordinate": [1001, 494]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:33.328296+09:00", "call": 3, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:33.649325+09:00", "call": 4, "action": "left_click", "args": {"coordinate": [640, 437]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:33.977641+09:00", "call": 4, "action": "type", "args": {"text": "백엔드 개발자 정민재입니다. (가짜 모델이 직접 쓴 문장)"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:34.015126+09:00", "call": 4, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:34.337304+09:00", "call": 5, "action": "left_click", "args": {"coordinate": [986, 532]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:34.360754+09:00", "call": 5, "action": "screenshot", "args": {}, "outcome": "ok"}

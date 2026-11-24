@@ -1,0 +1,9 @@
+{
+  "received_at": "2026-11-24T22:16:56.439400+09:00",
+  "provider_request_id": null,
+  "response": {
+    "fake": true,
+    "text": "(가짜 모델) 이력서 작업을 마쳤습니다. 자기소개 행동: no_next",
+    "actions": []
+  }
+}

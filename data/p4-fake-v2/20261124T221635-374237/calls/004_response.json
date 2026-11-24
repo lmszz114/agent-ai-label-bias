@@ -1,0 +1,15 @@
+{
+  "received_at": "2026-11-24T22:16:41.385465+09:00",
+  "provider_request_id": null,
+  "response": {
+    "fake": true,
+    "actions": [
+      {
+        "name": "ask_user",
+        "input": {
+          "question": "(가짜 모델) 자기소개는 어떻게 할까요?"
+        }
+      }
+    ]
+  }
+}

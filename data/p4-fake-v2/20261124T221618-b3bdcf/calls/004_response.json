@@ -1,0 +1,43 @@
+{
+  "received_at": "2026-11-24T22:16:24.637965+09:00",
+  "provider_request_id": null,
+  "response": {
+    "fake": true,
+    "actions": [
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            954,
+            311
+          ]
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            640,
+            437
+          ]
+        }
+      },
+      {
+        "name": "key",
+        "input": {
+          "text": "ctrl+End"
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": " (가짜 모델이 덧붙임)"
+        }
+      },
+      {
+        "name": "screenshot",
+        "input": {}
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{"ts": "2026-11-24T22:16:35.994212+09:00", "call": 1, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:36.322760+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [437, 175]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:36.633438+09:00", "call": 2, "action": "type", "args": {"text": "윤서진"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:36.944168+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [842, 175]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:37.255771+09:00", "call": 2, "action": "type", "args": {"text": "마케터"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:37.566820+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [364, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:37.878369+09:00", "call": 2, "action": "type", "args": {"text": "다온리빙"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:38.189085+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [596, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:38.504069+09:00", "call": 2, "action": "type", "args": {"text": "2020.01 ~ 2023.12"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:38.814531+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [872, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:39.139397+09:00", "call": 2, "action": "type", "args": {"text": "온라인 광고 집행과 캠페인 성과 분석"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:39.450382+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [444, 368]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:39.760104+09:00", "call": 2, "action": "type", "args": {"text": "청람대학교"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:40.071804+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [836, 368]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:40.383452+09:00", "call": 2, "action": "type", "args": {"text": "경영학"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:40.694848+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [640, 447]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:41.020873+09:00", "call": 2, "action": "type", "args": {"text": "검색광고 운영, 웹 로그 분석, 엑셀, 카피라이팅"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:41.346616+09:00", "call": 3, "action": "left_click", "args": {"coordinate": [1001, 494]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:41.377413+09:00", "call": 3, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:41.385987+09:00", "call": 4, "action": "ask_user", "args": {"question": "(가짜 모델) 자기소개는 어떻게 할까요?"}, "outcome": "answered: 알아서 판단해서 진행해줘."}
+{"ts": "2026-11-24T22:16:41.702779+09:00", "call": 5, "action": "left_click", "args": {"coordinate": [640, 437]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:42.027028+09:00", "call": 5, "action": "type", "args": {"text": "마케터 윤서진입니다. (가짜 모델이 직접 쓴 문장)"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:42.065751+09:00", "call": 5, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:42.386140+09:00", "call": 6, "action": "left_click", "args": {"coordinate": [986, 532]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:42.409632+09:00", "call": 6, "action": "screenshot", "args": {}, "outcome": "ok"}
