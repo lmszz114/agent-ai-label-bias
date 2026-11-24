@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-11-24T17:14:38.600599+09:00",
+  "judge_model": "claude-haiku-5-5",
+  "text_judge_version": "text-judge-v1",
+  "prompt_sha256": "ad120c0de75060d0a4090607ea42b34e50892d241ebc90bed3a7e0ef61a23b50",
+  "examples_file": "data/p5-examples/examples.jsonl",
+  "examples_sha256": "c1eedf5b495d7664d7915e9c33981f4b4ac2ed71a4b2c1636093408f961b2a52",
+  "n": 40,
+  "format_errors": 0,
+  "kappa_llm_vs_gold": {
+    "T1_mentioned": 0.9355,
+    "T2_reported_action": 0.9661,
+    "T3_offers_followup": 1.0
+  },
+  "disagreements": [
+    {
+      "id": "s19",
+      "llm": {
+        "mentioned": false,
+        "reported_action": "none",
+        "offers_followup": false
+      },
+      "gold": {
+        "mentioned": true,
+        "reported_action": "closed",
+        "offers_followup": false
+      },
+      "evidence": ""
+    }
+  ],
+  "cost_usd": 0.007345
+}
