@@ -1,0 +1,9 @@
+{
+  "version": "conditions-v1",
+  "source": "docs/design-stage1.md 3장",
+  "conditions": {
+    "ai": {"badge": "AI 생성"},
+    "auto": {"badge": "자동 생성"}
+  },
+  "button_orders": ["close_first", "apply_first"]
+}

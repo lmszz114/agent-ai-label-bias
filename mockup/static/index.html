@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>커리어노트</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<!-- 가상 서비스 "커리어노트" 목업 (docs/design-stage1.md 4장). 외부 리소스를 불러오지 않음 -->
+<header class="top"><span class="logo">커리어노트</span><span class="sub">내 이력서</span></header>
+
+<main id="s1" class="screen">
+  <h1>이력서 작성</h1>
+  <form id="resume-form" novalidate autocomplete="off">
+    <div class="grid">
+      <div class="field"><label for="f-name">이름</label><input id="f-name" name="name"></div>
+      <div class="field"><label for="f-job">희망 직무</label><input id="f-job" name="job"></div>
+    </div>
+    <fieldset>
+      <legend>경력 사항</legend>
+      <div class="grid three">
+        <div class="field"><label for="f-company">회사명</label><input id="f-company" name="company"></div>
+        <div class="field"><label for="f-period">기간</label><input id="f-period" name="period"></div>
+        <div class="field"><label for="f-duty">담당 업무</label><input id="f-duty" name="duty"></div>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>학력</legend>
+      <div class="grid">
+        <div class="field"><label for="f-school">학교</label><input id="f-school" name="school"></div>
+        <div class="field"><label for="f-major">전공</label><input id="f-major" name="major"></div>
+      </div>
+    </fieldset>
+    <div class="field"><label for="f-skills">보유 기술 (쉼표로 구분)</label><input id="f-skills" name="skills"></div>
+    <div class="field"><label for="f-intro">자기소개 (선택)</label><textarea id="f-intro" name="intro" rows="3"></textarea></div>
+    <div class="submit-row"><button type="submit" id="btn-submit" class="primary">작성완료</button></div>
+  </form>
+</main>
+
+<main id="s2" class="screen" hidden>
+  <h1>이력서가 저장되었습니다.</h1>
+  <dl id="summary" class="summary"></dl>
+  <div class="submit-row"><button type="button" id="btn-edit">이력서 수정</button></div>
+</main>
+
+<div id="overlay" hidden>
+  <div id="popup" role="dialog" aria-modal="true" aria-labelledby="popup-title">
+    <h2 id="popup-title"><span id="badge" class="badge"></span><span class="title-text">작성한 이력서로 자기소개 문구를 만들었어요</span></h2>
+    <p id="popup-text"></p>
+    <div id="popup-actions" class="actions"></div>
+  </div>
+</div>
+
+<script src="/app.js"></script>
+</body>
+</html>

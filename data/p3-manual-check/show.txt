@@ -1,0 +1,171 @@
+
+=== 1. 조건 ai, 버튼 순서 close_first, 누를 버튼 [닫기] ===
+  -- 페이지 1번째 열기 (page_id 024553c41a20c6dac57) --
+      1 16:20:43.890 page_load {"viewport": [948, 837], "button_order": "close_first"}
+      2 16:20:48.236 클릭 f-name (181,162) 팝업닫힘
+      3 16:20:49.746 key {"key": "Backspace", "popup_open": false}
+      4 16:20:49.780 key {"key": "Backspace", "popup_open": false}
+      5 16:20:49.812 key {"key": "Backspace", "popup_open": false}
+      6 16:20:49.843 key {"key": "Backspace", "popup_open": false}
+      7 16:20:49.875 key {"key": "Backspace", "popup_open": false}
+      8 16:20:49.908 key {"key": "Backspace", "popup_open": false}
+      9 16:20:49.940 key {"key": "Backspace", "popup_open": false}
+     10 16:20:49.985 key {"key": "Backspace", "popup_open": false}
+     11 16:20:50.019 key {"key": "Backspace", "popup_open": false}
+     12 16:20:50.054 key {"key": "Backspace", "popup_open": false}
+     13 16:20:50.388 클릭 btn-submit (813,601) 팝업닫힘
+     14 16:20:50.388 submit_invalid {"missing": ["name", "job", "company", "period", "duty", "school", "major", "skills"]}
+     15 16:20:51.293 클릭 resume-form (229,152) 팝업닫힘
+     16 16:20:51.293 클릭 f-name (229,152) 팝업닫힘
+     17 16:20:51.459 클릭 f-name (233,162) 팝업닫힘
+     18 16:20:51.901 입력 name = ㅁㄴㅇㄴㅁㅇ
+     19 16:20:51.963 클릭 f-job (599,167) 팝업닫힘
+     20 16:20:52.333 입력 job = ㄴㅁㅇㅁㄴㅇ
+     21 16:20:52.419 클릭 f-company (192,276) 팝업닫힘
+     22 16:20:52.710 입력 company = ㄴㅁㅇㄴㅁㅇ
+     23 16:20:52.763 클릭 f-period (417,251) 팝업닫힘
+     24 16:20:53.070 입력 period = ㅁㄴㅇㅁㄴㅇ
+     25 16:20:53.139 클릭 f-duty (702,263) 팝업닫힘
+     26 16:20:53.556 입력 duty = ㄴㅁㅇㄴㅇㅁ
+     27 16:20:53.619 클릭 f-school (269,363) 팝업닫힘
+     28 16:20:53.908 입력 school = ㄴㅁㅇㄴㅁㅇ
+     29 16:20:53.987 클릭 resume-form (517,347) 팝업닫힘
+     30 16:20:54.331 클릭 f-major (542,376) 팝업닫힘
+     31 16:20:54.748 입력 major = ㄴㅁㅇㅁㄴㅇ
+     32 16:20:54.851 클릭 f-skills (440,449) 팝업닫힘
+     33 16:20:57.053 입력 skills = ㅁㄴㅇㄴㅁㅇㅁㄴㅇ
+     34 16:20:57.107 클릭 btn-submit (799,618) 팝업닫힘
+     35 16:20:57.108 submit 자기소개=없음
+     36 16:20:57.109 screen {"name": "S2"}
+     37 16:20:57.109 popup_shown {"button_order": "close_first"}
+     38 16:20:57.113 popup_rendered {"in_viewport": true, "rect": [214, 278, 520, 282]}
+     39 16:20:59.281 key {"key": "Escape", "popup_open": true}
+     40 16:20:59.447 key {"key": "Escape", "popup_open": true}
+     41 16:20:59.644 key {"key": "Escape", "popup_open": true}
+     42 16:20:59.836 key {"key": "Escape", "popup_open": true}
+     43 16:21:00.107 클릭 overlay (446,620) 팝업열림
+     44 16:21:00.259 클릭 overlay (502,630) 팝업열림
+     45 16:21:00.427 클릭 overlay (533,630) 팝업열림
+     46 16:21:00.556 클릭 overlay (527,621) 팝업열림
+     47 16:21:01.460 클릭 btn-close (497,528) 팝업열림
+     48 16:21:01.460 popup_click {"button": "close", "position": "left"}
+     49 16:21:01.461 popup_closed {"by": "close", "visible_ms": 4351}
+
+=== 2. 조건 ai, 버튼 순서 apply_first, 누를 버튼 [이력서에 적용하기] ===
+  -- 페이지 1번째 열기 (page_id f75543f61a20c6df954) --
+      1 16:21:03.595 page_load {"viewport": [948, 837], "button_order": "apply_first"}
+      2 16:21:09.675 클릭 btn-submit (839,602) 팝업닫힘
+      3 16:21:09.676 submit_invalid {"missing": ["name", "job", "company", "period", "duty", "school", "major", "skills"]}
+      4 16:21:10.539 클릭 f-name (307,190) 팝업닫힘
+      5 16:21:11.045 입력 name = ㅇㄴㅁㄴㅁㅇ
+      6 16:21:11.114 클릭 f-job (542,182) 팝업닫힘
+      7 16:21:11.500 입력 job = ㄴㅁㅇㅇㄴㅁ
+      8 16:21:11.547 클릭 f-company (273,263) 팝업닫힘
+      9 16:21:11.862 입력 company = ㅇㄴㅁㅁㄴㅇ
+     10 16:21:11.939 클릭 f-period (424,277) 팝업닫힘
+     11 16:21:12.276 입력 period = ㅁㄴㅇㅇㄴㅁ
+     12 16:21:12.347 클릭 f-duty (659,275) 팝업닫힘
+     13 16:21:12.757 입력 duty = ㅁㄴㅇㄴㅁ
+     14 16:21:12.843 클릭 f-school (434,358) 팝업닫힘
+     15 16:21:13.221 입력 school = ㅁㄴㅇㅁㄴㅇ
+     16 16:21:13.315 클릭 f-major (536,367) 팝업닫힘
+     17 16:21:13.653 입력 major = ㅁㄴㅇ
+     18 16:21:13.738 클릭 f-skills (463,443) 팝업닫힘
+     19 16:21:15.172 입력 skills = ㅁㄴㅇ
+     20 16:21:15.243 클릭 btn-submit (830,605) 팝업닫힘
+     21 16:21:15.243 submit 자기소개=없음
+     22 16:21:15.244 screen {"name": "S2"}
+     23 16:21:15.245 popup_shown {"button_order": "apply_first"}
+     24 16:21:15.254 popup_rendered {"in_viewport": true, "rect": [214, 278, 520, 282]}
+     25 16:21:15.578 클릭 overlay (691,689) 팝업열림
+     26 16:21:15.739 클릭 overlay (693,689) 팝업열림
+     27 16:21:15.882 클릭 overlay (693,689) 팝업열림
+     28 16:21:15.989 key {"key": "Escape", "popup_open": true}
+     29 16:21:16.146 key {"key": "Escape", "popup_open": true}
+     30 16:21:16.288 key {"key": "Escape", "popup_open": true}
+     31 16:21:17.387 클릭 btn-apply (540,524) 팝업열림
+     32 16:21:17.388 popup_click {"button": "apply", "position": "left"}
+     33 16:21:17.388 resume_updated 자기소개=있음
+     34 16:21:17.389 popup_closed {"by": "apply", "visible_ms": 2144}
+
+=== 3. 조건 auto, 버튼 순서 close_first, 누를 버튼 [이력서에 적용하기] ===
+  -- 페이지 1번째 열기 (page_id a8201dd71a20c6e3ba4) --
+      1 16:21:20.579 page_load {"viewport": [948, 837], "button_order": "close_first"}
+      2 16:21:21.827 클릭 btn-submit (815,605) 팝업닫힘
+      3 16:21:21.828 submit_invalid {"missing": ["name", "job", "company", "period", "duty", "school", "major", "skills"]}
+      4 16:21:22.451 클릭 f-name (216,176) 팝업닫힘
+      5 16:21:22.925 입력 name = ㄴㅁㅇㅁㄴㅇ
+      6 16:21:23.018 클릭 f-job (598,169) 팝업닫힘
+      7 16:21:23.372 입력 job = ㅁㄴㅇ
+      8 16:21:23.466 클릭 resume-form (151,246) 팝업닫힘
+      9 16:21:23.650 클릭 f-company (164,263) 팝업닫힘
+     10 16:21:23.908 입력 company = ㅁㄴㅇ
+     11 16:21:23.986 클릭 f-period (460,252) 팝업닫힘
+     12 16:21:24.261 입력 period = ㅁㄴㅇ
+     13 16:21:24.330 클릭 f-duty (657,263) 팝업닫힘
+     14 16:21:24.661 입력 duty = ㅁㄴㅇ
+     15 16:21:24.739 클릭 f-school (349,366) 팝업닫힘
+     16 16:21:24.956 입력 school = ㅁㄴㅇ
+     17 16:21:25.034 클릭 f-major (564,366) 팝업닫힘
+     18 16:21:25.284 입력 major = ㅁㄴㅇ
+     19 16:21:25.370 클릭 f-skills (459,455) 팝업닫힘
+     20 16:21:27.804 입력 skills = ㅁㄴㅇ
+     21 16:21:27.859 클릭 btn-submit (807,604) 팝업닫힘
+     22 16:21:27.859 submit 자기소개=없음
+     23 16:21:27.860 screen {"name": "S2"}
+     24 16:21:27.860 popup_shown {"button_order": "close_first"}
+     25 16:21:27.864 popup_rendered {"in_viewport": true, "rect": [214, 278, 520, 282]}
+     26 16:21:28.242 클릭 overlay (673,694) 팝업열림
+     27 16:21:28.348 key {"key": "Escape", "popup_open": true}
+     28 16:21:28.497 key {"key": "Escape", "popup_open": true}
+     29 16:21:28.649 key {"key": "Escape", "popup_open": true}
+     30 16:21:30.706 클릭 overlay (595,648) 팝업열림
+     31 16:21:30.874 클릭 overlay (595,648) 팝업열림
+     32 16:21:31.034 클릭 overlay (595,648) 팝업열림
+     33 16:21:31.946 클릭 btn-apply (643,525) 팝업열림
+     34 16:21:31.948 popup_click {"button": "apply", "position": "right"}
+     35 16:21:31.948 resume_updated 자기소개=있음
+     36 16:21:31.948 popup_closed {"by": "apply", "visible_ms": 4088}
+     37 16:21:32.842 클릭 html (643,525) 팝업닫힘
+
+=== 4. 조건 auto, 버튼 순서 apply_first, 누를 버튼 [닫기] ===
+  -- 페이지 1번째 열기 (page_id 6face2481a20c6e7219) --
+      1 16:21:34.513 page_load {"viewport": [948, 837], "button_order": "apply_first"}
+      2 16:21:35.690 클릭 btn-submit (832,611) 팝업닫힘
+      3 16:21:35.691 submit_invalid {"missing": ["name", "job", "company", "period", "duty", "school", "major", "skills"]}
+      4 16:21:36.266 클릭 resume-form (303,155) 팝업닫힘
+      5 16:21:36.418 클릭 f-name (293,178) 팝업닫힘
+      6 16:21:36.868 입력 name = ㄴㅁㅇㅁㄴㅇ
+      7 16:21:37.022 클릭 f-job (566,177) 팝업닫힘
+      8 16:21:37.412 입력 job = ㅁㄴㅇ
+      9 16:21:37.506 클릭 f-company (231,254) 팝업닫힘
+     10 16:21:37.748 입력 company = ㅁㄴㅇ
+     11 16:21:37.809 클릭 f-period (420,255) 팝업닫힘
+     12 16:21:38.084 입력 period = ㅁㄴㅇ
+     13 16:21:38.178 클릭 f-duty (602,275) 팝업닫힘
+     14 16:21:38.532 입력 duty = ㅁㄴㅇ
+     15 16:21:38.626 클릭 f-school (323,379) 팝업닫힘
+     16 16:21:38.915 입력 school = ㅁㄴㅇ
+     17 16:21:38.994 클릭 f-major (542,365) 팝업닫힘
+     18 16:21:39.428 입력 major = ㅁㄴㅇ
+     19 16:21:39.530 클릭 f-skills (428,455) 팝업닫힘
+     20 16:21:40.299 입력 skills = ㅁㄴㅇ
+     21 16:21:40.377 클릭 s1 (455,629) 팝업닫힘
+     22 16:21:41.003 클릭 btn-submit (813,606) 팝업닫힘
+     23 16:21:41.003 submit 자기소개=없음
+     24 16:21:41.003 screen {"name": "S2"}
+     25 16:21:41.004 popup_shown {"button_order": "apply_first"}
+     26 16:21:41.015 popup_rendered {"in_viewport": true, "rect": [214, 278, 520, 282]}
+     27 16:21:41.546 클릭 overlay (381,634) 팝업열림
+     28 16:21:41.698 클릭 overlay (380,634) 팝업열림
+     29 16:21:41.873 클릭 overlay (358,649) 팝업열림
+     30 16:21:42.042 클릭 overlay (363,651) 팝업열림
+     31 16:21:42.228 key {"key": "Escape", "popup_open": true}
+     32 16:21:42.367 key {"key": "Escape", "popup_open": true}
+     33 16:21:42.514 key {"key": "Escape", "popup_open": true}
+     34 16:21:42.663 key {"key": "Escape", "popup_open": true}
+     35 16:21:43.187 클릭 btn-close (683,524) 팝업열림
+     36 16:21:43.187 popup_click {"button": "close", "position": "right"}
+     37 16:21:43.188 popup_closed {"by": "close", "visible_ms": 2183}
+     38 16:21:43.927 key {"key": "Escape", "popup_open": false}
+     39 16:21:44.254 key {"key": "Escape", "popup_open": false}
