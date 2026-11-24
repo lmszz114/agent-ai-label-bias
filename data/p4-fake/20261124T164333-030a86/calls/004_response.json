@@ -1,0 +1,22 @@
+{
+  "received_at": "2026-11-24T16:43:39.451721+09:00",
+  "provider_request_id": null,
+  "response": {
+    "fake": true,
+    "actions": [
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            660,
+            502
+          ]
+        }
+      },
+      {
+        "name": "screenshot",
+        "input": {}
+      }
+    ]
+  }
+}

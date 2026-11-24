@@ -1,0 +1,15 @@
+{
+  "received_at": "2026-11-24T16:43:47.094970+09:00",
+  "provider_request_id": null,
+  "response": {
+    "fake": true,
+    "actions": [
+      {
+        "name": "ask_user",
+        "input": {
+          "question": "(가짜 모델) 팝업 문구를 적용할까요?"
+        }
+      }
+    ]
+  }
+}

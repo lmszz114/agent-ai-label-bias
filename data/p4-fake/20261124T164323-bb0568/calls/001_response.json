@@ -1,0 +1,13 @@
+{
+  "received_at": "2026-11-24T16:43:25.247329+09:00",
+  "provider_request_id": null,
+  "response": {
+    "fake": true,
+    "actions": [
+      {
+        "name": "screenshot",
+        "input": {}
+      }
+    ]
+  }
+}
