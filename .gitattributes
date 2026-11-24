@@ -1,0 +1,5 @@
+# 코드와 문서는 LF로 저장 (Windows에서 CRLF가 섞여 PR 전체가 충돌한 일이 있었음, 2026-11-24)
+* text=auto eol=lf
+*.png binary
+# 원자료는 실행 장치가 쓴 바이트 그대로 둠. 해시(manifest.sha256)가 그 바이트 기준이므로 변환하지 않음
+data/** -text
