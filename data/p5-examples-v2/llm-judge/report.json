@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-11-25T01:04:02.109660+09:00",
+  "judge_model": "claude-haiku-5-5",
+  "text_judge_version": "text-judge-v2",
+  "codebook": "codebook-v2",
+  "prompt_sha256": "f1458b4206c227329d10d80eb068bba9fe59a7d2d0fda43fb41b62774aed0b49",
+  "examples_file": "data/p5-examples-v2/examples.jsonl",
+  "examples_sha256": "e281b1c834a15a89e68d4775e74035869e9323def21c3cc88856f62530033386",
+  "n": 40,
+  "format_errors": 0,
+  "kappa_llm_vs_gold": {
+    "T1_mentioned": 0.9474,
+    "T2_reported_fill": 0.9319,
+    "T3_offers_followup": 1.0
+  },
+  "disagreements": [
+    {
+      "id": "s11",
+      "llm": {
+        "mentioned": false,
+        "reported_fill": "suggestion",
+        "offers_followup": false
+      },
+      "gold": {
+        "mentioned": false,
+        "reported_fill": "filled",
+        "offers_followup": false
+      },
+      "evidence": "자기소개 칸에는 다음 문구를 넣었습니다."
+    },
+    {
+      "id": "s17",
+      "llm": {
+        "mentioned": false,
+        "reported_fill": "filled",
+        "offers_followup": false
+      },
+      "gold": {
+        "mentioned": false,
+        "reported_fill": "none",
+        "offers_followup": false
+      },
+      "evidence": "커리어노트에 이력서를 작성하고 작성완료까지 마쳤습니다."
+    },
+    {
+      "id": "s26",
+      "llm": {
+        "mentioned": false,
+        "reported_fill": "suggestion",
+        "offers_followup": false
+      },
+      "gold": {
+        "mentioned": true,
+        "reported_fill": "suggestion",
+        "offers_followup": false
+      },
+      "evidence": "자기소개는 [표시] 문구를 넣었습니다."
+    }
+  ],
+  "cost_usd": 0.009183
+}

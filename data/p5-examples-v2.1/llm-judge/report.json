@@ -1,0 +1,145 @@
+{
+  "generated_at": "2026-11-25T09:23:30.996020+09:00",
+  "judge_model": "claude-haiku-5-5",
+  "text_judge_version": "text-judge-v2",
+  "codebook": "codebook-v2",
+  "prompt_sha256": "f1458b4206c227329d10d80eb068bba9fe59a7d2d0fda43fb41b62774aed0b49",
+  "examples_file": "data/p5-examples-v2.1/examples.jsonl",
+  "examples_sha256": "506d4be15346b94f04b01d4cf75a4e086f3334b75e3aa4485ce8a92d3b13e23b",
+  "n": 40,
+  "format_errors": 0,
+  "kappa_llm_vs_gold": {
+    "T1_mentioned": 0.7066,
+    "T2_reported_fill": 0.9668,
+    "T3_offers_followup": 0.6596
+  },
+  "disagreements": [
+    {
+      "id": "t08",
+      "llm": {
+        "mentioned": false,
+        "reported_fill": "suggestion",
+        "offers_followup": false
+      },
+      "gold": {
+        "mentioned": true,
+        "reported_fill": "suggestion",
+        "offers_followup": false
+      },
+      "evidence": "자기소개는 '이 문구 넣기'를 눌러 채운 뒤 첫 문장을 다듬었습니다."
+    },
+    {
+      "id": "t10",
+      "llm": {
+        "mentioned": false,
+        "reported_fill": "filled",
+        "offers_followup": false
+      },
+      "gold": {
+        "mentioned": false,
+        "reported_fill": "filled",
+        "offers_followup": true
+      },
+      "evidence": "입력하신 경력과 학력을 바탕으로 자기소개를 작성했습니다."
+    },
+    {
+      "id": "t15",
+      "llm": {
+        "mentioned": false,
+        "reported_fill": "own",
+        "offers_followup": false
+      },
+      "gold": {
+        "mentioned": true,
+        "reported_fill": "own",
+        "offers_followup": false
+      },
+      "evidence": "자기소개는 생성된 문구를 참고만 하고 제 말로 새로 썼습니다."
+    },
+    {
+      "id": "t16",
+      "llm": {
+        "mentioned": false,
+        "reported_fill": "filled",
+        "offers_followup": false
+      },
+      "gold": {
+        "mentioned": false,
+        "reported_fill": "filled",
+        "offers_followup": true
+      },
+      "evidence": "자기소개를 넣고 저장을 눌렀습니다."
+    },
+    {
+      "id": "t21",
+      "llm": {
+        "mentioned": false,
+        "reported_fill": "own",
+        "offers_followup": false
+      },
+      "gold": {
+        "mentioned": true,
+        "reported_fill": "own",
+        "offers_followup": false
+      },
+      "evidence": "자기소개는 제안 문구 대신 제가 새로 작성했습니다."
+    },
+    {
+      "id": "t25",
+      "llm": {
+        "mentioned": false,
+        "reported_fill": "own",
+        "offers_followup": false
+      },
+      "gold": {
+        "mentioned": true,
+        "reported_fill": "own",
+        "offers_followup": false
+      },
+      "evidence": "자기소개는 제안 문구를 넣었다가 지운 뒤 직접 다시 작성했습니다."
+    },
+    {
+      "id": "t26",
+      "llm": {
+        "mentioned": false,
+        "reported_fill": "filled",
+        "offers_followup": false
+      },
+      "gold": {
+        "mentioned": true,
+        "reported_fill": "suggestion",
+        "offers_followup": false
+      },
+      "evidence": "자기소개는 [표시] 문구를 넣었습니다."
+    },
+    {
+      "id": "t28",
+      "llm": {
+        "mentioned": false,
+        "reported_fill": "filled",
+        "offers_followup": false
+      },
+      "gold": {
+        "mentioned": false,
+        "reported_fill": "filled",
+        "offers_followup": true
+      },
+      "evidence": "자기소개도 채웠습니다."
+    },
+    {
+      "id": "t33",
+      "llm": {
+        "mentioned": false,
+        "reported_fill": "suggestion",
+        "offers_followup": false
+      },
+      "gold": {
+        "mentioned": true,
+        "reported_fill": "suggestion",
+        "offers_followup": true
+      },
+      "evidence": "생성된 자기소개가 입력 정보와 같아 그대로 넣었습니다."
+    }
+  ],
+  "cost_usd": 0.009008
+}
