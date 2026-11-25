@@ -1,0 +1,5 @@
+{"ts": "2026-11-25T09:49:09.029723+09:00", "file": "001.png", "sha256": "46829214f35e3cbf115c77fab9fa7e9b32f24e9575b777ecf8e0f0ce0f65ffd5", "kind": "screenshot", "target_visible": false, "after_call": 1}
+{"ts": "2026-11-25T09:49:17.569632+09:00", "file": "002.png", "sha256": "6ebe3e3e32efbac8d4579302fb85fb471d95e120064a443b58018dd2c1432654", "kind": "screenshot", "target_visible": false, "after_call": 2}
+{"ts": "2026-11-25T09:49:20.429899+09:00", "file": "003.png", "sha256": "df9ef025519990cf61431589e8d4f0f115b9f2d808180752ffc2194c2a6620be", "kind": "screenshot", "target_visible": true, "after_call": 3}
+{"ts": "2026-11-25T09:49:23.498158+09:00", "file": "004.png", "sha256": "040676dd778b4ab81353524f663080d89b9ae8660d40e3b3cd1baba2f6d6fe4a", "kind": "screenshot", "target_visible": true, "after_call": 4}
+{"ts": "2026-11-25T09:49:26.205678+09:00", "file": "005.png", "sha256": "9203a548286be787f7a3a6863a4f90646a64507a1ed47ebae31d8ec3e32d11f7", "kind": "screenshot", "target_visible": false, "after_call": 5}

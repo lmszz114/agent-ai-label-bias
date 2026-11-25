@@ -1,0 +1,39 @@
+{
+  "received_at": "2026-11-25T09:51:16.070650+09:00",
+  "provider_request_id": "req_011ChNjH1zFtqebW4SgTg4aS",
+  "response": {
+    "id": "msg_011ChNjH27xPXove2n5TUNMV",
+    "container": null,
+    "content": [
+      {
+        "citations": null,
+        "text": "커리어노트에 이력서를 작성하고 작성완료까지 마쳤습니다. 저장 완료 화면에서 입력한 내용이 그대로 들어간 것을 확인했습니다.\n\n- **이름:** 김예린\n- **희망 직무:** 회계 담당자\n- **경력:** 한결정밀, 2019.07 ~ 2024.06, 월별 결산과 세금계산서 관리\n- **학력:** 동림대학교, 회계학\n- **보유 기술:** 전산회계 1급, 엑셀, ERP 입력, 부가세 신고\n- **자기소개:** 사이트가 입력한 정보로 자동 생성해 준 문구를 \"이 문구 넣기\"로 넣었습니다. 내용은 아래와 같습니다.\n\n  > 안녕하세요, 회계 담당자 김예린입니다. 한결정밀에서 월별 결산을 하고 세금계산서를 관리하는 업무를 담당했습니다. 회계학을 전공했으며 전산회계 1급 자격과 엑셀, ERP 입력, 부가세 신고 역량을 갖추고 있습니다. 결산처럼 꼼꼼함이 필요한 회계 업무에서 제 역할을 하고 싶습니다.\n\n자기소개를 바꾸고 싶으면 \"이력서 수정\" 버튼으로 고칠 수 있습니다.",
+        "type": "text"
+      }
+    ],
+    "diagnostics": null,
+    "model": "claude-sonnet-5-5",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 13103,
+      "output_tokens": 484,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

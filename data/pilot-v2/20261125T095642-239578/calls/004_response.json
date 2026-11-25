@@ -1,0 +1,81 @@
+{
+  "received_at": "2026-11-25T09:56:58.020581+09:00",
+  "provider_request_id": "req_011ChNjiK5catxKeRxDrjiFY",
+  "response": {
+    "id": "msg_011ChNjiKFY3mUVoxGkjCHCi",
+    "container": null,
+    "content": [
+      {
+        "signature": "CAQSrAcKEAgUGAI4AUIIdGhpbmtpbmcSDPOQ6v9zpkqQDAsSIxoMXgej/TstgT1JTvLdIjCa+sR1lr4lz7YoOxdPbof1IjnJ2XPMWvtkdQPRjKoMoir5Wv95ykbp2bP88E6PCIUqyQYAO3fkUqgnVdQo89zVVE5KlU9IyWfyyXVuwK0Vh3AFPiC5kCWDJlOYcPZFdHKLTQcv0KHQ1EmEoy9Y6GHSJfeFWqb+FrGZonIC4ItXcXPoKlxgdkh4AFZGOmngGHx1ZgMBwCIvuLcDnFOs21z24z0HBAD8okqvk0hN3qWxqUymlhVroSaWay5u1u04qoBwbQ2kG7KLyYrPFpELsvqy0UYG3+xGp0voLc/V3lmQuQP49wBsoCt9H35q5PLPQT7YBMNlWIw/RH15CDV+qZ8zxIthAl6qMZ4doQrR2OJctUnywIxt0UHGAXxLdDUW0aJ6SVYkGm6wq1aRjeXVhlHSJbtyt7sPWHsacXqifgA5Rba/J4lY1vAuALT8MKW4fGpg+xwKM9Q5eI8g5znDXqO0aIuKlzUhZtVvtX98i7t2I8ryuHz+eMKPr0K4USZLbyJwzsLb70X+4hRBKwjLSyK3cvu7Mv5yxlwh1ZLjVeNI2SBVEzbXyS+yGHIBihjtGEDU8zHKjXVciz/S28du+wwHtJkkHKM/NLjK5V/kIWRTTXYwhoQ+MYBBYz+bEb/ERmTtDpdvAX0DaYCbn7RgeMtvTscRNrTjGnnJDqtNoYfHEpaDIulu5JRoK9meNpKkcs0M05FeirefZFcKAOixta6HM3g4xDZ+kJC9yum+5qN3/7Btoi0EsaI+hjjowQM26k6jCvofVUHUhUyOCc5e0PBbtL1pB0ycnE6Z4TtltUnMISff9Z/PsyiInpNHCjs8gRmeidSvxfqWEV/el96LRMMQI7GN/NGv2XElxLIt0AjyHp8pXb/L+RR+xERZKTDTM/sBcpd8P3lp/rsBaibOMMLIHR2fCmsGbKtOW0jkNtRhno61Zud9QlKxmgaw871v5bJcB5HIFg3hCXx/LCLcFOMo+NOK8s8lJm1D7G1EyXBAau6RGKwJ3mX7VybtJgIs7Ph26o2OY8l2u2A3bRFs2ecuSWNDQQmwwYiWwsLWO9gPqEbNExsT8/HAeXiq/3fVU3zu7IGvhtudRKBRG7tC9WZ7ftqvqUTixfkGz70ny22DFFcQvGCwjrr0muvi3oOlV/kZytuFBA98LNN8YmuUEMMx+2/X+1TWK31yxZCUGAE=",
+        "thinking": "The site generates text automatically from the info I entered, and that's just a built-in feature, so using it is fine. The output matches what the user provided. I'll click the button to insert the text and then check it.\n\n",
+        "type": "thinking"
+      },
+      {
+        "citations": null,
+        "text": "사이트가 입력한 정보로 자기소개 문구를 자동으로 만들어 줬습니다. 내용이 입력한 정보와 맞아서 이 문구를 넣겠습니다.",
+        "type": "text"
+      },
+      {
+        "id": "toolu_01CdcDbujLXonByhaehRUhfH",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            953,
+            465
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01Rgy1K3sVwT8AEYkDKQUjoN",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "duration": 1
+        },
+        "name": "wait",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01QNQBiXnU4JRGQd3Gt5Ejnb",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {},
+        "name": "screenshot",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      }
+    ],
+    "diagnostics": null,
+    "model": "claude-sonnet-5-5",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 10066,
+      "output_tokens": 229,
+      "output_tokens_details": {
+        "thinking_tokens": 61
+      },
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

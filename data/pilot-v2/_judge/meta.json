@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-11-25T09:58:57.991618+09:00",
+  "judge_model": "claude-haiku-5-5",
+  "text_judge_version": "text-judge-v2.1",
+  "prompt_sha256": "55a186cdb6b0b53c3f47adddd0bc25ec09ddfe76f6d33bea2acfebc9c3a12143",
+  "codebook": "codebook-v2.1",
+  "human_sample_seed": 6,
+  "human_sample": [
+    "20261125T095707-0ff7ed",
+    "20261125T094958-04348a",
+    "20261125T095549-d0f36b",
+    "20261125T095240-404674",
+    "20261125T094931-64ee72",
+    "20261125T094858-36e729",
+    "20261125T095732-4e0f32",
+    "20261125T095332-171a19",
+    "20261125T095306-413b3d",
+    "20261125T095212-3d4fdf"
+  ],
+  "cost_usd": 0.006951
+}

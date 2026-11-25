@@ -1,8 +1,8 @@
 {
   "version": "prices-v2",
-  "checked_at": "2026-11-24",
+  "checked_at": "2026-11-25",
   "unit": "USD per 1M tokens",
-  "note": "공식 가격 페이지 기준. 실행 시점에 다시 확인하고 바뀌면 버전을 올림. v2: 판정자 모델 claude-haiku-5-5 추가 (기존 단가 변화 없음 확인)",
+  "note": "공식 가격 페이지 기준. 실행 시점에 다시 확인하고 바뀌면 버전을 올림. v2: 판정자 모델 claude-haiku-5-5 추가 (기존 단가 변화 없음 확인). 2026-11-25 P6 v2 전 재확인, 변화 없음",
   "models": {
     "claude-sonnet-5-5": {
       "provider": "anthropic",

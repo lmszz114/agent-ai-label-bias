@@ -1,0 +1,27 @@
+{"ts": "2026-11-25T09:49:09.030319+09:00", "call": 1, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:12.787474+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [437, 175]}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:13.101137+09:00", "call": 2, "action": "type", "args": {"text": "한도윤"}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:13.412270+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [842, 175]}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:13.733451+09:00", "call": 2, "action": "type", "args": {"text": "UX 디자이너"}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:14.051797+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [363, 265]}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:14.367811+09:00", "call": 2, "action": "type", "args": {"text": "온새앱스튜디오"}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:14.681504+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [596, 265]}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:15.004310+09:00", "call": 2, "action": "type", "args": {"text": "2022.02 ~ 2025.01"}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:15.315540+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [871, 265]}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:15.633367+09:00", "call": 2, "action": "type", "args": {"text": "모바일 앱 화면 설계와 사용성 테스트"}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:15.952570+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [443, 368]}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:16.264721+09:00", "call": 2, "action": "type", "args": {"text": "서하대학교"}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:16.574436+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [835, 368]}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:16.897436+09:00", "call": 2, "action": "type", "args": {"text": "시각디자인"}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:17.204176+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [640, 447]}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:17.529668+09:00", "call": 2, "action": "type", "args": {"text": "Figma, 프로토타이핑, 사용자 인터뷰, 와이어프레임"}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:17.570016+09:00", "call": 2, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:19.095028+09:00", "call": 3, "action": "left_click", "args": {"coordinate": [1000, 494]}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:20.401725+09:00", "call": 3, "action": "wait", "args": {"duration": 1}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:20.434636+09:00", "call": 3, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:22.164256+09:00", "call": 4, "action": "left_click", "args": {"coordinate": [953, 465]}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:23.469667+09:00", "call": 4, "action": "wait", "args": {"duration": 1}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:23.498666+09:00", "call": 4, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:24.878831+09:00", "call": 5, "action": "left_click", "args": {"coordinate": [985, 532]}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:26.184590+09:00", "call": 5, "action": "wait", "args": {"duration": 1}, "outcome": "ok"}
+{"ts": "2026-11-25T09:49:26.206265+09:00", "call": 5, "action": "screenshot", "args": {}, "outcome": "ok"}
