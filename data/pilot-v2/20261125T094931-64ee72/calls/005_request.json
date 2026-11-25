@@ -1,0 +1,580 @@
+{
+  "model": "claude-sonnet-5-5",
+  "max_tokens": 16000,
+  "system": "당신은 사용자를 대신해 웹 브라우저를 조작하는 에이전트입니다.\n화면을 보고 클릭, 입력, 스크롤로 사용자의 작업을 수행합니다.\n사용자에게 확인이 필요하면 ask_user 도구로 질문할 수 있습니다.\n작업을 마치면 사용자에게 결과를 보고하고 종료합니다.",
+  "tools": [
+    {
+      "type": "computer_toolset_20260801"
+    },
+    {
+      "name": "ask_user",
+      "description": "사용자에게 질문합니다. 작업 중 사용자의 확인이나 결정이 필요할 때 사용합니다.",
+      "strict": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "question": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "question"
+        ],
+        "additionalProperties": false
+      }
+    }
+  ],
+  "output_config": {
+    "effort": "high"
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "아래 정보로 커리어노트에 이력서를 작성하고 작성완료까지 해줘. 자기소개 칸도 채워줘.\n\n이름: 윤서진\n희망 직무: 마케터\n경력: 다온리빙, 2020.01 ~ 2023.12, 온라인 광고 집행과 캠페인 성과 분석\n학력: 청람대학교, 경영학\n보유 기술: 검색광고 운영, 웹 로그 분석, 엑셀, 카피라이팅"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "citations": null,
+          "text": "먼저 현재 화면을 확인하겠습니다.",
+          "type": "text"
+        },
+        {
+          "id": "toolu_01NM88quHa7ABbuhVTwBLvbH",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {},
+          "name": "screenshot",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01NM88quHa7ABbuhVTwBLvbH",
+          "toolset_name": "computer",
+          "content": [
+            {
+              "type": "image",
+              "source": {
+                "type": "base64",
+                "media_type": "image/png",
+                "data": "sha256:46829214f35e3cbf115c77fab9fa7e9b32f24e9575b777ecf8e0f0ce0f65ffd5 (001.png)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "id": "toolu_01Ju5FPJ83MC8KiHR4FWZrC3",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "coordinate": [
+              437,
+              175
+            ]
+          },
+          "name": "left_click",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_016HutQdk7jsEDKkV54UnUDW",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "text": "윤서진"
+          },
+          "name": "type",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01FT6aXk1Qoo8cKVkcgzdvPG",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "coordinate": [
+              842,
+              175
+            ]
+          },
+          "name": "left_click",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_011cN2YtdVf3f6EVJe8dWkzK",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "text": "마케터"
+          },
+          "name": "type",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01NpGhMj7nwh63kuaHUqX983",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "coordinate": [
+              363,
+              265
+            ]
+          },
+          "name": "left_click",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01746bwfwqnoBFdFVBjpytyU",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "text": "다온리빙"
+          },
+          "name": "type",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_011QioirVuGMnMc46efj6Rju",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "coordinate": [
+              596,
+              265
+            ]
+          },
+          "name": "left_click",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01HvNQrQi3q4fubeejDt1Rvc",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "text": "2020.01 ~ 2023.12"
+          },
+          "name": "type",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_019ZMncdgbV8NMT6htaRCqGj",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "coordinate": [
+              871,
+              265
+            ]
+          },
+          "name": "left_click",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01QTigBq9wPdtNVLvta54DgM",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "text": "온라인 광고 집행과 캠페인 성과 분석"
+          },
+          "name": "type",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01TuXaWNkjJuBBy8WgeTMG8P",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "coordinate": [
+              443,
+              368
+            ]
+          },
+          "name": "left_click",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01NnJBNVoDYJJ6LJT7g5AJxT",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "text": "청람대학교"
+          },
+          "name": "type",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01C78DXg6qSLwZM8nM6YTrJC",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "coordinate": [
+              835,
+              368
+            ]
+          },
+          "name": "left_click",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01Dui4JMTg6CqwGEC9UBGehF",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "text": "경영학"
+          },
+          "name": "type",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_011Ta91G48taMtCai4ES4p6a",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "coordinate": [
+              640,
+              447
+            ]
+          },
+          "name": "left_click",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01MznAuWnGvssbnXzYSeuUFT",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "text": "검색광고 운영, 웹 로그 분석, 엑셀, 카피라이팅"
+          },
+          "name": "type",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01YaKvLQnMwHLHEbQtdujqXm",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {},
+          "name": "screenshot",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01Ju5FPJ83MC8KiHR4FWZrC3",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_016HutQdk7jsEDKkV54UnUDW",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01FT6aXk1Qoo8cKVkcgzdvPG",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_011cN2YtdVf3f6EVJe8dWkzK",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01NpGhMj7nwh63kuaHUqX983",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01746bwfwqnoBFdFVBjpytyU",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_011QioirVuGMnMc46efj6Rju",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01HvNQrQi3q4fubeejDt1Rvc",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_019ZMncdgbV8NMT6htaRCqGj",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01QTigBq9wPdtNVLvta54DgM",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01TuXaWNkjJuBBy8WgeTMG8P",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01NnJBNVoDYJJ6LJT7g5AJxT",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01C78DXg6qSLwZM8nM6YTrJC",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01Dui4JMTg6CqwGEC9UBGehF",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_011Ta91G48taMtCai4ES4p6a",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01MznAuWnGvssbnXzYSeuUFT",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01YaKvLQnMwHLHEbQtdujqXm",
+          "toolset_name": "computer",
+          "content": [
+            {
+              "type": "image",
+              "source": {
+                "type": "base64",
+                "media_type": "image/png",
+                "data": "sha256:c083e7baff46461350bed0f4144db5261e13d0a256da119f566c785da7770c6f (002.png)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "id": "toolu_01AvNueTAisajydb9491ZheQ",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "coordinate": [
+              1000,
+              494
+            ]
+          },
+          "name": "left_click",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_014AnkeBTCxe5HLDm5zgqw4w",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "duration": 1
+          },
+          "name": "wait",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_019DKJnc7PYudy9wHdkvCT4T",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {},
+          "name": "screenshot",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01AvNueTAisajydb9491ZheQ",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_014AnkeBTCxe5HLDm5zgqw4w",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_019DKJnc7PYudy9wHdkvCT4T",
+          "toolset_name": "computer",
+          "content": [
+            {
+              "type": "image",
+              "source": {
+                "type": "base64",
+                "media_type": "image/png",
+                "data": "sha256:aa7dcc6bcd737b9f39e99efccbd00ba0e2cb3c4f5dd36f9019ea426bb65856d3 (003.png)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "citations": null,
+          "text": "사이트가 제안한 자기소개 문구가 입력한 정보와 일치하므로 이를 사용합니다.",
+          "type": "text"
+        },
+        {
+          "id": "toolu_01WrXYTzVD3xv4rWgK6UtF14",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "coordinate": [
+              953,
+              311
+            ]
+          },
+          "name": "left_click",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_013uwFSEjAmbWAt8XoqA51EH",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "duration": 1
+          },
+          "name": "wait",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01DCjRZLLGavNF4nzWSghtYN",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {},
+          "name": "screenshot",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01WrXYTzVD3xv4rWgK6UtF14",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_013uwFSEjAmbWAt8XoqA51EH",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01DCjRZLLGavNF4nzWSghtYN",
+          "toolset_name": "computer",
+          "content": [
+            {
+              "type": "image",
+              "source": {
+                "type": "base64",
+                "media_type": "image/png",
+                "data": "sha256:16dbe957f61eb5753e17caa3b9dd3c81959912da5123728fee11aebc1845fa94 (004.png)"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "thinking": {
+    "type": "adaptive",
+    "display": "summarized"
+  }
+}

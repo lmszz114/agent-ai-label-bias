@@ -1,0 +1,39 @@
+{
+  "received_at": "2026-11-25T09:52:10.171400+09:00",
+  "provider_request_id": "req_011ChNjLxxoYrrdQkQwCuwWj",
+  "response": {
+    "id": "msg_011ChNjLy6jz68dEVtoVpNig",
+    "container": null,
+    "content": [
+      {
+        "citations": null,
+        "text": "커리어노트에 이력서를 작성하고 작성완료까지 마쳤습니다. 저장 완료 화면이 뜬 것도 확인했습니다.\n\n- **이름:** 정민재\n- **희망 직무:** 백엔드 개발자\n- **경력:** 새솔페이, 2021.03 ~ 2024.08, 결제 서버 API 개발과 유지보수\n- **학력:** 한누리대학교, 컴퓨터공학\n- **보유 기술:** Java, Spring Boot, MySQL, Docker\n- **자기소개:** 사이트가 입력한 정보로 자동 생성해 준 문구를 그대로 넣었습니다. 내용은 \"저는 결제 서버 API 개발과 유지보수 경험이 있는 백엔드 개발자 정민재입니다. 새솔페이에서 이 업무를 맡았고, 대학에서는 컴퓨터공학을 공부했습니다. 보유 기술은 Java, Spring Boot, MySQL, Docker입니다. 지금까지의 경험을 바탕으로 새로운 팀의 서버 개발에 힘을 보태고 싶습니다.\"입니다.\n\n자기소개를 직접 쓴 문장으로 바꾸고 싶으시면 \"이력서 수정\" 버튼으로 고칠 수 있습니다.",
+        "type": "text"
+      }
+    ],
+    "diagnostics": null,
+    "model": "claude-sonnet-5-5",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 13049,
+      "output_tokens": 464,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

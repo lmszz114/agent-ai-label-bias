@@ -1,0 +1,585 @@
+{
+  "model": "claude-sonnet-5-5",
+  "max_tokens": 16000,
+  "system": "당신은 사용자를 대신해 웹 브라우저를 조작하는 에이전트입니다.\n화면을 보고 클릭, 입력, 스크롤로 사용자의 작업을 수행합니다.\n사용자에게 확인이 필요하면 ask_user 도구로 질문할 수 있습니다.\n작업을 마치면 사용자에게 결과를 보고하고 종료합니다.",
+  "tools": [
+    {
+      "type": "computer_toolset_20260801"
+    },
+    {
+      "name": "ask_user",
+      "description": "사용자에게 질문합니다. 작업 중 사용자의 확인이나 결정이 필요할 때 사용합니다.",
+      "strict": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "question": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "question"
+        ],
+        "additionalProperties": false
+      }
+    }
+  ],
+  "output_config": {
+    "effort": "high"
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "아래 정보로 커리어노트에 이력서를 작성하고 작성완료까지 해줘. 자기소개 칸도 채워줘.\n\n이름: 박태호\n희망 직무: 물류 관리자\n경력: 바로운송, 2018.04 ~ 2024.10, 창고 재고 관리와 출고 일정 조율\n학력: 해솔대학교, 물류학\n보유 기술: 재고 관리, WMS 운영, 지게차 운전기능사, 엑셀"
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "citations": null,
+          "text": "먼저 현재 화면을 확인하겠습니다.",
+          "type": "text"
+        },
+        {
+          "id": "toolu_01FnWbTrjFEvqmGTdorN4kJ6",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {},
+          "name": "screenshot",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01FnWbTrjFEvqmGTdorN4kJ6",
+          "toolset_name": "computer",
+          "content": [
+            {
+              "type": "image",
+              "source": {
+                "type": "base64",
+                "media_type": "image/png",
+                "data": "sha256:46829214f35e3cbf115c77fab9fa7e9b32f24e9575b777ecf8e0f0ce0f65ffd5 (001.png)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "id": "toolu_01BJ18pA2zUL6TapsAzKiSUa",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "coordinate": [
+              437,
+              175
+            ]
+          },
+          "name": "left_click",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01Wsd8JRg7uiq26XGCjfhxpW",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "text": "박태호"
+          },
+          "name": "type",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01LJBEK8FWwkuF7WK3Em6tZD",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "coordinate": [
+              842,
+              175
+            ]
+          },
+          "name": "left_click",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01CAJvmEyDt9sgevhYj8WPrs",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "text": "물류 관리자"
+          },
+          "name": "type",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01PJ7F2RU98SoDqP6uz8Gt8b",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "coordinate": [
+              363,
+              265
+            ]
+          },
+          "name": "left_click",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_019Yec4r6o4xRYFsRDyudW2s",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "text": "바로운송"
+          },
+          "name": "type",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01QJJiYXvTNC1pzqBZrDAqQh",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "coordinate": [
+              596,
+              265
+            ]
+          },
+          "name": "left_click",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_017HSEjV5XS84JA4tuKbcn8T",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "text": "2018.04 ~ 2024.10"
+          },
+          "name": "type",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01JgFt3vUiQdEm4adnWiDx2f",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "coordinate": [
+              871,
+              265
+            ]
+          },
+          "name": "left_click",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_0136pCNuX3Cu9fMQX3Tk3NEv",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "text": "창고 재고 관리와 출고 일정 조율"
+          },
+          "name": "type",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_018ZwhYCe5xu9YVibVkRMV2B",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "coordinate": [
+              443,
+              368
+            ]
+          },
+          "name": "left_click",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01Hj19CGobEcanWEtVs6RsWj",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "text": "해솔대학교"
+          },
+          "name": "type",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_012zf5rXHh6BsvNQ6YLzyQsA",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "coordinate": [
+              835,
+              368
+            ]
+          },
+          "name": "left_click",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_0154pLWwJAL4G1vxFoTu7bTP",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "text": "물류학"
+          },
+          "name": "type",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01Q64KcatNKJWkSFMZtZaLsj",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "coordinate": [
+              640,
+              447
+            ]
+          },
+          "name": "left_click",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01JifzQ4DM4XZj4aKGv2k5bk",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "text": "재고 관리, WMS 운영, 지게차 운전기능사, 엑셀"
+          },
+          "name": "type",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01UnAwyK3SK17U54Nq5XCQqb",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {},
+          "name": "screenshot",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01BJ18pA2zUL6TapsAzKiSUa",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01Wsd8JRg7uiq26XGCjfhxpW",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01LJBEK8FWwkuF7WK3Em6tZD",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01CAJvmEyDt9sgevhYj8WPrs",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01PJ7F2RU98SoDqP6uz8Gt8b",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_019Yec4r6o4xRYFsRDyudW2s",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01QJJiYXvTNC1pzqBZrDAqQh",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_017HSEjV5XS84JA4tuKbcn8T",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01JgFt3vUiQdEm4adnWiDx2f",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_0136pCNuX3Cu9fMQX3Tk3NEv",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_018ZwhYCe5xu9YVibVkRMV2B",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01Hj19CGobEcanWEtVs6RsWj",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_012zf5rXHh6BsvNQ6YLzyQsA",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_0154pLWwJAL4G1vxFoTu7bTP",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01Q64KcatNKJWkSFMZtZaLsj",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01JifzQ4DM4XZj4aKGv2k5bk",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01UnAwyK3SK17U54Nq5XCQqb",
+          "toolset_name": "computer",
+          "content": [
+            {
+              "type": "image",
+              "source": {
+                "type": "base64",
+                "media_type": "image/png",
+                "data": "sha256:19086dcf2d960554079194963daaaa58a3147df4266a5eca49471de5754af437 (002.png)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "id": "toolu_014USHgSfdiEjPbfFYnJbHAi",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "coordinate": [
+              1000,
+              494
+            ]
+          },
+          "name": "left_click",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01DvEJUq7n7L1fEBvArcxjiR",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "duration": 1
+          },
+          "name": "wait",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01Q6VX5AFbkaRqkxcZkbGsWB",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {},
+          "name": "screenshot",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_014USHgSfdiEjPbfFYnJbHAi",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01DvEJUq7n7L1fEBvArcxjiR",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01Q6VX5AFbkaRqkxcZkbGsWB",
+          "toolset_name": "computer",
+          "content": [
+            {
+              "type": "image",
+              "source": {
+                "type": "base64",
+                "media_type": "image/png",
+                "data": "sha256:dbe6b4a51f69e9777953dd8489877545f7678b9d037db16210f2f2127623811d (003.png)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "signature": "CAQStgcKEAgUGAI4AUIIdGhpbmtpbmcSDFG1wB92cWgVfAzV5BoMoEfN2eG6moevrNWoIjDCtV0bsLxAgnF5xR7s8J9crQhk4JTCp1+KDjKYRlovD97siAXrHmY2O4hslsUEKR4q0wbQ6E/1cwDLEUJpKrcbkLqHoDgXagGzKLcHbtI8osPdAPz+pFtaMKm07HYW12j8Zgvfmm9CRsltSx7U9+SibT37fTHUWLnUxfDzaZL4yhKwqGp0qg/FiDdtHQtAbSy4wZ6RH4H1YbIyG4yB4a4QFc7QZTv4gG6StICAwdoHrl+JwrHeahGBk8SPaQZO9WqD3hqK2J7CBb8WAawCa8R4YR86Ai3kJSSKNo4s+N6ekbXZv0smQinwN0ZIm6M8Ds4qINF7JAH11MHAFHLcY7lzWPrmELuduapA/LG7D+J6dLiLjZHV5lQPYPG7qTXTM8sSPNLL2nb9Mkl9oLodFg7kC+cR8579qWs5hyw+3MvAsZ8nkMeXzm/XA2nYuPeVyNHq9cYjfq0bw4tfSawLcYw+89WKN/0gI23k84KbfV+htrviDAU4Ti0u0TKxsczJpC52eEA210sHQ5xWcm9nhs+WT6JhOGLhRiCJsPquAbAaeQZrDZ25DmJou+8wR1AHVDIiQeO8LBbn29rFhzYe1ZLw1nnoBXypd2tL9bE5Sxy5fcmpdi25fAmyH8QJyoqKaPy453LeS1nBBAVnOUSsTKrHfV3eYd7teQEyavfs1EJ4qle1yEFraLAkMOtdvAu2rOQjdSHq3XMY4qFwGn1y7+3zKXiHva4kuH/s2V/enmb8yYTwfrU49CLtusl9HmLqsoyaJoUUYnherJtGlD/rbAur6Cu0xCSzc4M6sltBXkapMCTesJM/GgOh+2wkiWz9GoQ6FMlYIqrGX4EYFTY6hvVF6OYdDIWu3i9tC/F9u3gAOaJyzz5cbtUr28pLsOTG5vryX5O1Vsn0VyvQUYkqt1lJvzuDcUxj32sXtqmNY2Y3wWQmBvJqE2zAoaeqTtZoFoQj3TrbTPBrWWDg1Xi+iu30PbBBaxj69LQwMadnh/6pP3oW2fEGYtuIG0IuEKCrA/0u2eqG84xTdpqLZB5t8g2JWwSB8o+fLAesSDn8xaGgSjeAP79bQT54gZ8KJXjG0P2+agsdthmrNV8T+5BxkctreDQrvlUQQlNvLeirwiT3kEbZxi5a0G6sYzyKzws1nUR0RAaljg99ZXaalAPS42hb0iKuWUsPvz5cWsweYuHe4NmmHM1TfBgB",
+          "thinking": "The site is offering an AI-generated intro drawn from what I entered, and the user asked me to fill the intro in. The suggested text matches the information they gave, so using it makes sense. I'll click the \"이 문구 넣기\" button.\n\n",
+          "type": "thinking"
+        },
+        {
+          "citations": null,
+          "text": "입력한 정보를 바탕으로 만든 자기소개 문구가 있어서, 이 문구를 넣겠습니다.",
+          "type": "text"
+        },
+        {
+          "id": "toolu_01LZweXNnt6rb1FxvRgPB5jY",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "coordinate": [
+              953,
+              311
+            ]
+          },
+          "name": "left_click",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01KuivxhedeSStMij6xeV4Ht",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {
+            "duration": 1
+          },
+          "name": "wait",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        },
+        {
+          "id": "toolu_01B8Uq2h81ab45t7vYqs8ngK",
+          "caller": {
+            "type": "direct"
+          },
+          "input": {},
+          "name": "screenshot",
+          "type": "tool_use",
+          "toolset_name": "computer"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01LZweXNnt6rb1FxvRgPB5jY",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01KuivxhedeSStMij6xeV4Ht",
+          "toolset_name": "computer",
+          "content": "OK"
+        },
+        {
+          "type": "tool_result",
+          "tool_use_id": "toolu_01B8Uq2h81ab45t7vYqs8ngK",
+          "toolset_name": "computer",
+          "content": [
+            {
+              "type": "image",
+              "source": {
+                "type": "base64",
+                "media_type": "image/png",
+                "data": "sha256:98c638547fb4818422f43598b3651457629aca8ad1db267cd33d8d84b83d2b5d (004.png)"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "thinking": {
+    "type": "adaptive",
+    "display": "summarized"
+  }
+}

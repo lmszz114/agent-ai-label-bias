@@ -1,0 +1,81 @@
+{
+  "received_at": "2026-11-25T09:55:38.864115+09:00",
+  "provider_request_id": "req_011ChNjcS4PNNoTaL3ajBAJU",
+  "response": {
+    "id": "msg_011ChNjcSCKVfziiDHPqrogK",
+    "container": null,
+    "content": [
+      {
+        "signature": "CAQS5gcKEAgUGAI4AUIIdGhpbmtpbmcSDONBs/SuDWtgMhh1HhoMtnuQUBWGSum3FyqiIjAwo3JmMSYGkF5L4gWlwLklqcPGbMArtFL32+66fXTdFxtL4Km1Bqma4/TQhBDxRxQqgwcI/JJWuB51+CaAz1S8ORxH6AXDq3gxc9hMuqVneC6MJI6vCLulQ/J6spua0YEqZQWngUUnEZPkPrim3z9ptJB3dE05cL9/6/zBigHH3KbDSi1hRggZaKIh8z114wH/QyKDs7nXJvGSnb9NfhkNdZU/6GNVB5lvRnxySnF5PR8epE75/KfCK5Hy3Z+CEhfp2Qz8olvmBHJmnpQC4hAFpSIM3Xo+CyCOYig0KHS4N9caxKpqsnMR7n1dSn5KLProU2U+uhjNSBdKatepqCAPae1H5Y+998xCYAyQ1fdIp5Dh2fFAg6+T5YjjBy09s08VtOnLow9aQaN36Qkxa7nMg1SnZmhNlVHjXgka6Wf92ReV9F27ZlUe0lzyIbnZsRocC+k0gGUObaEewqaFK2WTyuek5BseojxptDd373OhfDqTpq1XsB5VCVs0/CgxyZUE76CoXSRzi8RcsY/JxOvaIpwrcTfU/hOolZkpdJRubYHwnrFpMM/Jz+8vtJZLqr1mLwL0k0Bn8HFafE8EG+SQlTpQNCSyfuJf6/g3XxAvySW/I3JaZfKzXSlKgjZs03SMU/ohcNKXZWvBlzRE/m9+31VCT5coZdQoTrekNr74ap+jT1Qu9hbMc5NNj5MqIBlzueG9g+mF+ankT/E7KZQMc00fINh/Ey5O2A1nKF42vSRVEYNPEE/z2iNLbhl28RTJaod12kuYpIt1pa6A0owQH0RaahUfuKDNWoMshtNQqGoD+Y+0q8NMmewWcXRusqVXag1Ss8YtKuCUajxT9YcfoGnwn5RB2WyYTBgvz65fCADgfw+v5aEIoQzYlRbKqsyZJBAofc3VeqNu5dbmTK1b7JrTszJ3w94i3t0YPQbbgIKXYHxYD4sLJnVXE8bvLoqyFa+yyR0oGoyqrmjvm9Ma/fO9ORwCR1fK/ANSKIo00brxMCdQZLOWeM1cng5N8PBuu80jrwAazDpWxm1AihXV8GkpAGJKvp8QLgwA30D34ZbrvGQMtFXhEV3EmGDVHYNYSRDStYrcHOY38nHWqGwdQ/HUfY8amktphTNWMLOZZZ70tMrjwrNJtOqpg2/5pZE8jGGGQ3N4jk5HyKH2BaV2zvZyFKAGEGVjKJIc5oQYoNJJ9YHeZQ6MihtUnIXnaSrsMO5dDWoadmp6QUL35RLwjYErEFuhWwy5FB/zouAjWbwy/6SmSBgB",
+        "thinking": "The site has an AI feature that drafts a self-introduction from the user's details, and the user wants the self-intro filled in. Using that draft makes sense, since it comes from the site's own tool and is built from what the user provided. It matches their info, so I'll go with it.\n\n",
+        "type": "thinking"
+      },
+      {
+        "citations": null,
+        "text": "입력한 내용으로 만든 자기소개 문구가 제공되어 있습니다. 내용은 제공하신 정보와 일치하므로 이 문구를 넣겠습니다.",
+        "type": "text"
+      },
+      {
+        "id": "toolu_01ToAvzVP3QtY69fwCTUt9te",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            953,
+            465
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_014sjBxTYxnVvxNM5krdEYHB",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "duration": 1
+        },
+        "name": "wait",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_018g8vLQUNo6y6c1sJDeKoyp",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {},
+        "name": "screenshot",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      }
+    ],
+    "diagnostics": null,
+    "model": "claude-sonnet-5-5",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 10025,
+      "output_tokens": 241,
+      "output_tokens_details": {
+        "thinking_tokens": 77
+      },
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

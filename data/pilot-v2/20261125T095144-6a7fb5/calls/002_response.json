@@ -1,0 +1,260 @@
+{
+  "received_at": "2026-11-25T09:51:50.943443+09:00",
+  "provider_request_id": "req_011ChNjKanXtD9AoQqRoutYm",
+  "response": {
+    "id": "msg_011ChNjKavxfjTiKXTb3BJdw",
+    "container": null,
+    "content": [
+      {
+        "id": "toolu_01FLshVHcYmVGLcKYoybLYBT",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            437,
+            175
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01G9TxiZTsUsvNqNy95Yj3Ai",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "정민재"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01GiS3Dou5Kfg7vn43f2C4ZC",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            842,
+            175
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_015DUauWrKbXSoSXbHcBC5P1",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "백엔드 개발자"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_014hGQBcmhjyG4n8ubwRwhaG",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            363,
+            265
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01WPfnsS9voXkww2KCoFUtTJ",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "새솔페이"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01NVs75LgS3ewDzJfa1jn43D",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            596,
+            265
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_013Jbavk7S1SqtVC4xGoit3z",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "2021.03 ~ 2024.08"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01CkNzt6tLNyPexx7jV67DyY",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            871,
+            265
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01VjvbDMLLp6MBG92ZFkZSCg",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "결제 서버 API 개발과 유지보수"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01XXc47RuqAAUhN5R4dcqM2e",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            443,
+            368
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01YS7cQ5Cy7bWuokwRQGM4Fc",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "한누리대학교"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01YEx49fzAvHn4D9Yko9vCT2",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            835,
+            368
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01TQWQiyEdZAfHFcfBcufmrJ",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "컴퓨터공학"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01JJLngzEUc9XB4oRuW4pC3R",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            640,
+            447
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01LGfMW5SJwcUaeoGXyiVj4V",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "Java, Spring Boot, MySQL, Docker"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01V92hX6PC2eZCwT4L2vYVEX",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {},
+        "name": "screenshot",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      }
+    ],
+    "diagnostics": null,
+    "model": "claude-sonnet-5-5",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 6402,
+      "output_tokens": 432,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

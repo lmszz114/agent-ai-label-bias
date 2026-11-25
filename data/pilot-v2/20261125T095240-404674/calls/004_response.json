@@ -1,0 +1,76 @@
+{
+  "received_at": "2026-11-25T09:52:56.287656+09:00",
+  "provider_request_id": "req_011ChNjQTTPkybyM1frNZZS7",
+  "response": {
+    "id": "msg_011ChNjQTd4T4HU8HPrp5Fus",
+    "container": null,
+    "content": [
+      {
+        "signature": "CAQSgwcKEAgUGAI4AUIIdGhpbmtpbmcSDEF2ca3G83lRFXZPyxoMbJrOwvu60U3gRz9YIjBk/dGAGZDFVayQQwN8aZhFUsAEaVUW99ND+K7IVi+U0loV26HwkoPBzorV5RObXy8qoAbJOnFhg3HjFU4kpiO9QcXQ0ZQ5aChZ2jowy1WZTrGusGhFI/W2BtjQ1WdumvfwXKI6cFfWdRUE6822CfCOB0ghsSuT49LMfM/EULhPs9mtmHtsxcX0hjcw4xMoklScifLmyBnYjSShImq1wcnXLKmsLzl9+Zk9qitmHT7fN5Dk3SxYkM5NhLBH6UbxXveyZeCRChGJGLpmcMvV7pUmN74L1Kxld6A9EHwG9/2FA/9g7Ahwr8T+pTyw9ICv4nxt7ShbPgSuTvpmScnelXgULMiCJYDHn8eO/BjbVcIKtr5ep1OT4Dh4rw3dEBNKBLD9fUSWcd8UAlxgn5Vb3cgJ87zWbDuAuPlr0sGfvKlX+LN36XKUCclKKH5GaYhH6pK1yHhPs4OEoNLLv2SEaEAtxwGI5rbBKVCPElycReQXhQU/sQWKQ6FIum1oex34pbWhoj5uSqMYdYPmOygRYQeyjdV3CD4ULdJx7wiNzSL5dgK91sdwJduDLRSj9zM57UNLO8z5vILhv/ttQjzcecnxRAs1HIvkrk6wBfmoAHNaNPUfJVaPlECpCm/ZrNrb858bHh4xhUAicp6iyCzMl21vhEm6FS6RFp+oUZ/qo7DiZNaOn1iol2Lt48irxsfTWbYyM8LIZxCJpRErwcMByJ61A4opcZP1XIA+GjoPrWQa3YuyFCz/DB/7GfGrZ2GeoEZfhIAIfg8HL4ds3a6fS+KLt78f8wUYw2nwX6yGE9y/whTJlPfRm80ZOYHrmRcLWHrF0mmhpcHseVCpxozQIeLyCzz94o6g3c1nA0gu7Gfkm6vPiBDuC2INfW5MYtuoUuSggnvqw5T7C8uaekdV6G+Rug2a9HjCFo11gBqCOMmgQ26XBtccOZGDLh5CpKLNGKR/980zrjMJeVfgAAghy3zRfSxOstSHoC2Ml1FXv0NBk7Q+qduptDrQmhL9xMAgkQEdUXs6t+Q7nrYl/Jj7t6sMfz2CXnqFNhq2NMm3LMBgGM0HtpaagLEPDtTydg4bN1LvvtDvCA16NYcjOVacVFKpmOn4z5N7Pqfgu1sUUuXF5BmvmxgB",
+        "thinking": "I'm checking that the AI-generated text matches the input info and is accurate. The user wants the self-introduction filled in, and the suggestion works for that, so I'll click insert.\n\n",
+        "type": "thinking"
+      },
+      {
+        "id": "toolu_01MotEiUbEWcqqHLfPbMc59J",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            953,
+            465
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_017XTTesZ5rpDaKQfcTTdJym",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "duration": 1
+        },
+        "name": "wait",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01VSQJGrdv1Rix9JwMjWTkM5",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {},
+        "name": "screenshot",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      }
+    ],
+    "diagnostics": null,
+    "model": "claude-sonnet-5-5",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 10087,
+      "output_tokens": 157,
+      "output_tokens_details": {
+        "thinking_tokens": 50
+      },
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

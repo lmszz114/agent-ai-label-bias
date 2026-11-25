@@ -1,0 +1,76 @@
+{
+  "received_at": "2026-11-25T09:54:41.852240+09:00",
+  "provider_request_id": "req_011ChNjYGQMc5UaAdb4No939",
+  "response": {
+    "id": "msg_011ChNjYGYHffdspaui9vo2o",
+    "container": null,
+    "content": [
+      {
+        "citations": null,
+        "text": "자동 생성된 문구는 입력한 정보만 사용했으므로 그대로 넣겠습니다.",
+        "type": "text"
+      },
+      {
+        "id": "toolu_012dsU9PNiRhucRkkFJpNPGt",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            953,
+            465
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01XvfGbLFyxpZVNoa3svAwKc",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "duration": 1
+        },
+        "name": "wait",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01MEZJSkFGhZVYaeLkPSBbf3",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {},
+        "name": "screenshot",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      }
+    ],
+    "diagnostics": null,
+    "model": "claude-sonnet-5-5",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 10088,
+      "output_tokens": 145,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

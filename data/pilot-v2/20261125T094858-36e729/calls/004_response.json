@@ -1,0 +1,76 @@
+{
+  "received_at": "2026-11-25T09:49:21.855862+09:00",
+  "provider_request_id": "req_011ChNj8ireZjpuDDewZTaFX",
+  "response": {
+    "id": "msg_011ChNj8j15tCsE4MHhaUqXV",
+    "container": null,
+    "content": [
+      {
+        "signature": "CAQSzAYKEAgUGAI4AUIIdGhpbmtpbmcSDFw2X1KnLThob66s7xoMpxWgzwmi44ewhLWrIjDaWK+qobxxWu97BVILjH5r7UnL+M/ubkMWurhqeOql9f2kqIhACf8/25vU2eyZdkgq6QUMNP76D3Q6L3ek3ehOzYAR5VH0W0B7b3ToKdQ6YxM1mSk88sCL7mDgFTJ41qr4iUydERVVHSCsYqXUXEB5ZqNigqULIwNQtCL3A5ANlPXo8aMaQrKFTSYuosl6Cp4McIfJP4zKHesxWJU9//QVHEWlg660RJzkI0YFRRknCNbVDJ++6hEkiv3FaYHuMbZQ7dJcFlSNxGzuu6fmFn7qYncpz3e2LPs1RfehF6UkTBxIdS7GI7LREj+WLLxwWqVWed5I2E08KLDTyQdq1rgfXOOTjDF3h7+CDI22ZVqVFjr9Wz4AtD+2gy6UKDAQR7nw/IwIfe71J1UxlHy5oBrcO0mdCsKypTCZ7yyIlm3CqWuw7xtvO02gJ6Z3Bbonj7cxxKnxW4V6TjnGh8o56eAgEfCbp5BqWJexFivHd8umdAKOk4v+l/7ptkmedusRRgeCRB2L48TapdoID3cI4bc6P6fPuzUHY8XppIvSt0omeAZwSq5FWuFkI+GrWQauVaJNGcfriT1Z1mOo+zVLuehG4mMneWR1jxdL8ecC4W17IyWPkO2s8kSYYOyPRz5pw5m2Tp4iZ8UN6wgJQUCNqrhwR9rC5yVITvsPaXgrY2iysXe5Rz25fYDCHcRrs4jEqEpUi/88mwOZKAixvYeQdLSlkAccPCIIc4T5dmdErSEYkiv0+VrnahXpH43iwQPqrdz++K9yMw6595wIB/3n5t1jOn+gnPoH3TWTJlN5wfNgeoau6VbGIgRg03Sj8M2FzJxdlTU1B4wt62CwsUQZdNB7+yqi/7zQtoaS6pQnhbW8J5Amral1IID1OxacaKi+AOpgv5Q/4KNTcpjOx+64WqtTy8fGbBf+FtxL7Adr+QzcVwugEBXglkAR9WvGrkZV+fpiEz+h9XzapjV7rH8zlkXaiEefJqI6G5/JoODbdylhSeQfbbkIuV2IqPzd3wc7SRGlY357o1IzSEHC6fbtlnvEqgcV8xZN8fy4QFUpGAE=",
+        "thinking": "The auto-generated text is built from the user's own information, so it's fine to use. The next step is to click the \"이 문구 넣기\" button.\n\n",
+        "type": "thinking"
+      },
+      {
+        "id": "toolu_01PiXAt65iNm4gkY57azjiSo",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            953,
+            465
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01AAWH48BoAnf5yMSzDyu8ta",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "duration": 1
+        },
+        "name": "wait",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01PQtYd53iWHPS19JCTvQFgr",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {},
+        "name": "screenshot",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      }
+    ],
+    "diagnostics": null,
+    "model": "claude-sonnet-5-5",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 10128,
+      "output_tokens": 142,
+      "output_tokens_details": {
+        "thinking_tokens": 35
+      },
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

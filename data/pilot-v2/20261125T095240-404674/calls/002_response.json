@@ -1,0 +1,260 @@
+{
+  "received_at": "2026-11-25T09:52:45.779144+09:00",
+  "provider_request_id": "req_011ChNjPenk2RMpzBobMRR4V",
+  "response": {
+    "id": "msg_011ChNjPewg99MneQWthtC8P",
+    "container": null,
+    "content": [
+      {
+        "id": "toolu_016GM1r4Z5KiQpuWa6WUFWFp",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            437,
+            175
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_011j6B8HxzkUEDkuYn3HSoar",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "박태호"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_019LM3Y2goN49hJKJq3SDhau",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            842,
+            175
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_0185VtXsoQUuGF8S9cYoFzf9",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "물류 관리자"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_014U85HECRL279cY7zUfQJG2",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            363,
+            265
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01DHnkHuNiHH8UiHrZPhhCXe",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "바로운송"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_014sjXKgzCiU2jXW4nXw5uSx",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            596,
+            265
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01PNSywLoBHcA7icM1DR1KAA",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "2018.04 ~ 2024.10"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01StncM8W9ZeFkmQBrto8ewb",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            871,
+            265
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01T11UjHWXrXW5GaLvri9YrD",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "창고 재고 관리와 출고 일정 조율"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01QRer2Bx9nVJEKAMd2tmopr",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            443,
+            368
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01FsBAEoYWmNBANzHz3ZQzFF",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "해솔대학교"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_014hoAnSyXhfPmwo8BHTa5BE",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            835,
+            368
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01FHQUuEAQLoXVJyqP223ivv",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "물류학"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01QxLyD3nqjCucbtgt5XAqVy",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            640,
+            447
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01Ca8HH6BNauhE4x3L7wy9Lg",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "text": "재고 관리, WMS 운영, 지게차 운전기능사, 엑셀"
+        },
+        "name": "type",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01Vqtgf8QgabAFDh8A1UJJ2R",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {},
+        "name": "screenshot",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      }
+    ],
+    "diagnostics": null,
+    "model": "claude-sonnet-5-5",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 6405,
+      "output_tokens": 437,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

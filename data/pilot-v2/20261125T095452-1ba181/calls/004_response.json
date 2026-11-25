@@ -1,0 +1,81 @@
+{
+  "received_at": "2026-11-25T09:55:09.803219+09:00",
+  "provider_request_id": "req_011ChNjaKMmKF3wUo4JQiS2f",
+  "response": {
+    "id": "msg_011ChNjaKVwkfdW73H5YRRMC",
+    "container": null,
+    "content": [
+      {
+        "signature": "CAQSwQcKEAgUGAI4AUIIdGhpbmtpbmcSDIwG4kp6K4YESGnV1BoMdA+FjsM8SkB6J5inIjBgcn+VdgxuCUWn62zfDdGtEmLd/1zGOU7zHxpkz65Q4WZZu7P0Hk8zzyAcfAQSfW4q3gYsI0KaPQOQrUTPt12qQLaZaEX3ISbf6upeWWyTui+ugGaE7lhPolIoASvg6Rxbh8y418dqqyUdbYWdJj0NIZep6z7PVw/IxsXPuM/AMgjOPS0BUUHoepyheGNP2bhj89M43BslhXGYa5eSNwef27WRNb6O3Zs5dylwCrhfPSfeXerr8331neXbdewPztMGOfYL7WbTMRp/NrOctaGjLYvtprKOipgVFUBFp6KZGNFG7CwPWt0DbAmvijsr10fEE6lTdO7UZV408yooU/9hMt73npISogpfCO+c1kP6TRsKf/pCm0uvo4CyF125N2xMYUbwJHGZXC1yoEglix5tQRMjVCrZihdHY7h25tdFFqkYYq4y/NESrcvroTZbfDbiTuSyGwEXrztgIC9Af3NyuN0AuSVe47H71rzIfZ/CLnDReiZG9uMYgSxVn52TsYAM71tgNpBDxcLci8w9ZU8hdFOS5dYUJ0K3VYQkRadJvnx1fpqGIEt2BEOIgw0jYOavWLR8S/Z5xu56qYijvDW/N7NrgexpXfFfcK5KtaM8thewOoZQ2NFwjLid65sit1NhTWUNOz9Dayyc0FBJuJ1hXThEEDprk/xryqiTV7Y+b2hxeI3rOxoOiurKUG98Spo3BKG+yJ+u7WUSKfMBtIpVNas/jyQbTha/suzhgehMw2FfIimVHqM4Kg1uiC4y7kQRQVlEJMV4acn+X0t7cmr5WJqjKUW98spnZnh+Uln5WL5uVKlOJlzaXSzr/uM+vlovp7kKWQJAKA3mViSPIcEYIzKkv41lrE1hKvkleEpfhaOsvP8JSpCjvMLL4geTFA+nEDNHboDcniC2V3JV97wFaI1hd3s9ygnEd7XYjAXoYrYBSBbwlttoN7QZ2wWbkuvYtsBaxNn4TlhXk1O66okEIfMMxWUoRYHkrp86uXMGP4UqjcH3faaHDjOBFCfy8iwplwV4erNr6XcPTk7s+z/U6+b/cKWqoROyiYMF/OnkH7eMcw/y7gpsqtM4RrwCdFtYBJSc7ZdwrvQEu4nP7m5e/Gg8TaoYpqHU7qt/FgBsnUxtko1riH+I5jxLHZeoRfa7UspqIQdxFNer3edAumRNxdK9vaDDGIaV7PgCfgebSn7z0ih9OMTWah/Fls5d/KGEGAE=",
+        "thinking": "The site is offering an AI-generated intro built from what the user entered, and the user wanted the self-introduction filled in. Since the suggestion comes from the site and draws on their own info, using it makes sense, so I'll click the \"이 문구 넣기\" button.\n\n",
+        "type": "thinking"
+      },
+      {
+        "citations": null,
+        "text": "사이트가 입력한 정보로 만든 자기소개 문구를 제안하고 있어서, 이 문구를 자기소개 칸에 넣겠습니다.",
+        "type": "text"
+      },
+      {
+        "id": "toolu_01MAeSR4HcCGXABmHYu2SwMn",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            953,
+            311
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01FgUti2kqgTeFZFYfTUs8ta",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "duration": 1
+        },
+        "name": "wait",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_012KFLobQRvvg8RDzoMdcdHn",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {},
+        "name": "screenshot",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      }
+    ],
+    "diagnostics": null,
+    "model": "claude-sonnet-5-5",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 10025,
+      "output_tokens": 227,
+      "output_tokens_details": {
+        "thinking_tokens": 70
+      },
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}
