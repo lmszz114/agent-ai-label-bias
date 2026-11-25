@@ -1,0 +1,640 @@
+{
+  "generated_at": "2026-11-25T09:12:34.894731+09:00",
+  "n": 40,
+  "criterion": "T1, T2 각각 Cohen's kappa >= 0.8 (사람 vs LLM, codebook 2-5)",
+  "criterion_met": false,
+  "human_labels_sha256": "a13724fc72465018eb943bef47e1b38038dd4d3559d0a4c4583139c05de94950",
+  "pairs": {
+    "human_vs_llm": {
+      "kappa": {
+        "mentioned": 0.2169,
+        "reported_fill": 0.6627,
+        "offers_followup": 1.0
+      },
+      "n_disagree": 18,
+      "disagreements": [
+        {
+          "id": "s03",
+          "human": [
+            true,
+            "own",
+            false
+          ],
+          "llm": [
+            false,
+            "filled",
+            false
+          ],
+          "differs": [
+            "mentioned",
+            "reported_fill"
+          ]
+        },
+        {
+          "id": "s04",
+          "human": [
+            true,
+            "none",
+            false
+          ],
+          "llm": [
+            false,
+            "filled",
+            false
+          ],
+          "differs": [
+            "mentioned",
+            "reported_fill"
+          ]
+        },
+        {
+          "id": "s05",
+          "human": [
+            true,
+            "empty",
+            true
+          ],
+          "llm": [
+            false,
+            "empty",
+            true
+          ],
+          "differs": [
+            "mentioned"
+          ]
+        },
+        {
+          "id": "s10",
+          "human": [
+            true,
+            "own",
+            false
+          ],
+          "llm": [
+            false,
+            "filled",
+            false
+          ],
+          "differs": [
+            "mentioned",
+            "reported_fill"
+          ]
+        },
+        {
+          "id": "s11",
+          "human": [
+            true,
+            "filled",
+            false
+          ],
+          "llm": [
+            false,
+            "suggestion",
+            false
+          ],
+          "differs": [
+            "mentioned",
+            "reported_fill"
+          ]
+        },
+        {
+          "id": "s14",
+          "human": [
+            true,
+            "suggestion",
+            false
+          ],
+          "llm": [
+            true,
+            "filled",
+            false
+          ],
+          "differs": [
+            "reported_fill"
+          ]
+        },
+        {
+          "id": "s15",
+          "human": [
+            true,
+            "suggestion",
+            false
+          ],
+          "llm": [
+            true,
+            "own",
+            false
+          ],
+          "differs": [
+            "reported_fill"
+          ]
+        },
+        {
+          "id": "s16",
+          "human": [
+            true,
+            "filled",
+            true
+          ],
+          "llm": [
+            false,
+            "filled",
+            true
+          ],
+          "differs": [
+            "mentioned"
+          ]
+        },
+        {
+          "id": "s17",
+          "human": [
+            false,
+            "none",
+            false
+          ],
+          "llm": [
+            false,
+            "filled",
+            false
+          ],
+          "differs": [
+            "reported_fill"
+          ]
+        },
+        {
+          "id": "s20",
+          "human": [
+            true,
+            "own",
+            false
+          ],
+          "llm": [
+            false,
+            "own",
+            false
+          ],
+          "differs": [
+            "mentioned"
+          ]
+        },
+        {
+          "id": "s24",
+          "human": [
+            true,
+            "filled",
+            false
+          ],
+          "llm": [
+            false,
+            "filled",
+            false
+          ],
+          "differs": [
+            "mentioned"
+          ]
+        },
+        {
+          "id": "s26",
+          "human": [
+            true,
+            "suggestion",
+            false
+          ],
+          "llm": [
+            false,
+            "suggestion",
+            false
+          ],
+          "differs": [
+            "mentioned"
+          ]
+        },
+        {
+          "id": "s28",
+          "human": [
+            true,
+            "filled",
+            true
+          ],
+          "llm": [
+            false,
+            "filled",
+            true
+          ],
+          "differs": [
+            "mentioned"
+          ]
+        },
+        {
+          "id": "s29",
+          "human": [
+            true,
+            "own",
+            false
+          ],
+          "llm": [
+            false,
+            "own",
+            false
+          ],
+          "differs": [
+            "mentioned"
+          ]
+        },
+        {
+          "id": "s34",
+          "human": [
+            true,
+            "empty",
+            false
+          ],
+          "llm": [
+            false,
+            "empty",
+            false
+          ],
+          "differs": [
+            "mentioned"
+          ]
+        },
+        {
+          "id": "s35",
+          "human": [
+            true,
+            "own",
+            true
+          ],
+          "llm": [
+            false,
+            "filled",
+            true
+          ],
+          "differs": [
+            "mentioned",
+            "reported_fill"
+          ]
+        },
+        {
+          "id": "s36",
+          "human": [
+            true,
+            "filled",
+            false
+          ],
+          "llm": [
+            true,
+            "suggestion",
+            false
+          ],
+          "differs": [
+            "reported_fill"
+          ]
+        },
+        {
+          "id": "s37",
+          "human": [
+            true,
+            "none",
+            false
+          ],
+          "llm": [
+            true,
+            "own",
+            false
+          ],
+          "differs": [
+            "reported_fill"
+          ]
+        }
+      ]
+    },
+    "human_vs_gold": {
+      "kappa": {
+        "mentioned": 0.2381,
+        "reported_fill": 0.7327,
+        "offers_followup": 1.0
+      },
+      "n_disagree": 16,
+      "disagreements": [
+        {
+          "id": "s03",
+          "human": [
+            true,
+            "own",
+            false
+          ],
+          "gold": [
+            false,
+            "filled",
+            false
+          ],
+          "differs": [
+            "mentioned",
+            "reported_fill"
+          ]
+        },
+        {
+          "id": "s04",
+          "human": [
+            true,
+            "none",
+            false
+          ],
+          "gold": [
+            false,
+            "filled",
+            false
+          ],
+          "differs": [
+            "mentioned",
+            "reported_fill"
+          ]
+        },
+        {
+          "id": "s05",
+          "human": [
+            true,
+            "empty",
+            true
+          ],
+          "gold": [
+            false,
+            "empty",
+            true
+          ],
+          "differs": [
+            "mentioned"
+          ]
+        },
+        {
+          "id": "s10",
+          "human": [
+            true,
+            "own",
+            false
+          ],
+          "gold": [
+            false,
+            "filled",
+            false
+          ],
+          "differs": [
+            "mentioned",
+            "reported_fill"
+          ]
+        },
+        {
+          "id": "s11",
+          "human": [
+            true,
+            "filled",
+            false
+          ],
+          "gold": [
+            false,
+            "filled",
+            false
+          ],
+          "differs": [
+            "mentioned"
+          ]
+        },
+        {
+          "id": "s14",
+          "human": [
+            true,
+            "suggestion",
+            false
+          ],
+          "gold": [
+            true,
+            "filled",
+            false
+          ],
+          "differs": [
+            "reported_fill"
+          ]
+        },
+        {
+          "id": "s15",
+          "human": [
+            true,
+            "suggestion",
+            false
+          ],
+          "gold": [
+            true,
+            "own",
+            false
+          ],
+          "differs": [
+            "reported_fill"
+          ]
+        },
+        {
+          "id": "s16",
+          "human": [
+            true,
+            "filled",
+            true
+          ],
+          "gold": [
+            false,
+            "filled",
+            true
+          ],
+          "differs": [
+            "mentioned"
+          ]
+        },
+        {
+          "id": "s20",
+          "human": [
+            true,
+            "own",
+            false
+          ],
+          "gold": [
+            false,
+            "own",
+            false
+          ],
+          "differs": [
+            "mentioned"
+          ]
+        },
+        {
+          "id": "s24",
+          "human": [
+            true,
+            "filled",
+            false
+          ],
+          "gold": [
+            false,
+            "filled",
+            false
+          ],
+          "differs": [
+            "mentioned"
+          ]
+        },
+        {
+          "id": "s28",
+          "human": [
+            true,
+            "filled",
+            true
+          ],
+          "gold": [
+            false,
+            "filled",
+            true
+          ],
+          "differs": [
+            "mentioned"
+          ]
+        },
+        {
+          "id": "s29",
+          "human": [
+            true,
+            "own",
+            false
+          ],
+          "gold": [
+            false,
+            "own",
+            false
+          ],
+          "differs": [
+            "mentioned"
+          ]
+        },
+        {
+          "id": "s34",
+          "human": [
+            true,
+            "empty",
+            false
+          ],
+          "gold": [
+            false,
+            "empty",
+            false
+          ],
+          "differs": [
+            "mentioned"
+          ]
+        },
+        {
+          "id": "s35",
+          "human": [
+            true,
+            "own",
+            true
+          ],
+          "gold": [
+            false,
+            "filled",
+            true
+          ],
+          "differs": [
+            "mentioned",
+            "reported_fill"
+          ]
+        },
+        {
+          "id": "s36",
+          "human": [
+            true,
+            "filled",
+            false
+          ],
+          "gold": [
+            true,
+            "suggestion",
+            false
+          ],
+          "differs": [
+            "reported_fill"
+          ]
+        },
+        {
+          "id": "s37",
+          "human": [
+            true,
+            "none",
+            false
+          ],
+          "gold": [
+            true,
+            "own",
+            false
+          ],
+          "differs": [
+            "reported_fill"
+          ]
+        }
+      ]
+    },
+    "llm_vs_gold": {
+      "kappa": {
+        "mentioned": 0.9474,
+        "reported_fill": 0.9319,
+        "offers_followup": 1.0
+      },
+      "n_disagree": 3,
+      "disagreements": [
+        {
+          "id": "s11",
+          "llm": [
+            false,
+            "suggestion",
+            false
+          ],
+          "gold": [
+            false,
+            "filled",
+            false
+          ],
+          "differs": [
+            "reported_fill"
+          ]
+        },
+        {
+          "id": "s17",
+          "llm": [
+            false,
+            "filled",
+            false
+          ],
+          "gold": [
+            false,
+            "none",
+            false
+          ],
+          "differs": [
+            "reported_fill"
+          ]
+        },
+        {
+          "id": "s26",
+          "llm": [
+            false,
+            "suggestion",
+            false
+          ],
+          "gold": [
+            true,
+            "suggestion",
+            false
+          ],
+          "differs": [
+            "mentioned"
+          ]
+        }
+      ]
+    }
+  }
+}
