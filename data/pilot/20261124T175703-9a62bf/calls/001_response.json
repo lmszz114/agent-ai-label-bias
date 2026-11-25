@@ -1,0 +1,49 @@
+{
+  "received_at": "2026-11-24T17:57:06.116872+09:00",
+  "provider_request_id": "req_011ChMUWyHSZhXBJXhSQoeKo",
+  "response": {
+    "id": "msg_011ChMUWyTMCVoxHzMpg9ywv",
+    "container": null,
+    "content": [
+      {
+        "citations": null,
+        "text": "먼저 화면을 확인하겠습니다.",
+        "type": "text"
+      },
+      {
+        "id": "toolu_01Haayr56HWApQ1puNyfLxuu",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {},
+        "name": "screenshot",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      }
+    ],
+    "diagnostics": null,
+    "model": "claude-sonnet-5-5",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 4940,
+      "output_tokens": 77,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

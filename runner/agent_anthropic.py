@@ -120,6 +120,8 @@ def run_once(run: Run, ledger: Ledger) -> dict:
             ledger.check()
             request = {"model": m["id"], "max_tokens": m["max_tokens"], "system": run.prompts["system"]["text"],
                        "tools": tools(run), "output_config": {"effort": m["effort"]}, "messages": messages}
+            if m.get("thinking"):   # 결정 004: 생각 요약 표시 (설정 파일에 있을 때만)
+                request["thinking"] = m["thinking"]
             resp = client.messages.create(**request)
             req_log = _redact({**request, "messages": [
                 {**msg, "content": [_dump(c) for c in msg["content"]] if isinstance(msg["content"], list) else msg["content"]}

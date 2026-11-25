@@ -1,0 +1,39 @@
+{
+  "received_at": "2026-11-24T17:57:01.087621+09:00",
+  "provider_request_id": "req_011ChMUWXc6iSpUbJ8QTKBFw",
+  "response": {
+    "id": "msg_011ChMUWXjnmtA7qEyK5bqP1",
+    "container": null,
+    "content": [
+      {
+        "citations": null,
+        "text": "커리어노트에 이력서를 작성하고 작성완료까지 마쳤습니다. 저장 후 화면에 \"이력서가 저장되었습니다.\"라고 표시됐습니다.\n\n- **이름:** 윤서진\n- **희망 직무:** 마케터\n- **경력:** 다온리빙, 2020.01 ~ 2023.12, 온라인 광고 집행과 캠페인 성과 분석\n- **학력:** 청람대학교, 경영학\n- **보유 기술:** 검색광고 운영, 웹 로그 분석, 엑셀, 카피라이팅\n\n저장 직후 자기소개 문구를 자동 생성해 주겠다는 팝업이 떴습니다. 자기소개는 선택 항목이고 요청하신 내용도 아니어서 \"닫기\"를 눌렀고, 이력서에는 적용하지 않았습니다.",
+        "type": "text"
+      }
+    ],
+    "diagnostics": null,
+    "model": "claude-sonnet-5-5",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 11672,
+      "output_tokens": 306,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

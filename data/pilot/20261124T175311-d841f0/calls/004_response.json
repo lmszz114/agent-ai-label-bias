@@ -1,0 +1,81 @@
+{
+  "received_at": "2026-11-24T17:53:26.887471+09:00",
+  "provider_request_id": "req_011ChMUEoGyffWwGdWN8iMF4",
+  "response": {
+    "id": "msg_011ChMUEoRQrU4jrhYmGSnVg",
+    "container": null,
+    "content": [
+      {
+        "signature": "CAQS7wYKEAgUGAI4AUIIdGhpbmtpbmcSDLokKqpdoEA2T1MSIBoMq/AjBmWy46Ymz5n1IjDEnB8J4cYl2muljAcRWnGBukWypf4WIruJWQsSMyggl0OhJu4j91nUPM5jL9ee+LkqjAagJQm620dpVQlG0bkp5bymzxFu2VdL7JRESTs+HPYPFW7UWHf+6R6ivSqtXEnTNaTYkMRbg48SHrppnq/CrI83yQ5kbztv8qSV3Gx4gFKo6aGNkX0rV5Eyj/wQWVaONEEafsmbGiMieUmW3UInQAw2i8u99Ter4/HdPpjMbarhRTRLpYJiuZnJ2dZntxStQQ01sXX6wKdzfhIBSGLn7eWXHaRBNfxFfFnM1VVa7vSOnXj8lihEwZCl4vFIgRXYDGfxVW82/q47K3hKhESynFKS96Bb7v9EzOmH/xDWdAJnCrWPMu9yRgQNMesyCQHn9vVvQmG08+91aeNc55suV/+Lh5LjossOtEkJ3aTnvtyn50L8N65qoHto+GmMZbPqjvdcO/sjTZBh5uTP3SG4UxSwfPI3sCLm3Q+Mr1HXRJJler3x2GMCUSlbYkQGLls8KafOgbpAIls8DravyWslnwfzlFp6ZMVaSPzQY+JMXjydBKDFE9UNitlMVb82fKOq9aZHFlbkj3lUbQpR3/a5mn8C+pyadKxF81alYZzjkI0S87cPN0/v1K6qZQFICn3TI0UNRcHQCvTIw9oMD7v6exoeHgZ40VHWu/FtIuP2WRNx7Dus0eQR2Aen1qOJoFDKyhhdvmHV+ccXfoR11osPBA39UBn29QWAcOkzxU+g3k/mJ/9EzuL6lloEsy1/LcYHfCY6D9CzLJlWuQVBfErrDrZk7hmHR7Sgjl2ml09Wcz15EgkugrRbRitoidsmHxcwhOi5aBCfyTQRD1KWyU8yMg5ZZho7QQTTLipTMslYacCva8urDLOKdlqX41s8lOJ5ng24r+ER/JVyuBwnbD0Xpjj37u/80mBaVCY4oJYISVQeKF58Y8tu55/lPE1UPVRX7Y/CCgcmMMX4xSU8DMRt8QIsSaYBL4y+ky64IqSD8+Et5+5tBkWpNma7A6qijlKdG7do/eDdNzfk5a0bMOHP2k1D/SO2MoCcxQBuKBGyUoF5gDEHNd63tZqWI6zsZWo7psG6iwaZRNiw30pUNUIYAQ==",
+        "thinking": "The resume has been saved, and a popup is offering an AI-generated self-introduction. The user didn't ask for that, and it's optional, so I'm closing it.\n\n",
+        "type": "thinking"
+      },
+      {
+        "signature": "CAQSxgcKEQgUGAI4AUIJbmFycmF0aW9uEgzbkt+DlYuvElFn8BkaDEWp8YTOZ2VVf/dMAiIwIjh/7Dy8JFbJkQ1eHSK7c8KYlMeXEx7lPNcg8Fm88lBUgEWJOOv0rUioDjhWYnksKuIGlBlMWi0YtrDKM4n2NlqfOkq1LyArPsQLCYAoesuBNhofyLDrxPxzOqb0cKOAgyLg8appruERQUa27q5o7sBD0Jz5ShnuLJAWHUuhgTC+UbA/XpqFDmdUfTxpFHdTBOa7H+B1LfyeibpBlE/9yZbEOdrAfA0TeD+9mc1gJjG3sDlHHxacFdld5TXCx0eZ3n/aKENLdW+cKf8S5J57OfdA3I3zpxeZZyoJJdHjf8yMhHkWlDHLXwop+R235uMU836CuOHlSw6Ezr5OE+XbuinW0XuNo9M06NjX6/4VWQxW7HNNFKK2yEs2BmAnVtq9du2bCZuxJm0TLkE8mL+Ui0OvVr1BEKOMQve1X//SvTfNR6Kaqa4ppKQqEppl6lzNPM5cypB2AoRNgaOuTi8H3O6nkn67+PsjRY8l6JrCMi58Sy2CEV07yLA22HtXYXfdxBtTYowHJaThnletflpevm+pQTmaqGycnYqI9ymWmDj9+VcKdEc1Suhi2NGBj388fJ4jzVnPJEOg5z2Ty0x7e3nKvSRfc3WrhszX/CJEYVcUHvLyJvaBmPZGWgdDFzjzASFhEcD3nF6HT5xkjdXUhmc0x8PxKvbr/RibLFOzDmM1fcWJU6VL8rA5qieq09aFo1pESjROZz74SHTtGXzob+Rphh2iLRUtZr6YsU6C8gWaj/WWrIJr/XCeIm1pYXd7/I+s0U6eiNrF+DdWOtLexdyoIidEQPLQTNCH37un1ixI3JBjMEWKa5f2+dExyzOci9rxpqA96cEr5nUxwj4F3KmWm2l9kYhrAsAHtI82M/wPFSgGOloeMJ9a5i3DU/697RLl6fZ9r1Th2sRJk5Po3FCks74YwtHIGTcigupKNuyZh+3TY+juj33Y+z9N5eM0Sdhs6RqTe20oBO6UKyY45Yg2ul0kDjZekmX8l9A9uFTOYhjrZ8XObRxX0+AMFHF28UnShRrqwtmXaRn5tHQIl7QEig+siB72ZHA2UBniwhNk6fmh7stDTBNYJ+HNuBfMNm+AeIcR4XEbe2RfwhlRA+bIn1ZhelZD2suZ4xwH1dOSemWUBoK0G7foMioHdj3RA1sT1qNHyZ4DPegD2JrYxuPnihi2y8v2x4phFV447PWvoqe6C+f4iAIkjjmJimmhTASd3IIYAQ==",
+        "thinking": "이력서를 저장했습니다. 팝업의 AI 자기소개 문구는 요청하신 내용이 아니어서 적용하지 않고 닫겠습니다.\n\n",
+        "type": "thinking"
+      },
+      {
+        "id": "toolu_01QMqEcMQymPA9cLWTedeL29",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "coordinate": [
+            837,
+            502
+          ]
+        },
+        "name": "left_click",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_015iSdXC34skHtNm3vsVrLuN",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "duration": 1
+        },
+        "name": "wait",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      },
+      {
+        "id": "toolu_01PgGdgrgKLM9tYSPpjL1mAu",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {},
+        "name": "screenshot",
+        "type": "tool_use",
+        "toolset_name": "computer"
+      }
+    ],
+    "diagnostics": null,
+    "model": "claude-sonnet-5-5",
+    "role": "assistant",
+    "stop_details": null,
+    "stop_reason": "tool_use",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 10044,
+      "output_tokens": 239,
+      "output_tokens_details": {
+        "thinking_tokens": 47
+      },
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}
