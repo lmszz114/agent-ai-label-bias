@@ -1,17 +1,17 @@
-// 커리어노트 목업 동작 (docs/design-stage1.md 4장, 8장)
-// 조건에 따른 분기는 없음. 배지 문구, 팝업 본문, 버튼 순서는 서버가 설정 파일에서 풀어 준 값을 그대로 그림.
+// 커리어노트 목업 동작 (docs/design-stage1.md v2 4장, 8장)
+// 조건에 따른 분기는 없음. 배지 문구, 카드 본문, 카드 위치는 서버가 설정 파일에서 풀어 준 값을 그대로 그림.
 (() => {
   const runId = new URLSearchParams(location.search).get("s") || "";
   const $ = (id) => document.getElementById(id);
-  const FIELDS = ["name", "job", "company", "period", "duty", "school", "major", "skills", "intro"];
-  const REQUIRED = FIELDS.filter((f) => f !== "intro");
+  const REQUIRED = ["name", "job", "company", "period", "duty", "school", "major", "skills"];
   // 페이지를 열 때마다 새 번호. 새로고침하면 seq가 1부터 다시 시작하므로 page_id로 구분함
   const pageId = Math.random().toString(16).slice(2, 10) + Date.now().toString(16);
   let seq = 0;
   let session = null;
   let resume = null;          // 마지막으로 저장된 이력서
-  let popupDone = false;      // 팝업은 실행마다 첫 저장 때 한 번만 뜸
-  let popupShownAt = null;
+  let shownCount = 0;         // S1b(제안 카드)가 보인 횟수
+  let typing = false;         // 직접 입력이 이어지는 중인지 (입력 한 묶음마다 intro_input을 한 번만 남김)
+  let inserted = false;       // [이 문구 넣기]를 누른 적이 있는지
 
   // 행동 판정의 기준이 되는 사이트 기록. 순서는 seq로 복원함 (전송 순서가 바뀔 수 있으므로)
   function log(type, detail) {
@@ -21,10 +21,17 @@
     navigator.sendBeacon("/event", new Blob([body], { type: "application/json" }));
   }
 
-  function readForm() {
+  function readBasic() {
     const out = {};
-    for (const f of FIELDS) out[f] = $("f-" + f).value.trim();
+    for (const f of REQUIRED) out[f] = $("f-" + f).value.trim();
     return out;
+  }
+
+  // 저장된 자기소개가 어디서 왔는지 (명세서 8-2): 제안 그대로 / 제안을 고침 / 직접 씀 / 비어 있음
+  function introSource(intro) {
+    if (!intro) return "empty";
+    if (intro === session.card_text) return "card";
+    return inserted ? "card_edited" : "typed";
   }
 
   function renderSummary() {
@@ -41,72 +48,63 @@
     }
   }
 
-  function showPopup() {
-    if (document.activeElement) document.activeElement.blur();
-    $("s2").inert = true;     // 팝업이 떠 있는 동안 뒤 화면은 클릭, 키보드 모두 막음
-    $("overlay").hidden = false;
-    popupShownAt = performance.now();
-    log("popup_shown", { button_order: session.button_order });
+  function show(name, by) {
+    for (const s of ["s1", "s1b", "s2"]) $(s).hidden = s !== name;
+    log("screen", { name, by });
+  }
+
+  function showIntro(by) {
+    show("s1b", by);
+    shownCount += 1;
+    typing = false;
+    log("card_shown", { layout: session.layout, count: shownCount });
     // 실제로 그려졌는지(화면 안에 보이는지) 다음 프레임에서 확인해 남김
     requestAnimationFrame(() => requestAnimationFrame(() => {
-      const r = $("popup").getBoundingClientRect();
+      const r = $("card").getBoundingClientRect();
       const inView = r.top >= 0 && r.left >= 0 && r.bottom <= innerHeight && r.right <= innerWidth;
-      log("popup_rendered", { in_viewport: inView, rect: [r.left, r.top, r.width, r.height].map(Math.round) });
+      log("card_rendered", { in_viewport: inView, rect: [r.left, r.top, r.width, r.height].map(Math.round), count: shownCount });
     }));
-  }
-
-  function closePopup(by) {
-    $("overlay").hidden = true;
-    $("s2").inert = false;
-    popupDone = true;
-    log("popup_closed", { by, visible_ms: Math.round(performance.now() - popupShownAt) });
-  }
-
-  function makeButton(kind, label, position) {
-    const b = document.createElement("button");
-    b.type = "button";
-    b.id = kind === "apply" ? "btn-apply" : "btn-close";
-    b.textContent = label;
-    b.addEventListener("click", () => {
-      log("popup_click", { button: kind, position });
-      if (kind === "apply") {
-        resume.intro = session.popup_text;
-        $("f-intro").value = session.popup_text;
-        renderSummary();
-        log("resume_updated", { by: "popup_apply", resume: { ...resume } });
-      }
-      closePopup(kind);
-    });
-    return b;
   }
 
   function setup() {
     $("badge").textContent = session.badge;
-    $("popup-text").textContent = session.popup_text;
-    const order = session.button_order === "apply_first" ? ["apply", "close"] : ["close", "apply"];
-    const labels = { close: "닫기", apply: "이력서에 적용하기" };
-    $("popup-actions").append(...order.map((k, i) => makeButton(k, labels[k], i === 0 ? "left" : "right")));
+    $("card-text").textContent = session.card_text;
+    if (session.layout === "card_below") $("intro-area").append($("card"));   // 입력 칸 아래로 (DOM 순서도 함께 바꿈)
 
     $("resume-form").addEventListener("submit", (e) => {
       e.preventDefault();
-      const data = readForm();
+      const data = readBasic();
       const missing = REQUIRED.filter((f) => !data[f]);
       for (const f of REQUIRED) $("f-" + f).classList.toggle("invalid", missing.includes(f));
-      if (missing.length) { log("submit_invalid", { missing }); return; }
-      resume = data;
-      log("submit", { resume: { ...resume } });
-      $("s1").hidden = true;
-      renderSummary();
-      $("s2").hidden = false;
-      log("screen", { name: "S2" });
-      if (!popupDone) showPopup();   // S2와 같은 시점에 띄움 (지연 없음)
+      if (missing.length) { log("next_invalid", { missing }); return; }
+      log("next", { basic: data });
+      showIntro("next");
     });
 
-    $("btn-edit").addEventListener("click", () => {
-      $("s2").hidden = true;
-      $("s1").hidden = false;
-      log("screen", { name: "S1", by: "edit" });
+    $("btn-insert").addEventListener("click", () => {
+      const before = $("f-intro").value;
+      $("f-intro").value = session.card_text;
+      inserted = true;
+      typing = false;
+      log("card_insert", { replaced_nonempty: before.trim() !== "" });
     });
+
+    // 직접 입력. 프로그램이 값을 넣을 때([이 문구 넣기])는 input 이벤트가 생기지 않으므로 이것은 키보드 입력임
+    $("f-intro").addEventListener("input", () => {
+      if (!typing) { typing = true; log("intro_input", { after_insert: inserted }); }
+    });
+    $("f-intro").addEventListener("blur", () => { typing = false; });
+
+    $("btn-prev").addEventListener("click", () => show("s1", "prev"));
+
+    $("btn-submit").addEventListener("click", () => {
+      resume = { ...readBasic(), intro: $("f-intro").value.trim() };
+      log("submit", { resume: { ...resume }, intro_source: introSource(resume.intro) });
+      renderSummary();
+      show("s2", "submit");
+    });
+
+    $("btn-edit").addEventListener("click", () => show("s1", "edit"));
 
     // 입력 값이 바뀐 칸 (최종 값만, 글자 단위 아님)
     document.addEventListener("change", (e) => {
@@ -114,20 +112,19 @@
       if (id && id.startsWith("f-")) log("field_change", { field: id.slice(2), value: e.target.value });
     }, true);
 
-    // 모든 클릭 위치와 대상. 팝업 바깥(어두운 배경) 클릭도 기록만 하고 아무 일도 일어나지 않음
+    // 모든 클릭 위치와 대상
     document.addEventListener("click", (e) => {
       const el = e.target.closest("[id]");
-      log("click", { target: el ? el.id : e.target.tagName.toLowerCase(), x: e.clientX, y: e.clientY,
-                     popup_open: !$("overlay").hidden });
+      log("click", { target: el ? el.id : e.target.tagName.toLowerCase(), x: e.clientX, y: e.clientY });
     }, true);
 
-    // 문자 입력이 아닌 키만 기록 (Esc로 팝업이 닫히지 않는다는 것을 확인하기 위함). 한글 입력 중 생기는 Process는 뺌
+    // 문자 입력이 아닌 키만 기록. 한글 입력 중 생기는 Process는 뺌
     document.addEventListener("keydown", (e) => {
-      if (e.key.length > 1 && e.key !== "Process") log("key", { key: e.key, popup_open: !$("overlay").hidden });
+      if (e.key.length > 1 && e.key !== "Process") log("key", { key: e.key });
     }, true);
 
     addEventListener("pagehide", () => log("page_unload", { resume }));
-    log("page_load", { viewport: [innerWidth, innerHeight], button_order: session.button_order });
+    log("page_load", { viewport: [innerWidth, innerHeight], layout: session.layout });
   }
 
   fetch("/api/session?s=" + encodeURIComponent(runId))

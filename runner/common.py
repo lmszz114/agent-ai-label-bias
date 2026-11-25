@@ -140,7 +140,7 @@ class Run:
         for sub in ("calls", "screenshots"):
             (self.dir / sub).mkdir(parents=True, exist_ok=True)
         # 목업 배정 파일: 조건 코드는 여기와 meta.json에만 있고, 에이전트가 보는 화면에는 배지 문구만 그려짐
-        mockup.create(assignment["condition"], assignment["content_id"], assignment["button_order"], run_id=self.run_id)
+        mockup.create(assignment["condition"], assignment["content_id"], assignment["layout"], run_id=self.run_id)
         self.task = task_text(prompts, assignment["content_id"])
         self.call_no = 0
         self.shot_no = 0
@@ -157,15 +157,16 @@ class Run:
         with (self.dir / rel).open("a", encoding="utf-8", newline="\n") as f:
             f.write(json.dumps(obj, ensure_ascii=False, default=str) + "\n")
 
-    def save_observation(self, png: bytes, kind: str, popup_visible: bool) -> str:
-        """에이전트에게 보낼 화면을 저장하고, 찍은 순간 팝업이 떠 있었는지 함께 기록함 (노출 확인, 명세서 8-1)."""
+    def save_observation(self, png: bytes, kind: str, target_visible: bool) -> str:
+        """에이전트에게 보낼 화면을 저장하고, 찍은 순간 측정 대상(v2: 제안 카드)이 보였는지 함께 기록함 (노출 확인, 명세서 8-1).
+        v1 실행 기록의 같은 자리 이름은 popup_visible임."""
         self.shot_no += 1
         name = f"{self.shot_no:03d}.png"
         (self.dir / "screenshots" / name).write_bytes(png)
         digest = sha256_bytes(png)
         # after_call: 이 관찰은 다음 호출(after_call + 1)에 실려 모델에게 감
         self.append_jsonl("observations.jsonl", {"ts": now_kst(), "file": name, "sha256": digest, "kind": kind,
-                                                 "popup_visible": popup_visible, "after_call": self.call_no})
+                                                 "target_visible": target_visible, "after_call": self.call_no})
         return f"sha256:{digest} ({name})"
 
     def log_call(self, request: dict, response: dict, request_id: str | None) -> int:
@@ -214,7 +215,7 @@ def write_manifest(run_dir: Path) -> None:
 # ---------------------------------------------------------------- 브라우저
 
 class Browser:
-    """목업만 접근하는 Chromium. 관찰(스크린샷)마다 팝업이 떠 있었는지 DOM에서 확인해 함께 남김."""
+    """목업만 접근하는 Chromium. 관찰(스크린샷)마다 제안 카드가 화면에 보였는지 DOM에서 확인해 함께 남김."""
 
     def __init__(self, run: Run):
         from playwright.sync_api import sync_playwright
@@ -237,16 +238,21 @@ class Browser:
             self.blocked.append(route.request.url)
             route.abort()
 
-    def popup_visible(self) -> bool:
+    def target_visible(self) -> bool:
+        """S1b가 보이고 제안 카드가 화면(뷰포트) 안에 일부라도 들어와 있으면 True (명세서 v2 8-1)."""
+        js = """(() => { const s = document.getElementById('s1b'), c = document.getElementById('card');
+                  if (!s || s.hidden || !c) return false;
+                  const r = c.getBoundingClientRect();
+                  return r.width > 0 && r.height > 0 && r.bottom > 0 && r.top < innerHeight && r.right > 0 && r.left < innerWidth; })()"""
         try:
-            return bool(self.page.evaluate("(() => { const o = document.getElementById('overlay'); return !!o && !o.hidden; })()"))
+            return bool(self.page.evaluate(js))
         except Exception:
             return False
 
     def observe(self, kind: str = "screenshot", clip: dict | None = None) -> tuple[str, str]:
         """(base64, 기록용 참조)를 돌려줌."""
         png = self.page.screenshot(type="png", clip=clip) if clip else self.page.screenshot(type="png")
-        ref = self.run.save_observation(png, kind, self.popup_visible())
+        ref = self.run.save_observation(png, kind, self.target_visible())
         return base64.b64encode(png).decode("ascii"), ref
 
     def close(self) -> None:

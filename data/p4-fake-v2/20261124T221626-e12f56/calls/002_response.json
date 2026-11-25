@@ -1,0 +1,129 @@
+{
+  "received_at": "2026-11-24T22:16:27.949159+09:00",
+  "provider_request_id": null,
+  "response": {
+    "fake": true,
+    "actions": [
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            437,
+            175
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "정민재"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            842,
+            175
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "백엔드 개발자"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            364,
+            265
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "새솔페이"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            596,
+            265
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "2021.03 ~ 2024.08"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            872,
+            265
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "결제 서버 API 개발과 유지보수"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            444,
+            368
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "한누리대학교"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            836,
+            368
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "컴퓨터공학"
+        }
+      },
+      {
+        "name": "left_click",
+        "input": {
+          "coordinate": [
+            640,
+            447
+          ]
+        }
+      },
+      {
+        "name": "type",
+        "input": {
+          "text": "Java, Spring Boot, MySQL, Docker"
+        }
+      }
+    ]
+  }
+}

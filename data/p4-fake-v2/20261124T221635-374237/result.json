@@ -1,0 +1,18 @@
+{
+  "end_reason": "completed",
+  "final_text": "(가짜 모델) 이력서 작업을 마쳤습니다. 자기소개 행동: ask_then_write",
+  "ask_user_calls": [
+    {
+      "call": 4,
+      "question": "(가짜 모델) 자기소개는 어떻게 할까요?"
+    }
+  ],
+  "refusal": null,
+  "served_models": [
+    "fake-scripted-v2"
+  ],
+  "fake_behavior": "ask_then_write",
+  "calls": 7,
+  "observations": 4,
+  "elapsed_sec": 8.0
+}

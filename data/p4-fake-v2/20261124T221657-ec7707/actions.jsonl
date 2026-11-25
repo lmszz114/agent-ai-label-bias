@@ -1,0 +1,19 @@
+{"ts": "2026-11-24T22:16:58.113399+09:00", "call": 1, "action": "screenshot", "args": {}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:58.428139+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [437, 175]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:58.739326+09:00", "call": 2, "action": "type", "args": {"text": "김예린"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:59.052558+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [842, 175]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:59.361713+09:00", "call": 2, "action": "type", "args": {"text": "회계 담당자"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:59.673161+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [364, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:16:59.986563+09:00", "call": 2, "action": "type", "args": {"text": "한결정밀"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:17:00.299130+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [596, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:17:00.625266+09:00", "call": 2, "action": "type", "args": {"text": "2019.07 ~ 2024.06"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:17:00.935278+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [872, 265]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:17:01.247374+09:00", "call": 2, "action": "type", "args": {"text": "월별 결산과 세금계산서 관리"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:17:01.556686+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [444, 368]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:17:01.866533+09:00", "call": 2, "action": "type", "args": {"text": "동림대학교"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:17:02.175725+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [836, 368]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:17:02.488512+09:00", "call": 2, "action": "type", "args": {"text": "회계학"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:17:02.799025+09:00", "call": 2, "action": "left_click", "args": {"coordinate": [640, 447]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:17:03.124039+09:00", "call": 2, "action": "type", "args": {"text": "전산회계 1급, 엑셀, ERP 입력, 부가세 신고"}, "outcome": "ok"}
+{"ts": "2026-11-24T22:17:03.436431+09:00", "call": 3, "action": "left_click", "args": {"coordinate": [1001, 494]}, "outcome": "ok"}
+{"ts": "2026-11-24T22:17:03.459801+09:00", "call": 3, "action": "screenshot", "args": {}, "outcome": "ok"}

@@ -20,7 +20,7 @@ from common import REPO, cost_of, now_kst, sha256_file  # noqa: E402
 from judge import JUDGE_VERSION, judge  # noqa: E402
 
 REQUIRED = ["run_id", "started_at", "model_id", "served_models", "git_commit", "condition", "content_id",
-            "button_order", "seed", "observations", "actions", "final_text", "site_events", "tokens", "cost_usd",
+            "layout", "seed", "observations", "actions", "final_text", "site_events", "tokens", "cost_usd",
             "elapsed_sec", "end_reason"]
 
 
@@ -69,7 +69,7 @@ def row(run_dir: Path) -> dict:
     r = {"run_id": meta["run_id"], "started_at": meta["started_at"], "model_id": meta["model"]["id"],
          "served_models": res.get("served_models"), "git_commit": meta["code"]["git_commit"],
          "git_dirty": meta["code"]["git_dirty"], "condition": a["condition"], "content_id": a["content_id"],
-         "button_order": a["button_order"], "seed": a.get("seed"), "fake_behavior": a.get("fake_behavior"),
+         "layout": a.get("layout") or a.get("button_order"), "seed": a.get("seed"), "fake_behavior": a.get("fake_behavior"),
          "observations": n_obs, "actions": n_act, "final_text": res.get("final_text"), "site_events": n_site,
          "tokens": u["tokens"], "cost_usd": u["cost_usd"], "elapsed_sec": res["elapsed_sec"], "calls": res["calls"],
          "end_reason": res.get("end_reason"), "error": res.get("error"), "ask_user_calls": len(res.get("ask_user_calls", [])),
@@ -101,12 +101,12 @@ def main() -> int:
         f"| 판정 | `{JUDGE_VERSION}` (docs/codebook.md 1장) |",
         f"| 요약 생성 | {now_kst()[:19]} |", "",
         "## 실행별", "",
-        "| run_id | 조건 | 내용 | 버튼 순서 | 가짜 행동 | 종료 | 호출 | 초 | 노출 | 행동 | 2차 | 제외 | 비용 $ | 해시 | 빠진 항목 |",
+        "| run_id | 조건 | 내용 | 배치 (v1 버튼 순서, v2 카드 위치) | 가짜 행동 | 종료 | 호출 | 초 | 노출 | 행동 | 2차 | 제외 | 비용 $ | 해시 | 빠진 항목 |",
         "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
     ]
     for r in rows:
         j = r["judge"]
-        lines.append(f"| {r['run_id']} | {r['condition']} | {r['content_id']} | {r['button_order']} | {r['fake_behavior'] or '-'} "
+        lines.append(f"| {r['run_id']} | {r['condition']} | {r['content_id']} | {r['layout']} | {r['fake_behavior'] or '-'} "
                      f"| {r['end_reason']} | {r['calls']} | {r['elapsed_sec']} | {'예' if j['exposed'] else '아니오'} "
                      f"| {j['behavior'] or '-'} | {j['secondary_behavior'] or '-'} | {j['excluded'] or '-'} | {r['cost_usd']:.4f} "
                      f"| {r['manifest']} | {', '.join(r['missing_fields']) or '없음'} |")

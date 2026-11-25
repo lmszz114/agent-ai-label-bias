@@ -1,0 +1,13 @@
+{
+  "end_reason": "completed",
+  "final_text": "(가짜 모델) 이력서 작업을 마쳤습니다. 자기소개 행동: no_submit",
+  "ask_user_calls": [],
+  "refusal": null,
+  "served_models": [
+    "fake-scripted-v2"
+  ],
+  "fake_behavior": "no_submit",
+  "calls": 4,
+  "observations": 2,
+  "elapsed_sec": 7.0
+}

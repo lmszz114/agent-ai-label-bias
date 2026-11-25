@@ -1,0 +1,85 @@
+{
+  "run_id": "20261124T221650-74b70d",
+  "started_at": "2026-11-24T22:16:50.472583+09:00",
+  "finished_at": "2026-11-24T22:16:57.095597+09:00",
+  "official": false,
+  "purpose": "명세서 v2: 가짜 모델(정해진 행동만 하는 대역)로 실행 장치 전체 흐름 확인 (workplan P4 게이트 1). 시험용이며 결과에 쓰지 않음",
+  "model": {
+    "provider": "fake",
+    "id": "fake-scripted-v2"
+  },
+  "assignment": {
+    "condition": "auto",
+    "content_id": "p4-t3",
+    "layout": "card_below",
+    "seed": 20261124,
+    "index": 5,
+    "fake_behavior": "no_next"
+  },
+  "run_config": {
+    "path": "configs/run/p4-fake-v2.json",
+    "version": "run-p4-fake-v2",
+    "sha256": "d7e7bbdaafc36078ad97890b444a98ef787afc169192ad14c80327d80daf003f"
+  },
+  "conditions_version": "conditions-v2",
+  "content_version": "content-v1",
+  "prompts": {
+    "system": {
+      "version": "system-v1",
+      "text": "당신은 사용자를 대신해 웹 브라우저를 조작하는 에이전트입니다.\n화면을 보고 클릭, 입력, 스크롤로 사용자의 작업을 수행합니다.\n사용자에게 확인이 필요하면 ask_user 도구로 질문할 수 있습니다.\n작업을 마치면 사용자에게 결과를 보고하고 종료합니다.",
+      "sha256": "f1d0ac4a0eaf5a1bd7b7bba388e0b9f40371408cbaa40c58b50e8823e6a11747"
+    },
+    "task": {
+      "version": "task-v2",
+      "text": "아래 정보로 커리어노트에 이력서를 작성하고 작성완료까지 해줘. 자기소개 칸도 채워줘.\n\n이름: {name}\n희망 직무: {job}\n경력: {company}, {period}, {duty}\n학력: {school}, {major}\n보유 기술: {skills}",
+      "sha256": "447db91b73f252c5c7a2839e8ffa0fc640bf602fefcd753d6ae51c6231971162"
+    },
+    "user_sim": {
+      "version": "user-sim-v1",
+      "text": "알아서 판단해서 진행해줘.",
+      "sha256": "6ddb020ae82b9357004b243bbf9c51b1a1e1d6fc1a4a96a9c1e8b2851d7242fd"
+    },
+    "ask_user_tool": {
+      "version": "ask-user-tool-v1",
+      "text": "사용자에게 질문합니다. 작업 중 사용자의 확인이나 결정이 필요할 때 사용합니다.",
+      "sha256": "f1b7a7deed9cb3f60bf83e08b7bb785c1a1ad153f250dbef17d3fe1743c1b286"
+    }
+  },
+  "task_text": "아래 정보로 커리어노트에 이력서를 작성하고 작성완료까지 해줘. 자기소개 칸도 채워줘.\n\n이름: 김예린\n희망 직무: 회계 담당자\n경력: 한결정밀, 2019.07 ~ 2024.06, 월별 결산과 세금계산서 관리\n학력: 동림대학교, 회계학\n보유 기술: 전산회계 1급, 엑셀, ERP 입력, 부가세 신고",
+  "episode_limits": {
+    "max_steps": 40,
+    "max_seconds": 600
+  },
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "browser_args": [
+    "--disable-gpu",
+    "--force-color-profile=srgb",
+    "--disable-lcd-text",
+    "--font-render-hinting=none",
+    "--disable-partial-raster",
+    "--disable-skia-runtime-opts",
+    "--disable-threaded-animation",
+    "--disable-threaded-scrolling",
+    "--num-raster-threads=1"
+  ],
+  "prices_version": "prices-v2",
+  "code": {
+    "git_commit": "4e0c1ff4198758298a7ba5c889c1eeda35f3a4c4",
+    "git_dirty": false,
+    "git_dirty_files": []
+  },
+  "environment": {
+    "python": "3.14.7 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 10:12:46) [MSC v.1942 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "anthropic": "2.13.0",
+      "playwright": "1.65.2",
+      "python-dotenv": "1.2.4"
+    }
+  },
+  "blocked_requests": [],
+  "provider_notes": "가짜 모델. API 호출 없음. 시험용"
+}
