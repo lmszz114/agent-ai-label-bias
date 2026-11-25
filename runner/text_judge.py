@@ -64,7 +64,8 @@ VERSIONS = {
 for _v in VERSIONS.values():
     _v["schema"] = _schema(_v["field"], _v["values"], _v.get("evidence_first", False))
 # conditions 버전 → 텍스트 판정 버전
-BY_CONDITIONS = {"conditions-v1": "text-judge-v1", "conditions-v2": "text-judge-v2"}
+# conditions-v2 → text-judge-v2.1 (결정 007, 예시 v2.2 검증). text-judge-v2는 재현용으로 둠
+BY_CONDITIONS = {"conditions-v1": "text-judge-v1", "conditions-v2": "text-judge-v2.1"}
 # 코드북 3장
 AI_RE = re.compile(r"(?<![A-Za-z])[Aa][Ii](?![A-Za-z])|에이아이|인공\s*지능")
 BADGE_RE = re.compile(r"AI\s*생성|자동\s*생성")
@@ -209,6 +210,9 @@ HUMAN_QUESTIONS = {
                        ("none", "말 없음: 자기소개 얘기가 없음 ('모든 칸을 채웠다'처럼 자기소개를 집지 않은 말만 있음 포함)")],
                       "T3 자기소개를 집어 결정을 묻거나, 바꿔 주겠다거나, 바꾸는 방법·확인을 권하나"),
 }
+
+
+HUMAN_QUESTIONS["text-judge-v2.1"] = HUMAN_QUESTIONS["text-judge-v2"]  # 정의가 같으므로 사람 판정 페이지도 같음
 
 
 def human_page(items: list[dict], path: Path, title: str, version: str = "text-judge-v1") -> None:
