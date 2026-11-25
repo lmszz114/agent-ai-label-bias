@@ -8,7 +8,7 @@
 - 일치도: Cohen's kappa
 
 사용:
-  예시 판정:  .venv/Scripts/python.exe runner/text_judge.py examples data/p5-examples/examples.jsonl [text-judge-v2]
+  예시 판정:  .venv/Scripts/python.exe runner/text_judge.py examples data/p5-examples/examples.jsonl [text-judge-v2 [출력폴더이름]]
   실행 판정:  .venv/Scripts/python.exe runner/text_judge.py runs data/pilot   (판정 버전은 실행의 conditions 버전으로 고름)
 """
 
@@ -36,7 +36,12 @@ MASKS = [
 MASKS_V2_EXTRA = [r"자동\s*으로\s*(?:만들어진|만든|작성된|작성한)"]
 
 
-def _schema(field: str, values: list[str]) -> dict:
+def _schema(field: str, values: list[str], evidence_first: bool = False) -> dict:
+    if evidence_first:  # text-judge-v2.1: 항목마다 근거를 먼저 쓰고 판정 (속성 순서대로 생성됨)
+        props = {"t1_evidence": {"type": "string"}, "mentioned": {"type": "boolean"},
+                 "t2_evidence": {"type": "string"}, field: {"type": "string", "enum": values},
+                 "t3_evidence": {"type": "string"}, "offers_followup": {"type": "boolean"}}
+        return {"type": "object", "properties": props, "required": list(props), "additionalProperties": False}
     return {"type": "object",
             "properties": {"mentioned": {"type": "boolean"}, field: {"type": "string", "enum": values},
                            "offers_followup": {"type": "boolean"}, "evidence": {"type": "string"}},
@@ -51,9 +56,13 @@ VERSIONS = {
     "text-judge-v2": {"prompt": REPO / "configs" / "judge" / "text-judge-v2.txt", "codebook": "codebook-v2",
                       "field": "reported_fill", "values": ["suggestion", "own", "filled", "empty", "none"],
                       "masks": MASKS + MASKS_V2_EXTRA},
+    # 결정 007: v2가 예시 v2.1에서 지시문대로면 맞힐 글을 놓침 → 항목별 근거를 먼저 쓰게 함. 정의는 v2와 같음
+    "text-judge-v2.1": {"prompt": REPO / "configs" / "judge" / "text-judge-v2.1.txt", "codebook": "codebook-v2.1",
+                        "field": "reported_fill", "values": ["suggestion", "own", "filled", "empty", "none"],
+                        "masks": MASKS + MASKS_V2_EXTRA, "evidence_first": True},
 }
 for _v in VERSIONS.values():
-    _v["schema"] = _schema(_v["field"], _v["values"])
+    _v["schema"] = _schema(_v["field"], _v["values"], _v.get("evidence_first", False))
 # conditions 버전 → 텍스트 판정 버전
 BY_CONDITIONS = {"conditions-v1": "text-judge-v1", "conditions-v2": "text-judge-v2"}
 # 코드북 3장
@@ -95,6 +104,8 @@ def judge_one(client, masked: str, out_dir: Path, key: str, version: str = "text
             text = next(b.text for b in resp.content if b.type == "text")
             label = json.loads(text)
             assert set(label) == set(v["schema"]["required"]) and label[v["field"]] in v["values"]
+            if v.get("evidence_first"):
+                label["evidence"] = " / ".join(label[k] for k in ("t1_evidence", "t2_evidence", "t3_evidence"))
             return {**label, "attempts": attempt, "cost_usd": cost, "served_model": resp.model,
                     "text_judge_version": version}
         except Exception as err:  # 형식 오류
@@ -113,7 +124,7 @@ def kappa(a: list, b: list) -> float | None:
     return 1.0 if pe == 1 else round((po - pe) / (1 - pe), 4)
 
 
-def run_examples(path: Path, version: str = "text-judge-v1") -> int:
+def run_examples(path: Path, version: str = "text-judge-v1", out_name: str = "llm-judge") -> int:
     """예시 텍스트 판정. 예시 파일의 gold(작성자 의도 판정)와 LLM 판정을 비교."""
     v = VERSIONS[version]
     keys = ("mentioned", v["field"], "offers_followup")
@@ -121,7 +132,7 @@ def run_examples(path: Path, version: str = "text-judge-v1") -> int:
     from dotenv import load_dotenv
     load_dotenv(REPO / ".env")
     client = anthropic.Anthropic()
-    out_dir = path.parent / "llm-judge"
+    out_dir = path.parent / out_name
     out_dir.mkdir(parents=True, exist_ok=True)
     rows = [json.loads(l) for l in path.read_text(encoding="utf-8").splitlines() if l.strip()]
     results = []
@@ -280,7 +291,8 @@ def run_runs(data_dir: Path, sample_seed: int = 6) -> int:
 if __name__ == "__main__":
     mode, target = sys.argv[1], REPO / sys.argv[2]
     if mode == "examples":
-        sys.exit(run_examples(target, sys.argv[3] if len(sys.argv) > 3 else "text-judge-v1"))
+        sys.exit(run_examples(target, sys.argv[3] if len(sys.argv) > 3 else "text-judge-v1",
+                              sys.argv[4] if len(sys.argv) > 4 else "llm-judge"))
     if mode == "runs":
         sys.exit(run_runs(target))
     print("모드: examples | runs"); sys.exit(2)

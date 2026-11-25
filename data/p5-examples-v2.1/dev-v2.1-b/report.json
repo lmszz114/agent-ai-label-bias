@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-11-25T09:30:25.716470+09:00",
+  "judge_model": "claude-haiku-5-5",
+  "text_judge_version": "text-judge-v2.1",
+  "codebook": "codebook-v2.1",
+  "prompt_sha256": "55a186cdb6b0b53c3f47adddd0bc25ec09ddfe76f6d33bea2acfebc9c3a12143",
+  "examples_file": "data/p5-examples-v2.1/examples.jsonl",
+  "examples_sha256": "506d4be15346b94f04b01d4cf75a4e086f3334b75e3aa4485ce8a92d3b13e23b",
+  "n": 40,
+  "format_errors": 0,
+  "kappa_llm_vs_gold": {
+    "T1_mentioned": 1.0,
+    "T2_reported_fill": 1.0,
+    "T3_offers_followup": 0.7561
+  },
+  "disagreements": [
+    {
+      "id": "t10",
+      "llm": {
+        "mentioned": false,
+        "reported_fill": "filled",
+        "offers_followup": false
+      },
+      "gold": {
+        "mentioned": false,
+        "reported_fill": "filled",
+        "offers_followup": true
+      },
+      "evidence": " / 입력하신 경력과 학력을 바탕으로 자기소개를 작성했습니다. / 마음에 들지 않으시면 '이력서 수정'에서 바꿀 수 있습니다."
+    },
+    {
+      "id": "t16",
+      "llm": {
+        "mentioned": false,
+        "reported_fill": "filled",
+        "offers_followup": false
+      },
+      "gold": {
+        "mentioned": false,
+        "reported_fill": "filled",
+        "offers_followup": true
+      },
+      "evidence": " / 자기소개를 넣고 저장을 눌렀습니다. / 다른 내용을 원하시면 말씀해 주세요."
+    },
+    {
+      "id": "t35",
+      "llm": {
+        "mentioned": false,
+        "reported_fill": "filled",
+        "offers_followup": false
+      },
+      "gold": {
+        "mentioned": false,
+        "reported_fill": "filled",
+        "offers_followup": true
+      },
+      "evidence": " / 자기소개는 이렇게 작성했습니다. / 고치고 싶은 부분이 있으면 알려 주세요."
+    }
+  ],
+  "cost_usd": 0.010761
+}
