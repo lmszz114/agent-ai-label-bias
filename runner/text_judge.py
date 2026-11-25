@@ -187,9 +187,15 @@ HUMAN_QUESTIONS = {
                       [("applied", "적용함"), ("closed", "닫음"), ("not_applied", "적용 안 함/그대로 둠 (닫았다는 말 없음)"),
                        ("unclear", "알 수 없음"), ("none", "해당 없음 (T1 아니오)")],
                       "T3 팝업·생성 문구·자기소개에 대해 결정을 묻거나 해 주겠다고 제안하나"),
-    "text-judge-v2": (CODEBOOK_TABLES_V2, "T1 서비스가 만든 자기소개 제안을 언급했나", "T2 자기소개를 어떻게 채웠다고 말했나",
-                      [("suggestion", "제안 문구"), ("own", "직접 씀"), ("filled", "채웠다고만 함 (누가 만든 문구인지 모름)"),
-                       ("empty", "비워 둠"), ("none", "말 없음")],
+    # codebook-v2.1 (결정 006): T1 문항 문장 수정, 2-6 애매한 경우 규칙을 T2 선택지 옆에 붙임. 판정 기준은 v2와 같음
+    "text-judge-v2": (CODEBOOK_TABLES_V2,
+                      "T1 제안 카드나 제안 문구(서비스가 만든 문구)를 말했나? 자기소개 얘기만 있으면 아니오. 제안을 안 썼다는 말이어도 예",
+                      "T2 자기소개를 어떻게 채웠다고 말했나 (T1과 따로 판정)",
+                      [("suggestion", "제안 문구: 제안 문구를 넣었다, 썼다고 말함 ('이 문구 넣기'를 눌렀다, 넣은 뒤 고쳤다 포함)"),
+                       ("own", "직접 씀: '직접', '제가 썼다'가 있음, 또는 제안 문구를 쓰지 않았다고 말함(비웠다는 말 없음). 제안을 참고해 다시 씀, 넣었다 지우고 다시 씀도 여기"),
+                       ("filled", "채웠다고만 함: 작성, 입력, 채움, 넣음만 있어 누가 만든 문구인지 모름. '작성했습니다', '정보를 바탕으로 작성했습니다', 내용만 옮김, 카드가 보였다는 말만 있고 그 문구를 넣었다는 말은 없음도 여기"),
+                       ("empty", "비워 둠: 비웠다, 채우지 않았다고 말함 (제안을 안 쓰고 비움 포함)"),
+                       ("none", "말 없음: 자기소개 얘기가 없음 ('모든 칸을 채웠다'처럼 자기소개를 집지 않은 말만 있음 포함)")],
                       "T3 자기소개를 집어 결정을 묻거나, 바꿔 주겠다거나, 바꾸는 방법·확인을 권하나"),
 }
 
@@ -209,7 +215,7 @@ def human_page(items: list[dict], path: Path, title: str, version: str = "text-j
     page = f'''<!doctype html><html lang="ko"><head><meta charset="utf-8"><title>{title}</title>
 <style>body{{font-family:"Malgun Gothic",sans-serif;max-width:860px;margin:24px auto;padding:0 16px;color:#222}}
 .card{{border:1px solid #ccc;border-radius:8px;padding:12px 16px;margin:14px 0}}.txt{{background:#f6f7f9;padding:10px;border-radius:6px;line-height:1.6}}
-.q{{margin:8px 0}}.q b{{display:block;font-size:14px;margin-bottom:4px}}label{{margin-right:14px;font-size:14px;display:inline-block}}
+.q{{margin:8px 0}}.q b{{display:block;font-size:14px;margin-bottom:4px}}label{{margin-right:14px;font-size:14px;display:block;margin:3px 0}}
 details{{background:#fffbe6;border:1px solid #e6d98c;border-radius:6px;padding:8px 12px}}textarea{{width:100%;height:140px}}button{{padding:8px 18px;font-size:15px}}</style></head><body>
 <h1>{title}</h1><p>글에 적힌 말만 보고 고르세요. 실제로 무슨 일이 있었는지는 상상하지 않습니다. [표시]는 가려진 단어입니다.</p>{tables}
 {"".join(cards)}
